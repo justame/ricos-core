@@ -15,8 +15,8 @@
       "./packages/ricos-content/web"
     ],
     "references": [
-    //   {
-    //     "path": "./packages/common/web"
-    //   },
+      {
+        "path": "./packages/ricos-content/web"
+      },
     ]
   }
