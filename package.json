@@ -1,0 +1,15 @@
+{
+  "name": "ricos-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "yaron nachshon <yaronn@wix.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build --verbose"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^4.6.3"
+  }
+}
