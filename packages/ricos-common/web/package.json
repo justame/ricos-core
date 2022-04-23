@@ -1,5 +1,6 @@
 {
-    "name": "ricos-content",
+    "version": "1.0.0",
+    "name": "ricos-common",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts"
 }

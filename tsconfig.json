@@ -3,7 +3,7 @@
     "files": [],
     "references": [
       {
-        "path": "./packages/ricos-content/web/src"
+        "path": "./packages/ricos-common/web/src"
       },
     ]
   }
