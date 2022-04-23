@@ -1,19 +1,6 @@
 {
-    "extends": "./tsconfig.base.json",
-    "exclude": [
-      "node_modules/**",
-      "**/node_modules/**",
-      "**/dist/*",
-      "**/*.e2e.ts",
-      "**/*.spec.ts",
-      "**/*.spec.tsx",
-      "**/*.spec.js",
-      "**/*.spec.jsx",
-      "__tests__"
-    ],
-    "include": [
-      "./packages/ricos-content/web"
-    ],
+  "extends": "@tsconfig/recommended/tsconfig.json",
+    "files": [],
     "references": [
       {
         "path": "./packages/ricos-content/web"
