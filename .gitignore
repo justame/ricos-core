@@ -15,6 +15,7 @@ applitools.private.config.js
 tsconfig.tsbuildinfo
 .ultra.cache.json
 .cache
+coverage
 
 #Webstorm
 **/.idea/*
@@ -52,3 +53,5 @@ applitools.config.js
 # Generated Merged Translations
 packages/common/web/statics/locale
 .ultraignore
+
+
