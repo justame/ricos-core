@@ -1,0 +1,152 @@
+{
+  "blocks": [
+    {
+      "key": "d7hu5",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {
+        "textAlignment": "center"
+      }
+    },
+    {
+      "key": "aappr",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "af5th",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [
+        {
+          "offset": 0,
+          "length": 1,
+          "key": 0
+        }
+      ],
+      "data": {}
+    },
+    {
+      "key": "5n9tf",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "3uia8",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [
+        {
+          "offset": 0,
+          "length": 1,
+          "key": 1
+        }
+      ],
+      "data": {}
+    },
+    {
+      "key": "pi7f",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "8r9fr",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [
+        {
+          "offset": 0,
+          "length": 1,
+          "key": 2
+        }
+      ],
+      "data": {}
+    },
+    {
+      "key": "fvs9b",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    }
+  ],
+  "entityMap": {
+    "0": {
+      "type": "ricos-audio",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "config": {
+          "size": "content",
+          "alignment": "center",
+          "textWrap": "wrap"
+        },
+        "audio": {
+          "src": {
+            "id": "mp3/f0f74f_35a1cdce4973490eac49e74c3244364d.mp3"
+          }
+        },
+        "name": "Dear Fear",
+        "authorName": "KOTA The Friend"
+      }
+    },
+    "1": {
+      "type": "ricos-audio",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "config": {
+          "size": "content",
+          "alignment": "center",
+          "textWrap": "wrap"
+        },
+        "audio": {
+          "src": {
+            "url": "https://soundcloud.com/kotathefriend/smile?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+          }
+        }
+      }
+    },
+    "2": {
+      "type": "ricos-audio",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "config": {
+          "size": "content",
+          "alignment": "center",
+          "textWrap": "wrap"
+        },
+        "audio": {
+          "src": {
+            "url": "https://open.spotify.com/track/2igwFfvr1OAGX9SKDCPBwO?si=221ea9a271a74f83"
+          }
+        },
+        "html": "<iframe width=\"100%\" height=\"80\" title=\"Spotify Embed: Grateful\"  frameborder=\"0\" allowfullscreen allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" src=\"https://open.spotify.com/embed/track/2wmZFiWL7MKt2vQe6DPanz?si=aeab9fbc67954570&utm_source=oembed\"></iframe>"
+      }
+    }
+  },
+  "documentStyle": {},
+  "VERSION": "8.70.20",
+  "ID": "1f2b5037-7ccc-4d7b-8c80-37ba578676e8"
+}

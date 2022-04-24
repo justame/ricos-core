@@ -4,6 +4,6 @@
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "scripts": {
-        "test": "jest --env=node --colors test"
+        "test": "jest"
     }
 }

@@ -1,0 +1,99 @@
+{
+  "blocks": [
+    {
+      "key": "foo",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "1g3b3",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [
+        {
+          "offset": 0,
+          "length": 1,
+          "key": 0
+        }
+      ],
+      "data": {}
+    },
+    {
+      "key": "avnb1",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    }
+  ],
+  "entityMap": {
+    "0": {
+      "type": "wix-draft-plugin-poll",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "config": {
+          "alignment": "center",
+          "size": "large",
+          "width": "full-width",
+          "textWrap": "wrap"
+        },
+        "poll": {
+          "title": "test",
+          "settings": {
+            "multipleVotes": false,
+            "votesDisplay": true,
+            "votersDisplay": true,
+            "voteRole": "ALL",
+            "resultsVisibility": "VOTERS_ONLY"
+          },
+          "options": [
+            {
+              "title": "asdasd",
+              "mediaId": "https://static.wixstatic.com/media/fb62d9f8e7824b2e90b13b971e700b92.jpg"
+            },
+            {
+              "title": "asdasd",
+              "mediaId": "https://static.wixstatic.com/media/3a27828e768344158489df4f2c03cfb2.jpg"
+            }
+          ],
+          "mediaId": "https://static.wixstatic.com/media/436483e6ed9e41fe91b9f286d2ea4efb.jpg"
+        },
+        "layout": {
+          "poll": {
+            "type": "list",
+            "direction": "ltr",
+            "enableImage": false
+          },
+          "option": {
+            "enableImage": false
+          }
+        },
+        "design": {
+          "poll": {
+            "backgroundType": "gradient",
+            "background": {
+              "angle": 45,
+              "start": "#EF4538",
+              "end": "#488FFE"
+            },
+            "borderRadius": 0
+          },
+          "option": {
+            "borderRadius": 0
+          }
+        }
+      }
+    }
+  },
+  "documentStyle": {},
+  "VERSION": "8.70.37",
+  "ID": "1803a0d0-ca7a-489f-b0e6-d946e19cd045"
+}

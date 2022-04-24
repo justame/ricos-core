@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://wix-rich-content/emoji-content-data-schema.json",
+    "type": "object",
+    "properties": {      
+      "config": {
+        "type": "object",
+        "title": "configuration",
+        "properties": {
+          "emojiUnicode": {
+            "$id": "/properties/config/properties/unicode",
+            "type": "string",
+            "title": "Emoji Unicode",
+            "default": ""            
+          }          
+        }
+      }
+    }    
+  }
+  
