@@ -2,7 +2,7 @@
 import type { ReactElement } from 'react';
 import React, { Suspense } from 'react';
 import { getTooltipStyles } from './tooltipStyles';
-import { GlobalContext } from '../src/Utils/contexts';
+import { GlobalContext } from '../Utils/contexts';
 
 declare global {
   interface Window {
@@ -122,6 +122,7 @@ class Tooltip extends React.Component<Props> {
       brightMode = false,
     } = this.props;
     const { tooltipVisible } = this.state;
+    //@ts-ignore
     const { isMobile } = this.context;
     const style = getTooltipStyles(isError, followMouse, tooltipOffset, place, brightMode);
 

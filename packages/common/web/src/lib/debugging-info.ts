@@ -1,4 +1,4 @@
-import type { DraftContent } from '../src';
+import type { DraftContent } from '..';
 
 function formatPluginInfo(plugins: string[]) {
   if (!plugins || plugins.length === 0) {

@@ -5,8 +5,9 @@
   },
     "files": [],
     "references": [
+
       {
-        "path": "./packages/ricos-common/web/src"
+        "path": "./packages/common/web/src"
       },
     ]
   }

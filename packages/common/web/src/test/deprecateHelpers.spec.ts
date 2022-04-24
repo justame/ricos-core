@@ -1,4 +1,4 @@
-import { deprecateHelpers } from '../../lib/deprecateHelpers';
+import { deprecateHelpers } from './../lib/deprecateHelpers';
 
 type Config = {
   'wix-draft-plugin-gallery': { onExpand?: () => void };

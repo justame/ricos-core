@@ -1,5 +1,6 @@
+import { isValidEditorData } from './../lib/contentStateValidator';
+
 /* eslint-disable max-len */
-import { isValidEditorData } from '../../lib/contentStateValidator';
 import EmojiContent from './fixtures/emojiContent.json';
 import PollsContent from './fixtures/pollsContent.json';
 import audioContent from './fixtures/audioContent.json';

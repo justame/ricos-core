@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/contentStateServices.cjs.js",
-    "module": "../../dist/lib/contentStateServices.js",
-    "types": "../../dist/lib/contentStateServices.d.ts"
-}

@@ -24,18 +24,12 @@
   "module": "dist/module.js",
   "style": "dist/styles.min.scss",
   "scripts": {
-    "clean": "rm -rf dist/",
-    "prebuild": "npm run clean",
-    "build:rollup": "rollup --environment MODULE_NAME:common -c ../../../rollup.config.js",
-    "build": "npm run build:rollup && node ../../../scripts/cssFix.js",
-    "build:dev": "cross-env NODE_ENV=development npm run build",
-    "build:analyze:editor": "npm run build -- --environment MODULE_ANALYZE_EDITOR  && open stats.html",
-    "build:analyze:viewer": "npm run build -- --environment MODULE_ANALYZE_VIEWER && open stats.html",
-    "watch": "cross-env NODE_ENV=development npm run build:rollup -- --watch",
-    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx,d.ts}'",
-    "test": "jest --verbose"
+    "test": "jest"
   },
   "dependencies": {
+    "@types/draft-js": "^0.11.9",
+    "@types/lodash": "^4.14.182",
+    "classnames": "^2.3.1",
     "i18next": "^11.6.0",
     "jsonschema": "~1.2.4",
     "linkify-it": "^2.1.0",
@@ -48,21 +42,5 @@
   "unpkg": true,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  },
-  "jest": {
-    "globals": {
-      "NODE_ENV": "test"
-    },
-    "testMatch": [
-      "**/?(*.)+(spec|test).+(ts|tsx|js)"
-    ],
-    "transform": {
-      "^.+\\.(ts|tsx)?$": "ts-jest",
-      "^.+\\.jsx?$": "<rootDir>/../../../babel.jest.monorepo.js"
-    },
-    "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|svg)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|scss)$": "<rootDir>/__mocks__/styleMock.js"
-    }
   }
 }

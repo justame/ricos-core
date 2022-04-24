@@ -1,10 +1,11 @@
+
 import {
   convertRelObjectToString,
   convertRelStringToObject,
   convertTargetStringToBoolean,
   convertTargetBooleanToString,
   getRelValue,
-} from '../../lib/linkConverters';
+} from './../Utils/linkConverters';
 
 const relString = 'nofollow sponsored ugc';
 const relObject = { nofollow: true, sponsored: true, ugc: true };

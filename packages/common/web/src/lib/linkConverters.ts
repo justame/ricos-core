@@ -4,4 +4,4 @@ export {
   convertTargetStringToBoolean,
   convertTargetBooleanToString,
   getRelValue,
-} from '../src/Utils/linkConverters';
+} from '../Utils/linkConverters';
