@@ -24,7 +24,8 @@
   "module": "dist/module.js",
   "style": "dist/styles.min.scss",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "css": "sass statics"
   },
   "dependencies": {
     "@types/draft-js": "^0.11.9",
