@@ -1,0 +1,1634 @@
+{
+  "blocks": [
+    {
+      "key": "foo",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "1tipf",
+      "text": "Written Review of the Palmetto State Armory PA-10. This is the MLOK version with a 2-stage trigger, adjustable gas block, and 15\" hand guard.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "adu69",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "9tu65",
+      "text": "Here are some links to purchase. I have included the model that is currently in this review (To the Left). I have also included a base model PA10, and of course build kits... which are priced very well right now! Keep scrolling for the review!",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        { "offset": 0, "length": 243, "style": "BOLD" },
+        { "offset": 0, "length": 243, "style": "{\"FG\":\"#0d5eba\"}" }
+      ],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "bkb7s",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [{ "offset": 0, "length": 1, "key": 0 }],
+      "data": {}
+    },
+    {
+      "key": "5hf3h",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [{ "offset": 0, "length": 1, "key": 1 }],
+      "data": {}
+    },
+    {
+      "key": "a4pg",
+      "text": "Check out the YouTube video and review here! ",
+      "type": "header-three",
+      "depth": 0,
+      "inlineStyleRanges": [
+        { "offset": 0, "length": 44, "style": "BOLD" },
+        { "offset": 0, "length": 44, "style": "UNDERLINE" }
+      ],
+      "entityRanges": [{ "offset": 0, "length": 44, "key": 2 }],
+      "data": {}
+    },
+    {
+      "key": "b3l3n",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [{ "offset": 0, "length": 1, "key": 3 }],
+      "data": {}
+    },
+    {
+      "key": "9n32s",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "7r8d5",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "2hp1b",
+      "text": "Now... to the written review!",
+      "type": "header-two",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 29, "style": "BOLD" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "9f9k0",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "72lh8",
+      "text": "Quality Impressions - ",
+      "type": "header-three",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 22, "style": "BOLD" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "5snc",
+      "text": "",
+      "type": "header-three",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "dnmc8",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [{ "offset": 0, "length": 1, "key": 4 }],
+      "data": {}
+    },
+    {
+      "key": "56ub3",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "1cuel",
+      "text": "\t Palmetto State Armory sent me a PA-10 for testing and to review. It was made absolutely clear that the review must be honest. If any issues are present, they want that information reported. The last thing PSA and I want is for a false review, and for my viewers to get screwed over due to a fake review. BTW this is one of the reasons why I really do love and support PSA.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "5b95k",
+      "text": "\tThat being said, any firearm is capable of having blemishes, or defects. This is not an excuse, rather it's just a fact. How that company responds to return and/or repair claims is also a very very important factor. THANKFULLY this model did not force me to test the customer service at PSA! The PA-10 Gen 3 .308 Model that I received was completely free of any blemishes, or defects immediately noticeable when receiving the rifle. Throughout testing of the rifle, no issues have popped up, and generally had an extremely positive experience.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 217, "length": 76, "style": "BOLD" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "7bfj3",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "fnkd6",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "14gss",
+      "text": "Features",
+      "type": "header-three",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 8, "style": "BOLD" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "2e9jh",
+      "text": "(Text here is Copied from the PSA Website, here is a link to the source)",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        { "offset": 0, "length": 72, "style": "BOLD" },
+        { "offset": 0, "length": 72, "style": "{\"FG\":\"#ba0d0d\"}" }
+      ],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "3esi1",
+      "text": "https://bit.ly/3zMLS30 ",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        { "offset": 0, "length": 22, "style": "UNDERLINE" },
+        { "offset": 0, "length": 22, "style": "BOLD" },
+        { "offset": 0, "length": 22, "style": "{\"FG\":\"#0d5eba\"}" },
+        { "offset": 22, "length": 1, "style": "{\"FG\":\"#ba0d0d\"}" }
+      ],
+      "entityRanges": [{ "offset": 0, "length": 22, "key": 5 }],
+      "data": {}
+    },
+    {
+      "key": "32k3r",
+      "text": "You asked, we listened! Palmetto State Armory is proud to release our Gen3 PA10 Rifle!  The Gen3 model has been enhanced to improve the reliability and longevity of our PA10 platform. This new platform includes several features that have never before been included on our PA-10 platform. We hope you enjoy these new features and look forward to your feedback!",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 359, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": { "textAlignment": "left" }
+    },
+    {
+      "key": "ai7m1",
+      "text": "Gen 3 Benefits at a glance:",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        { "offset": 0, "length": 27, "style": "BOLD" },
+        { "offset": 0, "length": 27, "style": "{\"FG\":\"#0d5eba\"}" }
+      ],
+      "entityRanges": [],
+      "data": { "textAlignment": "left" }
+    },
+    {
+      "key": "be0s9",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [{ "offset": 0, "length": 1, "key": 6 }],
+      "data": {}
+    },
+    {
+      "key": "368aa",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "cf8sg",
+      "text": "Lower Includes relief cuts for a broader compatibility with 308 BCG's",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 69, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "e09nf",
+      "text": "Twice Staked Castle Nuts",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 24, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "98qnt",
+      "text": "Standardized carbine length buffer tube with short, heavy buffer",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 64, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "8rehh",
+      "text": "Dimpled 416R Stainless Steel Barrel",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 35, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "f4fgp",
+      "text": "3 Position Adjustable Click Switch Gas Block",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 44, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "5gqp2",
+      "text": "Extra Power Extractor Springs",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 29, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "4fsgf",
+      "text": "7075 T6 Charging Handle Included in all uppers",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 46, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "8odp5",
+      "text": "Black Nitride Gas Tube",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 22, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "bhnq2",
+      "text": "Barrel Nuts properly torqued to military specifications",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 55, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "e333p",
+      "text": "Anti-slip and anti-rotation handguards",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 38, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "7lur6",
+      "text": " ",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 1, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": { "textAlignment": "left" }
+    },
+    {
+      "key": "1ukcp",
+      "text": "With enhanced durability and improved function, the new and improved PSA PA10 Gen3 is here.  The Gen3 model offers a black nitride stainless gas tube to better resist high heat and corrosion while maintaining a glossy black finish.  All Gen3 PA10 models come with a dimpled barrel for ease of gas block replacement if you choose to do so. We have also included a newly designed click switch 3-position adjustable gas block so you can specifically tune to your load. ",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 466, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": { "textAlignment": "left" }
+    },
+    {
+      "key": "e6g93",
+      "text": "The Palmetto State Armory PA10 Gen3 features a forged receiver set that has been designed with a relief cut geometry to allow the use of a wider variety of aftermarket bolt carrier groups. A carbine length buffer tube with a short, heavy buffer coupled with a standard PA10 buffer spring. All Gen3 PA10 rifles from Palmetto State Armory come equipped with a Toolcraft BCG, which ensures thousands and thousands of rounds will feed through the rifle and an EPT or two-stage nickel boron fire control group with a 4.5lb pull makes for an easy but controllable course of fire.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 573, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": { "textAlignment": "left" }
+    },
+    {
+      "key": "9m1u8",
+      "text": "Barrel: The dimpled, 416R Stainless Steel, 308 WIN 1/10 twist, mid-length gas system upper is paired with a Palmetto State Armory 15\" M-Lok free-float rail, low profile adjustable click detent 3 position gas block, and an A2-style muzzle device. The gas system is enhanced with a nitrided gas tube in order to better resist high heat and corrosion.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        { "offset": 0, "length": 7, "style": "BOLD" },
+        { "offset": 0, "length": 348, "style": "{\"FG\":\"#0d5eba\"}" }
+      ],
+      "entityRanges": [],
+      "data": { "textAlignment": "left" }
+    },
+    {
+      "key": "egi3t",
+      "text": "Upper: ",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        { "offset": 0, "length": 6, "style": "BOLD" },
+        { "offset": 0, "length": 7, "style": "{\"FG\":\"#0d5eba\"}" }
+      ],
+      "entityRanges": [],
+      "data": { "textAlignment": "left" }
+    },
+    {
+      "key": "f1jhs",
+      "text": " Precision machined from forged 7075-T6 aluminum, then Black anodize hard coated to MIL-8625 Type 3 class 2. With enhanced dual retention anti-slip and anti-rotating handguards.  ",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 179, "style": "{\"FG\":\"#0d5eba\"}" }],
+      "entityRanges": [],
+      "data": { "textAlignment": "left" }
+    },
+    {
+      "key": "5eg3a",
+      "text": "Bolt Carrier Group: Tool craft 9310 steel bolt assembly with extra strength extractor springs that is nitride for increased durability.  8620 carrier, nitride treated, with a nitride treated gas key properly staked with grade 8 fasteners.  A 7075 T6 aluminum charging handle is also included.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        { "offset": 0, "length": 19, "style": "BOLD" },
+        { "offset": 0, "length": 292, "style": "{\"FG\":\"#0d5eba\"}" }
+      ],
+      "entityRanges": [],
+      "data": { "textAlignment": "left" }
+    },
+    {
+      "key": "5rs0o",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [{ "offset": 0, "length": 1, "key": 7 }],
+      "data": {}
+    },
+    {
+      "key": "a66p",
+      "text": "Lower: Precision machined from forged 7075-T6 aluminum, these lowers are then Black anodize hardcoated to MIL-8625 Type 3 class 2.  With a 2-Stage Nickel Boron Fire Control Group, a Magpul STR Stock, and a PSA Overmolded A2 Grip. This is an ideal platform for the .308 cartridge. ",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        { "offset": 0, "length": 7, "style": "BOLD" },
+        { "offset": 279, "length": 1, "style": "BOLD" },
+        { "offset": 0, "length": 280, "style": "{\"FG\":\"#0d5eba\"}" }
+      ],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "6ofqt",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "75rer",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "bjbps",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "al7hm",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "flubg",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "egnh1",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "bu1s7",
+      "text": "Comfort and Ergonomic Impressions -",
+      "type": "header-three",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 35, "style": "BOLD" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "45qp5",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [{ "offset": 0, "length": 1, "key": 8 }],
+      "data": {}
+    },
+    {
+      "key": "fcq8n",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "erjar",
+      "text": "\tThe PA-10 is an AR-10 variant that is spiced up and designed by the PSA team. So generally... it is going to feel like an AR... However the grip and stock choice that are paired with this rifle are an excellent choice. The Grip is a rubberized and is tactically sticky (tacky). It is comfortable to grip and doesn't slip. The stock has a spare compartment, and has a nice locking feature. Very comfortable to shoulder.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "aeutr",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "bn5qo",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "fmo49",
+      "text": "Performance",
+      "type": "header-three",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 11, "style": "BOLD" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "6o55k",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "7php9",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [{ "offset": 0, "length": 1, "key": 9 }],
+      "data": {}
+    },
+    {
+      "key": "3vb9s",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "d7lkd",
+      "text": "\tWe tried to put the PA-10 through the test! Rapid fire, 20 round mag dumps, spitting fireballs, and even some bump firing. We ran Russian Steel 308(link), LOTS of Norma .308(link), and a bunch of random surplus 7.62x51. IT ATE EVERYTHING. The one ",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        { "offset": 123, "length": 57, "style": "BOLD" },
+        { "offset": 221, "length": 19, "style": "BOLD" },
+        { "offset": 124, "length": 30, "style": "UNDERLINE" },
+        { "offset": 156, "length": 24, "style": "UNDERLINE" }
+      ],
+      "entityRanges": [
+        { "offset": 124, "length": 24, "key": 10 },
+        { "offset": 156, "length": 18, "key": 11 }
+      ],
+      "data": {}
+    },
+    {
+      "key": "tbnk",
+      "text": "thing that we did not try, is mounting a suppressor and adjusting the gas block. But firing it as-is absolutely met the challenge. (Once my 308 suppressor gets out of jail, follow-up information and video incoming!)",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 131, "length": 84, "style": "ITALIC" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "db34p",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "d4kgi",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "5bcl5",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "7upqo",
+      "text": "The Negatives...",
+      "type": "header-three",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 16, "style": "BOLD" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "dl9s5",
+      "text": "\tFor the price, it is VERY hard to think of some negative things to say. But for the sake of giving all the info I have, there are a few things that are slightly disappointing.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "9nqnu",
+      "text": "Charging Handle. The Charging Handle is a standard, mil-spec charging handle. The 308 round is MUCH beefier than a standard 5.56 / .223 round. This means the buffer, spring etc will be much stiffer. Having a larger charging handle, or something with an extended latch would be helpful when charging the rifle.",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 15, "style": "BOLD" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "1hl7t",
+      "text": "(wish list item) Flash Hider is typical. The Flash hider is a regular ol' birdcage. While this isn't necessarily a complaint, it would be cool to maybe include a unique muzzle break, or compensator.\tThe Rifle already does an amazing job at taming the recoil impulse, but a why not a tad more :).",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [{ "offset": 0, "length": 39, "style": "BOLD" }],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "67lml",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "4l8a1",
+      "text": "Overall Experience and Satisfaction",
+      "type": "header-three",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "dbi6d",
+      "text": "\tDefinitely Satisfied! The PA-10 has held up to all testing so far, and hopefully will keep holding up in the future! Through the few hundred rounds we put through it, there are no signs of pre-mature wear, or damage. Bolt and Extractor seem to be in good shape, feed ramps look good. As prices start slowly dropping again, this rifle is becoming more and more affordable as well. This rifle is now selling for under $1,000 which is AWESOME. Paired with the Riton X3 Tactix 1-8X24 LPVO(LINK), it is an awesome combination! ",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        { "offset": 381, "length": 42, "style": "UNDERLINE" },
+        { "offset": 458, "length": 33, "style": "UNDERLINE" },
+        { "offset": 381, "length": 42, "style": "BOLD" },
+        { "offset": 458, "length": 33, "style": "BOLD" }
+      ],
+      "entityRanges": [
+        { "offset": 381, "length": 42, "key": 12 },
+        { "offset": 458, "length": 33, "key": 13 }
+      ],
+      "data": {}
+    },
+    {
+      "key": "96u9c",
+      "text": "\tStay tuned for more testing, and make sure to subscibe to the MrBigKid Channel on YouTube to stay up to date on Gun and Accessory Reviews and Tests! Make sure to sign up for the 2A Blog Mailing list as well for Pew Pew and 2A Deals!",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "b9o23",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "4rdk8",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "ap864",
+      "text": "*Disclaimer*",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": { "dynamicStyles": { "line-height": "1" } }
+    },
+    {
+      "key": "273id",
+      "text": "Most links on this page are affiliate links. Ordering products through these links will not cost you any more money, but will give the MrBigKid channel a small affiliate commission which greatly helps this channel grow.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": { "dynamicStyles": { "line-height": "1" } }
+    },
+    {
+      "key": "52u1j",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "bjge8",
+      "text": "",
+      "type": "header-three",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "d2hc5",
+      "text": "",
+      "type": "header-three",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "c3f1n",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "35ql6",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "fispf",
+      "text": "",
+      "type": "header-three",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    }
+  ],
+  "entityMap": {
+    "0": {
+      "type": "wix-rich-content-plugin-table",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "config": {
+          "rows": {
+            "0": {
+              "columns": {
+                "0": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "8t43688lv",
+                        "text": "",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      },
+                      {
+                        "key": "cuivo",
+                        "text": " ",
+                        "type": "atomic",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [{ "offset": 0, "length": 1, "key": 0 }],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      },
+                      {
+                        "key": "9jont",
+                        "text": "",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {
+                      "0": {
+                        "type": "wix-draft-plugin-image",
+                        "mutability": "IMMUTABLE",
+                        "data": {
+                          "config": {
+                            "alignment": "center",
+                            "size": "content",
+                            "showTitle": true,
+                            "showDescription": true,
+                            "textWrap": "wrap"
+                          },
+                          "src": {
+                            "id": "ad1e4e_2f538a31a67844639f37d42d7d6ab6ff~mv2.jpg",
+                            "height": 545,
+                            "width": 1280,
+                            "original_file_name": "51655109008_1.jpg",
+                            "file_name": "ad1e4e_2f538a31a67844639f37d42d7d6ab6ff~mv2.jpg"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "1": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "v642pvl4r",
+                        "text": "",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      },
+                      {
+                        "key": "8hcah",
+                        "text": " ",
+                        "type": "atomic",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [{ "offset": 0, "length": 1, "key": 0 }],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      },
+                      {
+                        "key": "ccai1",
+                        "text": "",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {
+                      "0": {
+                        "type": "wix-draft-plugin-image",
+                        "mutability": "IMMUTABLE",
+                        "data": {
+                          "config": {
+                            "alignment": "center",
+                            "size": "content",
+                            "showTitle": true,
+                            "showDescription": true,
+                            "textWrap": "wrap",
+                            "spoiler": {},
+                            "link": {
+                              "url": "https://bit.ly/39vKR3A",
+                              "target": "_blank",
+                              "rel": ""
+                            }
+                          },
+                          "src": {
+                            "id": "ad1e4e_408282497c0f47f39e390c8c7de460d0~mv2.jpg",
+                            "height": 960,
+                            "width": 1920,
+                            "original_file_name": "51655110508_1.jpg",
+                            "file_name": "ad1e4e_408282497c0f47f39e390c8c7de460d0~mv2.jpg"
+                          },
+                          "disableDownload": true,
+                          "disableExpand": true
+                        }
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "9len7z6wt",
+                        "text": "",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      },
+                      {
+                        "key": "1106r",
+                        "text": " ",
+                        "type": "atomic",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [{ "offset": 0, "length": 1, "key": 0 }],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      },
+                      {
+                        "key": "p8qn",
+                        "text": "",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {
+                      "0": {
+                        "type": "wix-draft-plugin-image",
+                        "mutability": "IMMUTABLE",
+                        "data": {
+                          "config": {
+                            "alignment": "center",
+                            "size": "content",
+                            "showTitle": true,
+                            "showDescription": true,
+                            "textWrap": "wrap",
+                            "spoiler": {},
+                            "link": {
+                              "url": "https://bit.ly/3hXvEND",
+                              "target": "_blank",
+                              "rel": ""
+                            }
+                          },
+                          "src": {
+                            "id": "ad1e4e_55077254cd9f4a219a91277f7b7c9932~mv2.jpg",
+                            "height": 959,
+                            "width": 1920,
+                            "original_file_name": "untitled-1.jpg",
+                            "file_name": "ad1e4e_55077254cd9f4a219a91277f7b7c9932~mv2.jpg"
+                          },
+                          "disableDownload": true,
+                          "disableExpand": true
+                        }
+                      }
+                    }
+                  }
+                },
+                "3": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "apd5nzr6z",
+                        "text": "",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      },
+                      {
+                        "key": "7vi0c",
+                        "text": " ",
+                        "type": "atomic",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [{ "offset": 0, "length": 1, "key": 0 }],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      },
+                      {
+                        "key": "dtf0k",
+                        "text": "",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {
+                      "0": {
+                        "type": "wix-draft-plugin-image",
+                        "mutability": "IMMUTABLE",
+                        "data": {
+                          "config": {
+                            "alignment": "center",
+                            "size": "content",
+                            "showTitle": true,
+                            "showDescription": true,
+                            "textWrap": "wrap",
+                            "spoiler": {},
+                            "link": {
+                              "url": "https://bit.ly/3AyGosW",
+                              "target": "_blank",
+                              "rel": ""
+                            }
+                          },
+                          "src": {
+                            "id": "ad1e4e_733ef032446a49068dbdb46f05e66104~mv2.jpg",
+                            "height": 658,
+                            "width": 1200,
+                            "original_file_name": "5165458362_1 (1).jpg",
+                            "file_name": "ad1e4e_733ef032446a49068dbdb46f05e66104~mv2.jpg"
+                          },
+                          "disableDownload": true,
+                          "disableExpand": true
+                        }
+                      }
+                    }
+                  }
+                },
+                "4": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "f90bu2mav",
+                        "text": "",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      },
+                      {
+                        "key": "1qhv0",
+                        "text": " ",
+                        "type": "atomic",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [{ "offset": 0, "length": 1, "key": 0 }],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      },
+                      {
+                        "key": "bptiu",
+                        "text": "",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {
+                      "0": {
+                        "type": "wix-draft-plugin-image",
+                        "mutability": "IMMUTABLE",
+                        "data": {
+                          "config": {
+                            "alignment": "center",
+                            "size": "content",
+                            "showTitle": true,
+                            "showDescription": true,
+                            "textWrap": "wrap",
+                            "spoiler": {},
+                            "link": {
+                              "url": "https://bit.ly/3zxbeRp",
+                              "target": "_blank",
+                              "rel": ""
+                            }
+                          },
+                          "src": {
+                            "id": "ad1e4e_469df78bba154dac869418d50798c83d~mv2.jpg",
+                            "height": 550,
+                            "width": 978,
+                            "original_file_name": "opplanet-riton-optics-x3-tactix-rifle-scope-1-8x24mm-30mm-tube-second-focal-plane-ot-retic",
+                            "file_name": "ad1e4e_469df78bba154dac869418d50798c83d~mv2.jpg"
+                          },
+                          "disableDownload": true,
+                          "disableExpand": true
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "1": {
+              "columns": {
+                "0": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "aneha6ft2",
+                        "text": "$1,309.99$929.99",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [
+                          { "offset": 0, "length": 9, "style": "{\"FG\":\"#636466\"}" },
+                          { "offset": 0, "length": 9, "style": "STRIKETHROUGH" },
+                          { "offset": 9, "length": 7, "style": "BOLD" },
+                          { "offset": 9, "length": 7, "style": "{\"FG\":\"#333333\"}" }
+                        ],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                },
+                "1": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "rjk9gwdid",
+                        "text": "1,119.99$899.99",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [
+                          { "offset": 0, "length": 8, "style": "{\"FG\":\"#636466\"}" },
+                          { "offset": 0, "length": 8, "style": "STRIKETHROUGH" },
+                          { "offset": 8, "length": 7, "style": "BOLD" },
+                          { "offset": 8, "length": 7, "style": "{\"FG\":\"#333333\"}" }
+                        ],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                },
+                "2": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "765owjfid",
+                        "text": "$949.99$599.99",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [
+                          { "offset": 0, "length": 7, "style": "{\"FG\":\"#636466\"}" },
+                          { "offset": 0, "length": 7, "style": "STRIKETHROUGH" },
+                          { "offset": 7, "length": 7, "style": "BOLD" },
+                          { "offset": 7, "length": 7, "style": "{\"FG\":\"#333333\"}" }
+                        ],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                },
+                "3": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "h801s63sa",
+                        "text": "$149.99$99.99",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [
+                          { "offset": 0, "length": 7, "style": "{\"FG\":\"#636466\"}" },
+                          { "offset": 0, "length": 7, "style": "STRIKETHROUGH" },
+                          { "offset": 7, "length": 6, "style": "BOLD" },
+                          { "offset": 7, "length": 6, "style": "{\"FG\":\"#333333\"}" }
+                        ],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                },
+                "4": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "oxor25fki",
+                        "text": "$399.99",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [{ "offset": 0, "length": 7, "style": "BOLD" }],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                }
+              }
+            },
+            "2": {
+              "columns": {
+                "0": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "6nup0pwc0",
+                        "text": "GET IT HERE",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [
+                          { "offset": 0, "length": 11, "style": "BOLD" },
+                          { "offset": 0, "length": 11, "style": "UNDERLINE" }
+                        ],
+                        "entityRanges": [{ "offset": 0, "length": 11, "key": 0 }],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {
+                      "0": {
+                        "type": "LINK",
+                        "mutability": "MUTABLE",
+                        "data": { "url": "https://bit.ly/2XTMUMC" }
+                      }
+                    }
+                  }
+                },
+                "1": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "8q5wc8fx8",
+                        "text": "GET IT HERE ",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [
+                          { "offset": 0, "length": 11, "style": "BOLD" },
+                          { "offset": 0, "length": 11, "style": "UNDERLINE" }
+                        ],
+                        "entityRanges": [{ "offset": 0, "length": 11, "key": 0 }],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {
+                      "0": {
+                        "type": "LINK",
+                        "mutability": "MUTABLE",
+                        "data": { "url": "https://bit.ly/39vKR3A", "target": "_blank", "rel": "" }
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "3ohm9sy4v",
+                        "text": "GET IT HERE ",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [
+                          { "offset": 0, "length": 11, "style": "BOLD" },
+                          { "offset": 0, "length": 11, "style": "UNDERLINE" }
+                        ],
+                        "entityRanges": [{ "offset": 0, "length": 11, "key": 0 }],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {
+                      "0": {
+                        "type": "LINK",
+                        "mutability": "MUTABLE",
+                        "data": { "url": "https://bit.ly/3hXvEND", "target": "_blank", "rel": "" }
+                      }
+                    }
+                  }
+                },
+                "3": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "dr2mpt9fm",
+                        "text": "GET IT HERE ",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [
+                          { "offset": 0, "length": 11, "style": "BOLD" },
+                          { "offset": 0, "length": 11, "style": "UNDERLINE" }
+                        ],
+                        "entityRanges": [{ "offset": 0, "length": 11, "key": 0 }],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {
+                      "0": {
+                        "type": "LINK",
+                        "mutability": "MUTABLE",
+                        "data": { "url": "https://bit.ly/3AyGosW", "target": "_blank", "rel": "" }
+                      }
+                    }
+                  }
+                },
+                "4": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "qujcw641n",
+                        "text": "GET IT HERE ",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [
+                          { "offset": 0, "length": 11, "style": "BOLD" },
+                          { "offset": 0, "length": 11, "style": "UNDERLINE" }
+                        ],
+                        "entityRanges": [{ "offset": 0, "length": 11, "key": 0 }],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {
+                      "0": {
+                        "type": "LINK",
+                        "mutability": "MUTABLE",
+                        "data": { "url": "https://bit.ly/3zxbeRp", "target": "_blank", "rel": "" }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "3": {
+              "columns": {
+                "0": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "vzf9j0jtl",
+                        "text": "PSA GEN3 PA10 18\" MID-LENGTH .308 WIN 1/10 STAINLESS STEEL 15\" LIGHTWEIGHT M-LOK STR 2-STAGE RIFLE",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                },
+                "1": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "sic0q7gkj",
+                        "text": "PSA GEN3 PA10 20\" RIFLE-LENGTH .308 WIN 1/10 STAINLESS STEEL CLASSIC A2 EPT RIFLE",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                },
+                "2": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "9w98fqwuq",
+                        "text": "BLEM PSA GEN3 PA10 18\" MID-LENGTH .308 WIN 1/10 STAINLESS STEEL 15\" LIGHTWEIGHT M-LOK ACS-L EPT RIFLE KIT",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                },
+                "3": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "pc2g1fsy3",
+                        "text": "BLEM GEN3 PA10 STRIPPED LOWER RECEIVER",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                },
+                "4": {
+                  "content": {
+                    "blocks": [
+                      {
+                        "key": "fhodukd4j",
+                        "text": "Riton X3 Tactix 1-8x24 Scope - FDE",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": { "dynamicStyles": { "line-height": "1" } }
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                }
+              }
+            }
+          },
+          "colsWidth": [10, 10, 10, 10, 10],
+          "rowsHeight": [47, 47, 47, 47],
+          "colsMinWidth": [120, 120, 120, 120, 120],
+          "textWrap": "wrap"
+        },
+        "type": "wix-rich-content-plugin-table"
+      }
+    },
+    "1": {
+      "type": "wix-draft-plugin-image",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "config": {
+          "alignment": "center",
+          "size": "content",
+          "showTitle": true,
+          "showDescription": true,
+          "disableExpand": false,
+          "textWrap": "wrap"
+        },
+        "disableExpand": false,
+        "src": {
+          "id": "ad1e4e_fc47ca669858453c9881a67ae232f0bc~mv2.jpg",
+          "height": 2261,
+          "width": 4019,
+          "original_file_name": "IMG_2595.JPG",
+          "file_name": "ad1e4e_fc47ca669858453c9881a67ae232f0bc~mv2.jpg"
+        }
+      }
+    },
+    "2": {
+      "type": "LINK",
+      "mutability": "MUTABLE",
+      "data": { "url": "https://youtu.be/NKNmp19Ergw", "target": "_blank", "rel": "" }
+    },
+    "3": {
+      "type": "wix-draft-plugin-video",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "config": { "size": "content", "alignment": "center", "textWrap": "wrap" },
+        "tempData": false,
+        "src": "https://youtu.be/NKNmp19Ergw",
+        "metadata": {
+          "oembed": {
+            "thumbnail_url": "https://i.ytimg.com/vi/NKNmp19Ergw/maxresdefault.jpg",
+            "thumbnail_height": 720,
+            "thumbnail_width": 1280,
+            "video_url": "https://youtu.be/NKNmp19Ergw"
+          }
+        }
+      }
+    },
+    "4": {
+      "type": "wix-draft-plugin-image",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "config": {
+          "alignment": "left",
+          "size": "small",
+          "showTitle": true,
+          "showDescription": true,
+          "textWrap": "wrap"
+        },
+        "src": {
+          "id": "ad1e4e_aac40a197c5741f094e4aa5f2dbef46a~mv2.jpg",
+          "height": 1394,
+          "width": 2478,
+          "original_file_name": "Screen Shot 2021-07-16 at 11.05.21 PM.jpg",
+          "file_name": "ad1e4e_aac40a197c5741f094e4aa5f2dbef46a~mv2.jpg"
+        }
+      }
+    },
+    "5": {
+      "type": "LINK",
+      "mutability": "MUTABLE",
+      "data": { "url": "https://bit.ly/3zMLS30", "target": "_blank", "rel": "" }
+    },
+    "6": {
+      "type": "wix-draft-plugin-image",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "config": {
+          "alignment": "right",
+          "size": "inline",
+          "showTitle": true,
+          "showDescription": true,
+          "textWrap": "wrap",
+          "width": 215
+        },
+        "src": {
+          "id": "ad1e4e_aa0a8fe78fed40d6af5cdb22d03a1262~mv2.gif",
+          "height": 462,
+          "width": 260,
+          "original_file_name": "PA10BUMP.gif",
+          "file_name": "ad1e4e_aa0a8fe78fed40d6af5cdb22d03a1262~mv2.gif"
+        }
+      }
+    },
+    "7": {
+      "type": "wix-draft-plugin-image",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "config": {
+          "alignment": "right",
+          "size": "inline",
+          "showTitle": true,
+          "showDescription": true,
+          "textWrap": "wrap",
+          "width": 388
+        },
+        "src": {
+          "id": "ad1e4e_31eb83fea06a4796b700da78d89c60f7~mv2.jpg",
+          "height": 3376,
+          "width": 6000,
+          "original_file_name": "DSC05979.jpg",
+          "file_name": "ad1e4e_31eb83fea06a4796b700da78d89c60f7~mv2.jpg"
+        }
+      }
+    },
+    "8": {
+      "type": "wix-draft-plugin-image",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "config": {
+          "alignment": "right",
+          "size": "inline",
+          "showTitle": true,
+          "showDescription": true,
+          "textWrap": "wrap",
+          "width": 396
+        },
+        "src": {
+          "id": "ad1e4e_8aaa7ca3e2934a04bbe8bf7f9497f671~mv2.jpg",
+          "height": 3376,
+          "width": 6000,
+          "original_file_name": "DSC05972.jpg",
+          "file_name": "ad1e4e_8aaa7ca3e2934a04bbe8bf7f9497f671~mv2.jpg"
+        }
+      }
+    },
+    "9": {
+      "type": "wix-draft-plugin-image",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "config": {
+          "alignment": "left",
+          "size": "inline",
+          "showTitle": true,
+          "showDescription": true,
+          "textWrap": "wrap",
+          "width": 452
+        },
+        "src": {
+          "id": "ad1e4e_9332230188f94040aba41f1f65144206~mv2.jpg",
+          "height": 2263,
+          "width": 4022,
+          "original_file_name": "DSC05855.jpg",
+          "file_name": "ad1e4e_9332230188f94040aba41f1f65144206~mv2.jpg"
+        }
+      }
+    },
+    "10": {
+      "type": "LINK",
+      "mutability": "MUTABLE",
+      "data": { "url": "https://bit.ly/3DJAEOY", "target": "_blank", "rel": "" }
+    },
+    "11": {
+      "type": "LINK",
+      "mutability": "MUTABLE",
+      "data": { "url": "https://bit.ly/3kUTj1A", "target": "_blank", "rel": "" }
+    },
+    "12": {
+      "type": "LINK",
+      "mutability": "MUTABLE",
+      "data": { "url": "https://bit.ly/3zMLS30", "target": "_blank", "rel": "" }
+    },
+    "13": {
+      "type": "LINK",
+      "mutability": "MUTABLE",
+      "data": { "url": "https://bit.ly/3jHjo4O", "target": "_blank", "rel": "" }
+    }
+  },
+  "VERSION": "8.52.5"
+}

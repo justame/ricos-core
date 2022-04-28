@@ -1,0 +1,5 @@
+{
+    "main": "../../dist/lib/nodeUtils.cjs.js",
+    "module": "../../dist/lib/nodeUtils.js",
+    "types": "../../dist/lib/nodeUtils.d.ts"
+}

@@ -9,5 +9,8 @@
       {
         "path": "./packages/common/web/src"
       },
+      {
+        "path": "./packages/ricos-content/web/src"
+      },
     ]
   }

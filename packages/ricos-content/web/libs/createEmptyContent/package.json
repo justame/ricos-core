@@ -1,0 +1,5 @@
+{
+    "main": "../../dist/lib/createEmptyContent.cjs.js",
+    "module": "../../dist/lib/createEmptyContent.js",
+    "types": "../../dist/lib/createEmptyContent.d.ts"
+}

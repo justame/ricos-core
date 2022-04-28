@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {
+      "type": "HEADING",
+      "id": "1dz8t19",
+      "nodes": [
+        {
+          "type": "TEXT",
+          "id": "",
+          "nodes": [],
+          "textData": { "text": "😜", "decorations": [{ "type": "BOLD", "fontWeightValue": 700 }] }
+        }
+      ],
+      "headingData": { "level": 2, "textStyle": { "textAlignment": "AUTO" }, "indentation": 0 }
+    },
+    {
+      "type": "PARAGRAPH",
+      "id": "3bo4o25",
+      "nodes": [
+        {
+          "type": "TEXT",
+          "id": "",
+          "nodes": [],
+          "textData": { "text": "😂", "decorations": [{ "type": "BOLD", "fontWeightValue": 700 }] }
+        }
+      ],
+      "paragraphData": { "textStyle": { "textAlignment": "AUTO" }, "indentation": 0 }
+    }
+  ],
+  "metadata": {
+    "version": 1,
+    "createdTimestamp": "2022-04-19T10:37:09.831Z",
+    "updatedTimestamp": "2022-04-19T10:37:09.831Z",
+    "id": "82c7060c-11fa-477d-be37-85abf9bacf07"
+  },
+  "documentStyle": {}
+}

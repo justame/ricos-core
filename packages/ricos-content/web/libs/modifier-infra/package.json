@@ -1,0 +1,5 @@
+{
+    "main": "../../dist/lib/modifier-infra.cjs.js",
+    "module": "../../dist/lib/modifier-infra.js",
+    "types": "../../dist/lib/modifier-infra.d.ts"
+}

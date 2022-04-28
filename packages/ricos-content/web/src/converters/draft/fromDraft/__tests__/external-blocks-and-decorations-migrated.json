@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "5nmng",
+      "type": "EXTERNAL",
+      "nodes": [],
+      "externalData": {
+        "fields": {
+          "type": { "stringValue": "section" },
+          "config": {
+            "structValue": {
+              "fields": {
+                "size": { "stringValue": "large" },
+                "alignment": { "stringValue": "center" },
+                "textWrap": { "stringValue": "nowrap" }
+              }
+            }
+          },
+          "price": {
+            "structValue": {
+              "fields": {
+                "amount": { "numberValue": 100 },
+                "currency": { "stringValue": "USD" }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "id": "bh5fg",
+      "nodes": [
+        {
+          "type": "TEXT",
+          "id": "",
+          "nodes": [],
+          "textData": {
+            "text": "A",
+            "decorations": [
+              {
+                "type": "EXTERNAL"
+              }
+            ]
+          }
+        },
+        {
+          "type": "TEXT",
+          "id": "",
+          "nodes": [],
+          "textData": {
+            "text": "B",
+            "decorations": [
+              {
+                "type": "BOLD",
+                "fontWeightValue": 700
+              }
+            ]
+          }
+        },
+        {
+          "type": "TEXT",
+          "id": "",
+          "nodes": [],
+          "textData": {
+            "text": "C",
+            "decorations": [
+              {
+                "type": "UNDERLINE",
+                "underlineData": true
+              }
+            ]
+          }
+        }
+      ],
+      "paragraphData": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0
+      }
+    }
+  ],
+  "metadata": {
+    "version": 1,
+    "createdTimestamp": "2021-10-05T10:02:38.502Z",
+    "updatedTimestamp": "2021-10-05T10:02:38.502Z"
+  }
+}

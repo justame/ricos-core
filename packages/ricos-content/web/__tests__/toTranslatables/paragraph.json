@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "type": "PARAGRAPH",
+      "id": "0",
+      "nodes": [
+        {
+          "type": "TEXT",
+          "id": "",
+          "nodes": [],
+          "textData": {
+            "text": "Hello, this is a dummy text with ",
+            "decorations": []
+          }
+        },
+        {
+          "type": "TEXT",
+          "id": "",
+          "nodes": [],
+          "textData": {
+            "text": "bold",
+            "decorations": [
+              {
+                "type": "BOLD"
+              }
+            ]
+          }
+        },
+        {
+          "type": "TEXT",
+          "id": "",
+          "nodes": [],
+          "textData": {
+            "text": " and ",
+            "decorations": []
+          }
+        },
+        {
+          "type": "TEXT",
+          "id": "",
+          "nodes": [],
+          "textData": {
+            "text": "underline",
+            "decorations": [
+              {
+                "type": "UNDERLINE"
+              }
+            ]
+          }
+        },
+        {
+          "type": "TEXT",
+          "id": "",
+          "nodes": [],
+          "textData": {
+            "text": " and ",
+            "decorations": []
+          }
+        },
+        {
+          "type": "TEXT",
+          "id": "",
+          "nodes": [],
+          "textData": {
+            "text": "italic",
+            "decorations": [
+              {
+                "type": "ITALIC"
+              }
+            ]
+          }
+        },
+        {
+          "type": "TEXT",
+          "id": "",
+          "nodes": [],
+          "textData": {
+            "text": ".",
+            "decorations": []
+          }
+        }
+      ],
+      "paragraphData": {
+        "textStyle": {
+          "textAlignment": "JUSTIFY"
+        },
+        "indentation": 0
+      }
+    }
+  ],
+  "metadata": {
+    "version": 1,
+    "createdTimestamp": "2021-08-16T07:54:04.252Z",
+    "updatedTimestamp": "2021-08-16T07:54:04.252Z"
+  }
+}

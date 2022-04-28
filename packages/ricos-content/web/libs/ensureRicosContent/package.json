@@ -1,0 +1,5 @@
+{
+    "main": "../../dist/lib/ensureRicosContent.cjs.js",
+    "module": "../../dist/lib/ensureRicosContent.js",
+    "types": "../../dist/lib/ensureRicosContent.d.ts"
+}

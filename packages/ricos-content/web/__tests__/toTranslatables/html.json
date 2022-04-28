@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    {
+      "type": "HTML",
+      "id": "e1ll9",
+      "nodes": [],
+      "htmlData": {
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "custom": "350"
+          },
+          "height": {
+            "custom": "18"
+          }
+        },
+        "html": "<div>Hi, I'm a <b>text</b></div>"
+      }
+    }
+  ],
+  "metadata": {
+    "version": 1,
+    "createdTimestamp": "2021-08-16T08:09:35.132Z",
+    "updatedTimestamp": "2021-08-16T08:09:35.132Z"
+  }
+}
