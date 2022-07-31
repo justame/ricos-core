@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/convertDecorationToDraftData.cjs.js",
-    "module": "../../dist/lib/convertDecorationToDraftData.js",
-    "types": "../../dist/lib/convertDecorationToDraftData.d.ts"
-}

@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/server-side-converters.cjs.js",
-    "module": "../../dist/lib/server-side-converters.js",
-    "types": "../../dist/lib/server-side-converters.d.ts"
-}

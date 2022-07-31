@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/duplicate.cjs.js",
-    "module": "../../dist/lib/duplicate.js",
-    "types": "../../dist/lib/duplicate.d.ts"
-}

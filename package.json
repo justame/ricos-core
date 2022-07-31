@@ -5,7 +5,7 @@
   "author": "yaron nachshon <yaronn@wix.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc --build --verbose",
+    "build": "tsc --build --verbose --assumeChangesOnlyAffectDirectDependencies",
     "clean": "rm -rf packages/ricos-content/web/dist && rm tsconfig.tsbuildinfo"
   },
   "workspaces": {

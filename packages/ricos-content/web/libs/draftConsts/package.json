@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/draftConsts.cjs.js",
-    "module": "../../dist/lib/draftConsts.js",
-    "types": "../../dist/lib/draftConsts.d.ts"
-}

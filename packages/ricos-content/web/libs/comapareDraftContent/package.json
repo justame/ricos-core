@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/comapareDraftContent.cjs.js",
-    "module": "../../dist/lib/comapareDraftContent.js",
-    "types": "../../dist/lib/comapareDraftContent.d.ts"
-}

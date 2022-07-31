@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/content-application.cjs.js",
-    "module": "../../dist/lib/content-application.js",
-    "types": "../../dist/lib/content-application.d.ts"
-}

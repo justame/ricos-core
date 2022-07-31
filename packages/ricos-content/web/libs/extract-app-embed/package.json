@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/extract-app-embed.cjs.js",
-    "module": "../../dist/lib/extract-app-embed.js",
-    "types": "../../dist/lib/extract-app-embed.d.ts"
-}

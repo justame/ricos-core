@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/translate.cjs.js",
-    "module": "../../dist/lib/translate.js",
-    "types": "../../dist/lib/translate.d.ts"
-}

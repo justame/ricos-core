@@ -1,1 +1,0 @@
-export { truncateContent } from '../truncateContent';

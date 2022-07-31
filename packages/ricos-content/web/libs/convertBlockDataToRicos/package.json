@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/convertBlockDataToRicos.cjs.js",
-    "module": "../../dist/lib/convertBlockDataToRicos.js",
-    "types": "../../dist/lib/convertBlockDataToRicos.d.ts"
-}

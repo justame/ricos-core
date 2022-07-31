@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/fromPlainText.cjs.js",
-    "module": "../../dist/lib/fromPlainText.js",
-    "types": "../../dist/lib/fromPlainText.d.ts"
-}

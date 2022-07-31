@@ -1,1 +1,0 @@
-export { toPlainText } from './toPlainText';

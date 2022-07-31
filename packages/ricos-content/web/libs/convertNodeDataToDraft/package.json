@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/convertNodeDataToDraft.cjs.js",
-    "module": "../../dist/lib/convertNodeDataToDraft.js",
-    "types": "../../dist/lib/convertNodeDataToDraft.d.ts"
-}

@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/metadata-utils.cjs.js",
-    "module": "../../dist/lib/metadata-utils.js",
-    "types": "../../dist/lib/metadata-utils.d.ts"
-}

@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/ensureDraftContent.cjs.js",
-    "module": "../../dist/lib/ensureDraftContent.js",
-    "types": "../../dist/lib/ensureDraftContent.d.ts"
-}

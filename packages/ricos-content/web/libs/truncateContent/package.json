@@ -1,5 +1,0 @@
-{
-    "main": "../../dist/lib/truncateContent.cjs.js",
-    "module": "../../dist/lib/truncateContent.js",
-    "types": "../../dist/lib/truncateContent.d.ts"
-}
