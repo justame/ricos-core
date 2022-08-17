@@ -1,15 +1,19 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
+    "composite": true,
     "resolveJsonModule": true,
+    "declarationMap": true,
+    "typeRoots": [
+      "./external-types.d.ts"
+    ]
   },
-  "files": [],
+  "files": [
+    "external-types.d.ts"
+  ],
   "references": [
     {
-      "path": "./packages/common/web/src"
-    },
-    {
-      "path": "./packages/ricos-content/web/src"
-    },
+      "path": "./packages/packageA"
+    }
   ]
 }

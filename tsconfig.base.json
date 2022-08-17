@@ -1,14 +1,26 @@
 {
   "compilerOptions": {
+    "typeRoots": [
+      "./external-types.d.ts"
+    ],
     "target": "ES2015",
     "module": "commonjs",
     "strict": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "composite": true,
     "resolveJsonModule": true,
-    "jsx": "react"
+    "declarationMap": true
   },
+  "files": [
+    "external-types.d.ts"
+  ],
+  "include": [
+    "packages",
+    "packages/**/*.json"
+  ],
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Recommended"
 }
