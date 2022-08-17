@@ -1,6 +1,6 @@
 {
-  "name": "packageA",
+  "name": "package-a",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "license": "MIT"
 }
