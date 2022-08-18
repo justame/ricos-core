@@ -1,0 +1,46 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+
+.container {
+  height: 100%;
+  .moreButton {
+    line-height: 1.19;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-left: 1px solid #ededed;
+    padding-left: 24px;
+    color: $settings-action-color;
+    height: 100%;
+    min-width: max-content;
+
+    &:hover,
+    &:focus {
+      color: rgba($settings-action-color-tuple, 0.7);
+      @include svg-fill;
+    }
+    &.active {
+      @include fillWithSettingsActionColor;
+    }
+    .buttonText {
+      padding-left: 4px;
+    }
+    .icon {
+      padding-bottom: 1px;
+      display: flex;
+    }
+  }
+  .shortcutPluginMenu {
+    position: absolute;
+    bottom: 42px;
+    box-shadow: $settings-whitebox-box-shadow;
+    background-color: #ffffff;
+    width: 320px;
+    height: max-content;
+  }
+  &.forceDisabled {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,25 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+%resizeableHandle {
+  content: '';
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  z-index: 1;
+  background: #fff;
+  border: 2px solid $focus-action-color;
+  position: absolute;
+  top: calc(50% - 7px);
+}
+
+/*!rtl:ignore*/
+[data-focus='true'].resizeHandleR::before {
+  @extend %resizeableHandle;
+  right: -8px;
+}
+
+/*!rtl:ignore*/
+[data-focus='true'].resizeHandleL::after {
+  @extend %resizeableHandle;
+  left: -8px;
+}

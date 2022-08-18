@@ -1,0 +1,61 @@
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.sideToolbar_floatingContainer {
+  position: relative;
+  pointer-events: none;
+  text-align: start;
+  &.sideToolbar_floatingContainer_shouldNotDisplay {
+    display: none;
+  }
+}
+
+.sideToolbar_floatingIcon {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  line-height: normal;
+  text-align: center;
+  color: $secondary-text-color;
+  pointer-events: initial;
+  fill: $primary-text-color;
+
+  &.sideToolbar_smallPlusIcon {
+    height: 18px;
+    width: 18px;
+  }
+
+  &.sideToolbar_popupOpen {
+    transform: rotate(45deg);
+  }
+
+  &:hover {
+    color: $settings-action-color;
+    fill: $settings-action-color;
+  }
+}
+
+.sideToolbar {
+  position: absolute;
+  transform: translate(-50%);
+  border: 1px solid #ededed;
+  background: #fff;
+  border-radius: 2px;
+  white-space: nowrap;
+  width: 320px;
+  max-height: 400px;
+  display: grid;
+  box-shadow: $settings-whitebox-box-shadow;
+  pointer-events: auto;
+  overflow: hidden;
+}
+
+.plusIcon {
+  color: $settings-action-color;
+  &:hover {
+    opacity: 0.7;
+  }
+}

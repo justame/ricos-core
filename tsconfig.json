@@ -6,7 +6,7 @@
     "declarationMap": true,
     "typeRoots": [
       "./external-types.d.ts"
-    ]
+    ],
   },
   "files": [
     "external-types.d.ts"
@@ -20,6 +20,9 @@
     },
     {
       "path": "./packages/editor-common/web"
+    },
+    {
+      "path": "./packages/editor/web"
     }
   ]
 }

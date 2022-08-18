@@ -1,0 +1,5 @@
+{
+    "main": "../../dist/lib/ErrorToast.cjs.js",
+    "module": "../../dist/lib/ErrorToast.js",
+    "types": "../../dist/lib/ErrorToast.d.ts"
+}

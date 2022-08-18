@@ -1,0 +1,26 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.inlineStyleDropdownButton {
+  white-space: nowrap;
+  margin: 0 !important;
+}
+
+.inlineStyleDropdownButton_wrapper {
+  position: relative;
+  margin-right: 10px;
+  padding: 10px 0;
+  display: block;
+}
+
+.inlineStyleDropdownButton_icon {
+  outline: none;
+}
+
+.inlineStyleDropdown_options {
+  position: absolute;
+  top: 10px;
+  padding: 0 3px;
+  background: white;
+  box-shadow: $settings-whitebox-box-shadow;
+  z-index: 7;
+}

@@ -1,0 +1,79 @@
+@import '~wix-rich-content-common/dist/statics/styles/consts';
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/no-outline';
+
+[dir].wrapper {
+  :global {
+    .DraftEditor-editorContainer,
+    .DraftEditor-root,
+    .public-DraftEditor-content {
+      height: inherit;
+      text-align: initial;
+    }
+
+    .public-DraftEditorPlaceholder-root {
+      color: #9197a3;
+      position: absolute;
+      direction: ltr;
+      font-family: var(--ricos-custom-p-font-family);
+      font-size: var(--ricos-custom-p-font-size);
+      line-height: var(--ricos-custom-p-line-height);
+    }
+
+    .public-DraftEditor-content[contenteditable='true'] {
+      -webkit-user-modify: read-write-plaintext-only;
+    }
+
+    .DraftEditor-root {
+      position: relative;
+    }
+
+    .DraftEditor-alignLeft .public-DraftStyleDefault-block {
+      /*!rtl:begin:ignore*/
+      text-align: left;
+      /*!rtl:end:ignore*/
+      -noop: 1;
+    }
+
+    .DraftEditor-alignLeft .public-DraftEditorPlaceholder-root {
+      /*!rtl:begin:ignore*/
+      left: 0;
+      text-align: left;
+      /*!rtl:end:ignore*/
+      -noop: 1;
+    }
+
+    .DraftEditor-alignCenter .public-DraftStyleDefault-block {
+      text-align: center;
+    }
+
+    .DraftEditor-alignCenter .public-DraftEditorPlaceholder-root {
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+    }
+
+    .DraftEditor-alignRight .public-DraftStyleDefault-block {
+      /*!rtl:begin:ignore*/
+      text-align: right;
+      /*!rtl:end:ignore*/
+      -noop: 1;
+    }
+
+    .DraftEditor-alignRight .public-DraftEditorPlaceholder-root {
+      /*!rtl:begin:ignore*/
+      right: 0;
+      text-align: right;
+      /*!rtl:end:ignore*/
+      -noop: 1;
+    }
+
+    .public-DraftStyleDefault-block {
+      position: relative;
+      white-space: pre-wrap;
+      @include phone {
+        margin-right: 10px;
+      }
+    }
+  }
+}
