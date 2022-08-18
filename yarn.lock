@@ -634,6 +634,54 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@justame-ricos/ricos-schema@8.72.29":
+  version "8.72.29"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@justame-ricos/ricos-schema/-/ricos-schema-8.72.29.tgz#bbbea2a94d01c005808050a96a1534c3844f9c8d"
+  integrity sha1-u76iqU0BwAWAgFCpahU0w4RPnI0=
+  dependencies:
+    "@tsconfig/recommended" "^1.0.1"
+    "@types/classnames" "^2.2.10"
+    "@types/draft-convert" "^2.1.4"
+    "@types/draft-js" "^0.11.2"
+    "@types/enzyme" "^3.10.5"
+    "@types/enzyme-adapter-react-16" "^1.0.6"
+    "@types/i18next" "11.9.0"
+    "@types/jest" "^27.4.1"
+    "@types/lodash" "^4.14.149"
+    "@types/node" "^17.0.25"
+    "@types/parse5" "^6.0.0"
+    "@types/postcss-url" "^8.0.1"
+    "@types/prismjs" "^1.16.1"
+    "@types/prop-types" "^15.7.3"
+    "@types/prosemirror-state" "^1.2.5"
+    "@types/react" "^16.9.34"
+    "@types/react-measure" "^2.0.6"
+    "@types/react-modal" "^3.10.5"
+    "@types/rollup-plugin-visualizer" "^4.2.0"
+    "@types/uuid" "^8.3.1"
+    "@types/webpack" "^5.28.0"
+    "@types/webpack-bundle-analyzer" "^4.4.1"
+    "@types/webpack-dev-server" "^4.7.2"
+    "@typescript-eslint/eslint-plugin" "^5.17.0"
+    "@typescript-eslint/parser" "^5.17.0"
+    "@wix/draft-js" "^0.11.3"
+    deep-freeze "^0.0.1"
+    fp-ts "^2.11.0"
+    fs-extra "^10.1.0"
+    globby "^13.1.2"
+    jest "^27.5.1"
+    lerna "^3.21.0"
+    ncp "^2.0.0"
+    postcss "^8.4.12"
+    postcss-cli "^9.1.0"
+    postcss-modules "^4.3.1"
+    sass "^1.50.1"
+    ts-jest "^27.1.4"
+    ts-node "^10.7.0"
+    ts-proto "1.72.0"
+    tslib "^2.4.0"
+    typescript "^4.7.4"
+
 "@leichtgewicht/ip-codec@^2.0.1":
   version "2.0.4"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
@@ -1802,6 +1850,14 @@
   dependencies:
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
+
+"@types/jest@^27.4.1":
+  version "27.5.2"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@types/jest/-/jest-27.5.2.tgz#ec49d29d926500ffb9fd22b84262e862049c026c"
+  integrity sha1-7EnSnZJlAP+5/SK4QmLoYgScAmw=
+  dependencies:
+    jest-matcher-utils "^27.0.0"
+    pretty-format "^27.0.0"
 
 "@types/json-schema@*", "@types/json-schema@^7.0.8", "@types/json-schema@^7.0.9":
   version "7.0.11"
@@ -6796,7 +6852,7 @@ jest-leak-detector@^27.5.1:
     jest-get-type "^27.5.1"
     pretty-format "^27.5.1"
 
-jest-matcher-utils@^27.5.1:
+jest-matcher-utils@^27.0.0, jest-matcher-utils@^27.5.1:
   version "27.5.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/jest-matcher-utils/-/jest-matcher-utils-27.5.1.tgz#9c0cdbda8245bc22d2331729d1091308b40cf8ab"
   integrity sha1-nAzb2oJFvCLSMxcp0QkTCLQM+Ks=
@@ -8842,7 +8898,7 @@ pretty-format@^25.2.1, pretty-format@^25.5.0:
     ansi-styles "^4.0.0"
     react-is "^16.12.0"
 
-pretty-format@^27.5.1:
+pretty-format@^27.0.0, pretty-format@^27.5.1:
   version "27.5.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/pretty-format/-/pretty-format-27.5.1.tgz#2181879fdea51a7a5851fb39d920faa63f01d88e"
   integrity sha1-IYGHn96lGnpYUfs52SD6pj8B2I4=
@@ -10910,7 +10966,7 @@ ts-jest@^27.1.4:
     semver "7.x"
     yargs-parser "20.x"
 
-ts-node@^10.9.1:
+ts-node@^10.7.0, ts-node@^10.9.1:
   version "10.9.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ts-node/-/ts-node-10.9.1.tgz#e73de9102958af9e1f0b168a6ff320e25adcff4b"
   integrity sha1-5z3pEClYr54fCxaKb/Mg4lrc/0s=
