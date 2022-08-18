@@ -1,6 +1,6 @@
 console.log('need to fix circular dependency');
-// import type { Node } from 'ricos-schema';
-// import { RichContent, Node_Type } from 'ricos-schema';
+// import type { Node } from '@justame-ricos/ricos-schema';
+// import { RichContent, Node_Type } from '@justame-ricos/ricos-schema';
 // import type { DeepPartial } from 'utility-types';
 // import { translateContent } from './translateContent';
 // import type { Translatable } from '../types';

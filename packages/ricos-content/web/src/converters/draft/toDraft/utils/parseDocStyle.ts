@@ -1,5 +1,5 @@
 import { convertDocumentStyleDecorationTypes } from '../decorationParsers';
-import type { TextNodeStyle } from 'ricos-schema';
+import type { TextNodeStyle } from '@justame-ricos/ricos-schema';
 
 const convertNodeStyleToCss = nodeStyle => {
   const css = {};

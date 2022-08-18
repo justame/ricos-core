@@ -1,11 +1,11 @@
 import * as A from 'fp-ts/Array';
 import { pipe } from 'fp-ts/function';
-import type { CollapsibleListData, RichContent, Node } from 'ricos-schema';
+import type { CollapsibleListData, RichContent, Node } from '@justame-ricos/ricos-schema';
 import {
   Node_Type,
   CollapsibleListData_InitialExpandedItems,
   CollapsibleListData_Direction,
-} from 'ricos-schema';
+} from '@justame-ricos/ricos-schema';
 import type { BuilderFunctionsMetadata, CollapsibleListItem } from '../types';
 import type {
   CollapsibleItemBodyNode,

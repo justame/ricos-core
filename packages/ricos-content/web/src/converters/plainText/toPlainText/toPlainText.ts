@@ -1,4 +1,4 @@
-import { Node_Type, RichContent } from 'ricos-schema';
+import { Node_Type, RichContent } from '@justame-ricos/ricos-schema';
 import { getParagraphNode } from '../../draft/toDraft/decorationParsers';
 import {
   parseGiphy,

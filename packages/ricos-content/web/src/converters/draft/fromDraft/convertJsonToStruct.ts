@@ -6,8 +6,8 @@ import * as R from 'fp-ts/Record';
 import { first } from 'fp-ts/Semigroup';
 import * as T from 'fp-ts/Tuple';
 import { isObject } from 'lodash';
-import type { ListValue, Struct, Value } from 'ricos-schema';
-import { NullValue } from 'ricos-schema';
+import type { ListValue, Struct, Value } from '@justame-ricos/ricos-schema';
+import { NullValue } from '@justame-ricos/ricos-schema';
 import { firstRight } from '../../../fp-utils';
 
 const valueM = R.getMonoid(first<Value>());

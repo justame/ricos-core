@@ -17,8 +17,8 @@ import type {
   CollapsibleListData_InitialExpandedItems,
   Struct,
   AudioData,
-} from 'ricos-schema';
-import { Node_Type, Decoration_Type, ButtonData_Type } from 'ricos-schema';
+} from '@justame-ricos/ricos-schema';
+import { Node_Type, Decoration_Type, ButtonData_Type } from '@justame-ricos/ricos-schema';
 import { cloneDeep, has, merge } from 'lodash';
 import toCamelCase from 'to-camel-case';
 import type { DraftGalleryStyles } from '../consts';

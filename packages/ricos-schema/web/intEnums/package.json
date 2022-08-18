@@ -1,5 +1,0 @@
-{
-    "main": "../dist/cjs/intEnums/wix/rich_content/v1/index.js",
-    "module": "../dist/esm/intEnums/wix/rich_content/v1/index.js",
-    "types": "../dist/types/intEnums/wix/rich_content/v1/index.d.ts"
-}

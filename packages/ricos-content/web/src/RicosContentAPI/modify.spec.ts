@@ -1,5 +1,5 @@
 import { modify } from './modify';
-import { Node_Type, RichContent } from 'ricos-schema';
+import { Node_Type, RichContent } from '@justame-ricos/ricos-schema';
 import rawContent from '../../tests/modifyFixtures/images-dividers.json';
 import rawContentAltText from '../../tests/modifyFixtures/images-dividers-with-alt-text.json';
 import rawContentDoubleDividers from '../../tests/modifyFixtures/images-dividers2x.json';

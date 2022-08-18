@@ -11,8 +11,8 @@ import type {
   VideoData,
   GIFData,
   EmbedData,
-} from 'ricos-schema';
-import { Node_Type } from 'ricos-schema';
+} from '@justame-ricos/ricos-schema';
+import { Node_Type } from '@justame-ricos/ricos-schema';
 import type { ContentBuilder } from '../types';
 import type { ListNode, RichTextNode } from '../types/node-refined-types';
 import {

@@ -1,4 +1,4 @@
-import { RichContent } from 'ricos-schema';
+import { RichContent } from '@justame-ricos/ricos-schema';
 import { compare } from '../../../../comparision/compare';
 import postprocess from './postprocess';
 

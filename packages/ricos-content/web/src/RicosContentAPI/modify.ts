@@ -1,6 +1,6 @@
 import { pipe } from 'fp-ts/function';
-import type { Node, RichContent } from 'ricos-schema';
-import { Node_Type } from 'ricos-schema';
+import type { Node, RichContent } from '@justame-ricos/ricos-schema';
+import { Node_Type } from '@justame-ricos/ricos-schema';
 import type { Modifier } from '../modifier-infra';
 import { getModifier } from '../modifier-infra';
 

@@ -66,7 +66,7 @@ import {
   RICOS_ACTION_BUTTON_TYPE,
   RICOS_HEADERS_MARKDOWN_TYPE,
 } from '../../consts';
-import { Decoration_Type, Node_Type } from 'ricos-schema';
+import { Decoration_Type, Node_Type } from '@justame-ricos/ricos-schema';
 import { fromEntries } from '../../utils';
 
 export enum BlockType {

@@ -3,7 +3,7 @@ import { generateId } from '../converters/generateRandomId';
 import { flow } from 'lodash';
 import { pipe } from 'fp-ts/function';
 import { applyContent } from './consts';
-import type { RichContent } from 'ricos-schema';
+import type { RichContent } from '@justame-ricos/ricos-schema';
 import type { ContentBuilderAdapterOld, CreateBuilderOld } from './types';
 import type { ContentBuilder } from '../types';
 import { addImage } from './nativeElements/addImage';

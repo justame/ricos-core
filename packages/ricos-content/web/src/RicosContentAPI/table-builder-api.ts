@@ -1,7 +1,7 @@
 import * as A from 'fp-ts/Array';
 import { pipe } from 'fp-ts/function';
-import type { TableCellData, TableData, RichContent, Node } from 'ricos-schema';
-import { Node_Type, TableCellData_VerticalAlignment } from 'ricos-schema';
+import type { TableCellData, TableData, RichContent, Node } from '@justame-ricos/ricos-schema';
+import { Node_Type, TableCellData_VerticalAlignment } from '@justame-ricos/ricos-schema';
 import type { BuilderFunctionsMetadata, TableCell } from '../types';
 import type { TableCellNode, TableNode, TableRowNode } from '../types/node-refined-types';
 import { addNode } from './builder-utils';

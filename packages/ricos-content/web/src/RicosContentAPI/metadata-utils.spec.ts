@@ -2,7 +2,7 @@ import { duplicate, ensureContentId, extractIdFromContent } from './metadata-uti
 import migrationContent from '../../../../../e2e/tests/fixtures/migration-content.json';
 import { fromDraft } from '../converters/draft';
 import { compare } from '..';
-import type { RichContent } from 'ricos-schema';
+import type { RichContent } from '@justame-ricos/ricos-schema';
 
 describe('duplicate', () => {
   const content = fromDraft(migrationContent);

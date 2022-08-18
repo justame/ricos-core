@@ -22,7 +22,7 @@ import type {
   CollapsibleListData,
   PollData,
   Node,
-} from 'ricos-schema';
+} from '@justame-ricos/ricos-schema';
 import type { AddImageParams } from '../velo-adapter/types';
 import type { RichText } from './node-refined-types';
 import type { PickRenameMulti } from './typeUtils';

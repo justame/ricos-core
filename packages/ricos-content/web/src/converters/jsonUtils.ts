@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import type { RichContent } from 'ricos-schema';
+import type { RichContent } from '@justame-ricos/ricos-schema';
 
 export const fromJSONLight = (object: Record<string, any>): RichContent => {
   const { version, createdTimestamp, updatedTimestamp } = object.metadata || {};

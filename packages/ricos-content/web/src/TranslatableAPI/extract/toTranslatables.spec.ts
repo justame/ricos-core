@@ -1,6 +1,6 @@
 import migrationContent from '../../../statics/json/migratedFixtures/migration-content.json';
 import translatablesMock from '../../../__tests__/translatablesMock.json';
-import { RichContent } from 'ricos-schema';
+import { RichContent } from '@justame-ricos/ricos-schema';
 import { toTranslatables } from './toTranslatables';
 import paragraph from '../../../__tests__/toTranslatables/paragraph.json';
 import heading from '../../../__tests__/toTranslatables/heading.json';

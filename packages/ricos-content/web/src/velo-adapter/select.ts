@@ -1,5 +1,5 @@
 import { get } from 'lodash';
-import type { RichContent, Node } from 'ricos-schema';
+import type { RichContent, Node } from '@justame-ricos/ricos-schema';
 import type { Extractor } from '../extractor-infra';
 import type { Modifier } from '../modifier-infra';
 import type { RichContentModifier } from '../RicosContentAPI/modify';

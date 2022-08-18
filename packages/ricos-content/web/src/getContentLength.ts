@@ -1,7 +1,7 @@
 import type { DraftContent, RicosContentBlock } from '../src/types/contentTypes';
 import { isDraftContent, isRichContent } from '../src/types/contentTypes';
 import { extract } from './RicosContentAPI/extract';
-import type { RichContent } from 'ricos-schema';
+import type { RichContent } from '@justame-ricos/ricos-schema';
 import { fromTraversable, Lens } from 'monocle-ts';
 import * as A from 'fp-ts/Array';
 

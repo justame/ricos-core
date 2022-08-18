@@ -5,7 +5,7 @@ import type {
   FontSizeData,
   LinkData,
   MentionData,
-} from 'ricos-schema';
+} from '@justame-ricos/ricos-schema';
 
 export type AnchorDecoration = {
   type: Decoration_Type.ANCHOR;

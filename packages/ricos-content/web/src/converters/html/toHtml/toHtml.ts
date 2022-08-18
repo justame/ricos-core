@@ -5,8 +5,8 @@ import * as S from 'fp-ts/string';
 import * as A from 'fp-ts/Array';
 import * as O from 'fp-ts/Option';
 
-import type { RichContent, Node, Decoration, TextData } from 'ricos-schema';
-import { Decoration_Type, Node_Type, Link_Target } from 'ricos-schema';
+import type { RichContent, Node, Decoration, TextData } from '@justame-ricos/ricos-schema';
+import { Decoration_Type, Node_Type, Link_Target } from '@justame-ricos/ricos-schema';
 import { compact, identity, pickBy } from 'lodash';
 import { firstRight } from '../../../fp-utils';
 

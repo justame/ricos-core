@@ -1,5 +1,5 @@
-import type { TextData, Decoration, ParagraphData } from 'ricos-schema';
-import { Decoration_Type, TextStyle_TextAlignment } from 'ricos-schema';
+import type { TextData, Decoration, ParagraphData } from '@justame-ricos/ricos-schema';
+import { Decoration_Type, TextStyle_TextAlignment } from '@justame-ricos/ricos-schema';
 
 export const isTextData = (data: TextData | undefined): data is TextData =>
   typeof data?.text === 'string' &&

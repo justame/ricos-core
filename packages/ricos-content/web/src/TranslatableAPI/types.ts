@@ -1,6 +1,6 @@
 import type { PropertyPath } from 'lodash';
-import type { Node } from 'ricos-schema';
-import { Node_Type } from 'ricos-schema';
+import type { Node } from '@justame-ricos/ricos-schema';
+import { Node_Type } from '@justame-ricos/ricos-schema';
 import type { RICOS_NODE_TYPE_TO_DATA_FIELD } from '../consts';
 
 interface TranslatableCommons {

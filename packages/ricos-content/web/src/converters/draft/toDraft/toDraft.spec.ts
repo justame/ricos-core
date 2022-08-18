@@ -1,11 +1,11 @@
 import { merge } from 'lodash';
-import type { FileData, Node, RichContent } from 'ricos-schema';
+import type { FileData, Node, RichContent } from '@justame-ricos/ricos-schema';
 import {
   Decoration_Type,
   Node_Type,
   PluginContainerData_Alignment,
   PluginContainerData_Width_Type,
-} from 'ricos-schema';
+} from '@justame-ricos/ricos-schema';
 import { convertDecorationDataToDraft, convertNodeDataToDraft, fromDraft, toDraft } from '..';
 import anchorBlocksFixture from '../../../../../../../e2e/tests/fixtures/all-blocks-with-anchors.json';
 import complexFixture from '../../../../../../../e2e/tests/fixtures/migration-content.json';

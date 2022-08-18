@@ -1,4 +1,4 @@
-import { Node_Type } from 'ricos-schema';
+import { Node_Type } from '@justame-ricos/ricos-schema';
 
 export const HEADER_BLOCK = Object.freeze({
   ONE: 'header-one',

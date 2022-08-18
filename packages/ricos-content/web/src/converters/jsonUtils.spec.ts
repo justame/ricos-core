@@ -1,4 +1,4 @@
-import type { RichContent } from 'ricos-schema';
+import type { RichContent } from '@justame-ricos/ricos-schema';
 import { fromJSONLight, toJSONLight } from './jsonUtils';
 
 const CONTENT: RichContent = {

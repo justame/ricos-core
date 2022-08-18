@@ -1,7 +1,7 @@
 /* eslint-disable no-console, fp/no-loops, no-case-declarations */
 import { cloneDeep, isEmpty } from 'lodash';
-import type { Node } from 'ricos-schema';
-import { Node_Type, RichContent } from 'ricos-schema';
+import type { Node } from '@justame-ricos/ricos-schema';
+import { Node_Type, RichContent } from '@justame-ricos/ricos-schema';
 import type { DraftContent, RicosContentBlock } from '../../../types';
 import { generateId } from '../../generateRandomId';
 import { createParagraphNode, initializeMetadata } from '../../nodeUtils';

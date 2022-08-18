@@ -1,5 +1,5 @@
 import { addNode } from '../RicosContentAPI/builder-utils';
-import type { Node, RichContent } from 'ricos-schema';
+import type { Node, RichContent } from '@justame-ricos/ricos-schema';
 class Builder {
   private onRender?: (content: RichContent) => void;
 

@@ -1,4 +1,4 @@
-import { RichContent } from 'ricos-schema';
+import { RichContent } from '@justame-ricos/ricos-schema';
 import complexContent from '../../../../statics/json/migratedFixtures/migration-content.json';
 import { PLAIN_TEXT } from './complexPlainText';
 import { toPlainText } from './toPlainText';

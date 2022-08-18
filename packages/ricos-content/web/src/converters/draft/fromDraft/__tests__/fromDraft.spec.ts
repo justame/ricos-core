@@ -33,7 +33,7 @@ import {
   FileData,
   PluginContainerData_Width_Type,
   PluginContainerData_Alignment,
-} from 'ricos-schema';
+} from '@justame-ricos/ricos-schema';
 import { convertBlockDataToRicos } from '../convertRicosPluginData';
 import { IMAGE_TYPE, FILE_UPLOAD_TYPE, WRAP } from '../../../../consts';
 

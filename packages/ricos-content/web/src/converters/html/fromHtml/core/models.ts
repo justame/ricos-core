@@ -1,4 +1,4 @@
-import type { Node, Decoration, Decoration_Type } from 'ricos-schema';
+import type { Node, Decoration, Decoration_Type } from '@justame-ricos/ricos-schema';
 import type { TextNode, Element, CommentNode } from 'parse5';
 
 export type ContentNode = Element | TextNode | CommentNode;

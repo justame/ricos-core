@@ -1,5 +1,5 @@
-import type { Decoration, DocumentStyle as RicosDocumentStyle } from 'ricos-schema';
-import { Decoration_Type } from 'ricos-schema';
+import type { Decoration, DocumentStyle as RicosDocumentStyle } from '@justame-ricos/ricos-schema';
+import { Decoration_Type } from '@justame-ricos/ricos-schema';
 import type { DocumentStyle } from '../../../types';
 
 const cssToRicosDecoration = {

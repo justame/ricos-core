@@ -1,6 +1,6 @@
 import { flow } from 'fp-ts/function';
-import type { Node } from 'ricos-schema';
-import { Node_Type } from 'ricos-schema';
+import type { Node } from '@justame-ricos/ricos-schema';
+import { Node_Type } from '@justame-ricos/ricos-schema';
 import type { Extractor } from '../extractor-infra';
 import { getExtractor } from '../extractor-infra';
 

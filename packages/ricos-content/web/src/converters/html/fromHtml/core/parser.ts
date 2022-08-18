@@ -3,8 +3,8 @@ import * as A from 'fp-ts/Array';
 
 import type { Element, DocumentFragment } from 'parse5';
 import { toAst, getChildNodes } from './parse5-utils';
-import type { Node, Decoration, Decoration_Type } from 'ricos-schema';
-import { RichContent } from 'ricos-schema';
+import type { Node, Decoration, Decoration_Type } from '@justame-ricos/ricos-schema';
+import { RichContent } from '@justame-ricos/ricos-schema';
 import type { ContentNode, Context, Rule } from './models';
 import { initializeMetadata, createDecoration, reduceDecorations } from '../../../nodeUtils';
 

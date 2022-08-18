@@ -37,7 +37,7 @@ import {
   EmbedData,
   CollapsibleListData,
   TableData,
-} from 'ricos-schema';
+} from '@justame-ricos/ricos-schema';
 
 export const TO_RICOS_DATA = {
   [LINK_BUTTON_TYPE]: ButtonData,

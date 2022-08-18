@@ -1,5 +1,5 @@
 import { extract } from '../RicosContentAPI/extract';
-import type { RichContent } from 'ricos-schema';
+import type { RichContent } from '@justame-ricos/ricos-schema';
 
 export const extractAppEmbedData = (content: RichContent) =>
   extract(content.nodes)

@@ -1,4 +1,4 @@
-import type { FileData_PDFSettings, AudioData as AudioComponentData } from 'ricos-schema';
+import type { FileData_PDFSettings, AudioData as AudioComponentData } from '@justame-ricos/ricos-schema';
 export { AudioComponentData };
 
 export enum MediaUploadErrorKey {

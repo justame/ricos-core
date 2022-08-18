@@ -3,8 +3,8 @@ import * as O from 'fp-ts/Option';
 import * as R from 'fp-ts/Record';
 
 import type { TextNode, Element } from 'parse5';
-import type { ImageData, Decoration, ColorData } from 'ricos-schema';
-import { Node_Type, Decoration_Type, PluginContainerData_Alignment } from 'ricos-schema';
+import type { ImageData, Decoration, ColorData } from '@justame-ricos/ricos-schema';
+import { Node_Type, Decoration_Type, PluginContainerData_Alignment } from '@justame-ricos/ricos-schema';
 import {
   getAttributes,
   getStyle,

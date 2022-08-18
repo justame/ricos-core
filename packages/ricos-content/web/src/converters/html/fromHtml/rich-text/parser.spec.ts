@@ -1,5 +1,5 @@
 import { readFileSync } from 'fs';
-import { RichContent } from 'ricos-schema';
+import { RichContent } from '@justame-ricos/ricos-schema';
 
 import parse from './parser';
 import richTextContent from '../__tests__/richTextContent.json';
