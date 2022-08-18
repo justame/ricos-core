@@ -1,6 +1,7 @@
 {
-  "name": "ricos-common",
+  "name": "@justame-ricos/ricos-common",
   "version": "8.72.29",
+  "private": false,
   "author": {
     "name": "Matan Harsat",
     "email": "matanha@wix.com"

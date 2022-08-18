@@ -1,30 +1,35 @@
 /* eslint-disable no-console */
-const execSync = require('child_process').execSync;
-const chalk = require('chalk');
-const pkgUtils = require('./pkgUtils');
-const { getPackages } = require('@lerna/project');
+import child_process from 'child_process';
+import chalk from 'chalk';
+import { getPackages } from '@lerna/project';
+import fs from 'fs-extra';
+import  OS from 'os';
+const EOL = OS.EOL;
+
+
+const {execSync }= child_process;
 
 const publishCommand = (pkg, tag) =>
-  `npm publish ${pkg.path} --tag=${tag} --registry=${pkg.registry}`;
-const addNextTagCmd = pkg =>
-  `npm dist-tag --registry=${pkg.registry} add ${pkg.name}@${pkg.version} ${pkgUtils.NEXT_TAG}`;
+  `npm publish  --access=public ${pkg.path} --registry=${pkg.registry}`;
+// const addNextTagCmd = pkg =>
+//   `npm dist-tag --registry=${pkg.registry} add ${pkg.name}@${pkg.version} ${pkgUtils.NEXT_TAG}`;
 
 function shouldPublishPackage(pkg) {
-  const remoteVersionsList = pkgUtils.getPublishedVersions(pkg);
-  return !remoteVersionsList.includes(pkg.version);
+  // const remoteVersionsList = pkgUtils.getPublishedVersions(pkg);
+  // return !remoteVersionsList.includes(pkg.version);
+  return true;
 }
 
 function publish(pkg) {
   const { name, version } = pkg;
-  const tag = pkgUtils.getTag(pkg);
-  const publishCmd = publishCommand(pkg, tag);
+  const publishCmd = publishCommand(pkg, '');
   console.log(chalk.magenta(`Running: "${publishCmd}" for ${name}@${version}`));
   execSync(publishCmd, { stdio: 'inherit' });
-  if (pkgUtils.isLatest(tag)) {
-    const addTagCmd = addNextTagCmd(pkg);
-    console.log(chalk.magenta(`adding: adding next tag to latest: "${addTagCmd}"`));
-    execSync(addTagCmd, { stdio: 'inherit' });
-  }
+  // if (pkgUtils.isLatest(tag)) {
+  //   // const addTagCmd = addNextTagCmd(pkg);
+  //   console.log(chalk.magenta(`adding: adding next tag to latest: "${addTagCmd}"`));
+  //   execSync(addTagCmd, { stdio: 'inherit' });
+  // }
   return true;
 }
 
@@ -52,17 +57,16 @@ function release(pkg) {
 function createNpmRc() {
   execSync(`rm -f package-lock.json`);
   const NPM_EMAIL = 'justame@gmail.com'
-  const NPM_TOKEN = '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';
-  const EOL = require('os').EOL;
+  const NPM_TOKEN = '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';
   const content = `email=${NPM_EMAIL}${EOL}//registry.npmjs.org/:_authToken=${NPM_TOKEN}${EOL}`;
-  const fs = require('fs');
+
   fs.writeFileSync(`.npmrc`, content);
 }
 
 function publishPackages() {
   getPackages()
     .then(allPackages => {
-      const packages = allPackages.filter(pkg => !pkg.private);
+      const packages = allPackages.filter(pkg => !pkg.private)
       packages.forEach(pkg =>
         release({
           name: pkg.name,

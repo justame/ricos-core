@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "wix-rich-content-editor",
+  "name": "@justame-ricos/wix-rich-content-editor",
   "version": "8.72.29",
   "author": {
     "name": "Jonathan Bachman",

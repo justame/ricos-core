@@ -1,6 +1,7 @@
 {
-  "name": "wix-rich-content-editor-common",
+  "name": "@justame-ricos/wix-rich-content-editor-common",
   "version": "8.72.29",
+  "private": false,
   "author": {
     "name": "Matan Harsat",
     "email": "matanha@wix.com"

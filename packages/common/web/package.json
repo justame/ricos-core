@@ -1,6 +1,7 @@
 {
-  "name": "wix-rich-content-common",
+  "name": "@justame-ricos/wix-rich-content-common",
   "version": "8.72.29",
+  "private": false,
   "author": {
     "name": "Jonathan Bachman",
     "email": "jonathanb@wix.com"

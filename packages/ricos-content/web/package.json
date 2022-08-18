@@ -1,6 +1,7 @@
 {
-  "name": "ricos-content",
+  "name": "@justame-ricos/ricos-content",
   "version": "8.72.28",
+  "private": false,
   "author": {
     "name": "Oded Soffrin",
     "email": "odeds@wix.com"

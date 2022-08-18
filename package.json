@@ -1,5 +1,5 @@
 {
-  "name": "ricos-core",
+  "name": "@justame-ricos/ricos-core",
   "version": "1.0.0",
   "main": "index.js",
   "author": "yaron nachshon <yaronn@wix.com>",
@@ -15,7 +15,7 @@
     ]
   },
   "type": "module",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@types/classnames": "^2.2.10",
     "@types/draft-convert": "^2.1.4",
