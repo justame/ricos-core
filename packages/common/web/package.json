@@ -1,6 +1,6 @@
 {
   "name": "@justame-ricos/wix-rich-content-common",
-  "version": "8.72.29",
+  "version": "8.73.0",
   "private": false,
   "author": {
     "name": "Jonathan Bachman",
@@ -37,12 +37,12 @@
   },
   "dependencies": {
     "i18next": "^11.6.0",
+    "image-client-api": "1.2218.0",
     "jsonschema": "~1.2.4",
     "react-i18next": "^7.0.0",
     "react-portal-tooltip": "^2.4.7",
     "ricos-content": "8.72.29",
-    "ricos-types": "8.72.29",
-    "image-client-api": "1.2218.0"
+    "ricos-types": "8.72.29"
   },
   "unpkg": true,
   "publishConfig": {

@@ -1,6 +1,6 @@
 {
   "name": "@justame-ricos/ricos-content",
-  "version": "8.72.28",
+  "version": "8.73.0",
   "private": false,
   "author": {
     "name": "Oded Soffrin",
@@ -36,12 +36,12 @@
     "updateBaselines": "ts-node --compiler-options='{\"module\":\"commonJS\"}' ../../../scripts/updateBaselines"
   },
   "dependencies": {
+    "@justame-ricos/ricos-schema": "8.72.29",
     "fp-ts": "^2.11.0",
     "linkify-it": "^4.0.1",
     "monocle-ts": "^2.3.9",
     "omit-deep": "0.3.0",
     "parse5": "^6.0.0",
-    "@justame-ricos/ricos-schema": "8.72.29",
     "to-camel-case": "1.0.0",
     "to-constant-case": "1.0.0",
     "to-slug-case": "1.0.0",
