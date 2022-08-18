@@ -1,0 +1,56 @@
+/**
+* This schema defines a rich content component theme object as used in the Ricos project https://github.com/wix/ricos
+* The theme object is used to style different parts in ricos editor/viewer
+*/
+
+syntax = "proto3";
+
+package wix.rich_content.v1;
+
+import "google/protobuf/wrappers.proto";
+
+message RicosTheme {
+
+   message RicosCustomStyles {
+
+      message CustomTextualStyle {
+         google.protobuf.StringValue fontSize = 1;
+         google.protobuf.StringValue fontFamily = 2;
+         google.protobuf.StringValue fontWeight = 3;
+         google.protobuf.StringValue fontStyle = 4;
+         google.protobuf.StringValue textDecoration = 5;
+         google.protobuf.StringValue lineHeight = 6;
+         google.protobuf.StringValue minHeight = 7;
+         google.protobuf.StringValue color = 8;
+         google.protobuf.StringValue borderColor = 9;
+      }
+
+      message ButtonStyle {
+         google.protobuf.StringValue color = 1;
+      }
+
+      CustomTextualStyle h1 = 1;
+      CustomTextualStyle h2 = 2;
+      CustomTextualStyle h3 = 3;
+      CustomTextualStyle h4 = 4;
+      CustomTextualStyle h5 = 5;
+      CustomTextualStyle h6 = 6;
+      CustomTextualStyle p = 7;
+      CustomTextualStyle quote = 8;
+      CustomTextualStyle link = 9;
+      CustomTextualStyle hashtag = 10;
+      ButtonStyle button = 11;
+   }
+
+   message PaletteColors {
+      google.protobuf.StringValue actionColor = 1;
+      google.protobuf.StringValue bgColor = 2;
+      google.protobuf.StringValue textColor = 3;
+      google.protobuf.StringValue textColorLow = 4;
+      google.protobuf.StringValue disabledColor = 5;
+      google.protobuf.StringValue fallbackColor = 6;
+   }
+
+   RicosCustomStyles customStyles = 1;
+   PaletteColors palette = 2;
+}

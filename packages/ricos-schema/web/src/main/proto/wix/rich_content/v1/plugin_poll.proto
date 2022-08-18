@@ -1,0 +1,111 @@
+syntax = "proto3";
+
+package wix.rich_content.v1;
+import "wix/api/validations.proto";
+import "wix/rich_content/v1/common.proto";
+import "google/protobuf/wrappers.proto";
+
+message PollData {
+  message Poll {
+    message Option {
+      google.protobuf.StringValue id = 1;
+      google.protobuf.StringValue title = 2;
+      Media image = 3;
+    }
+
+    message Settings {
+      message Permissions {
+        enum ViewRole {
+          CREATOR = 0;
+          VOTERS = 1;
+          EVERYONE = 2;
+        }
+
+        enum VoteRole {
+          SITE_MEMBERS = 0;
+          ALL = 1;
+        }
+
+        ViewRole view = 1;
+        VoteRole vote = 2;
+        google.protobuf.BoolValue allow_multiple_votes = 3;
+      }
+      
+      Permissions permissions = 1;
+      google.protobuf.BoolValue show_voters = 2;
+      google.protobuf.BoolValue show_votes_count = 3;
+      
+    }
+
+    google.protobuf.StringValue id = 1;
+    google.protobuf.StringValue title = 2;
+    google.protobuf.StringValue creator_id = 3;
+    Media image = 4;
+    repeated Option options = 5;
+    Settings settings = 6;
+  }
+
+  message Layout {
+    message PollLayout {
+      enum Type {
+        LIST = 0;
+        GRID = 1;
+      }
+
+      enum Direction {
+        LTR = 0;
+        RTL = 1;
+      }
+
+      Type type = 1;
+      Direction direction = 2;
+      google.protobuf.BoolValue enable_image = 3;
+    }
+    
+    message OptionLayout {
+      google.protobuf.BoolValue enable_image = 1;
+    }
+    
+    PollLayout poll = 1;
+    OptionLayout options = 2;
+  }
+
+  message Design {
+    message PollDesign {
+      message Background {
+        enum Type {
+          COLOR = 0;
+          IMAGE = 1;
+          GRADIENT = 2;
+        }
+
+        message Gradient {
+          google.protobuf.Int32Value angle = 1;
+          google.protobuf.StringValue start_color = 2 [(wix.api.format) = COLOR_HEX];
+          google.protobuf.StringValue last_color = 3 [(wix.api.format) = COLOR_HEX];
+        }
+
+        Type type = 1;
+        oneof background {
+          google.protobuf.StringValue color = 2 [(wix.api.format) = COLOR_HEX];
+          Media image = 3;
+          Gradient gradient = 4;
+        }
+      }
+      Background background = 1;
+      google.protobuf.Int32Value border_radius = 2;
+    }
+    
+    message OptionDesign {
+      google.protobuf.Int32Value border_radius = 1;
+    }
+    
+    PollDesign poll = 1;
+    OptionDesign options = 2;
+  }
+
+  PluginContainerData container_data = 1;
+  Poll poll = 2;
+  Layout layout = 3;
+  Design design = 4;
+}

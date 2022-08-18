@@ -1,0 +1,186 @@
+/**
+* This schema defines a rich content object as used in the Ricos project https://github.com/wix/ricos
+* The content is defined in the RichContent message.
+* The content's structure is fundamentally a tree of nodes that represent rich text and content blocks.
+* Some nodes are basic rich text nodes (like paragraph, heading and list), other more complex nodes are
+* ricos plugins that allow creating rich content blocks (like image, giphy and poll).
+*/
+
+syntax = "proto3";
+
+package wix.rich_content.v1;
+
+import "wix/api/entity.proto";
+import "wix/api/validations.proto";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+import "wix/rich_content/v1/struct.proto";
+import "wix/rich_content/v1/decoration_anchor.proto";
+import "wix/rich_content/v1/decoration_color.proto";
+import "wix/rich_content/v1/decoration_link.proto";
+import "wix/rich_content/v1/decoration_mention.proto";
+import "wix/rich_content/v1/node_code_block.proto";
+import "wix/rich_content/v1/node_heading.proto";
+import "wix/rich_content/v1/node_paragraph.proto";
+import "wix/rich_content/v1/plugin_button.proto";
+import "wix/rich_content/v1/plugin_divider.proto";
+import "wix/rich_content/v1/plugin_file.proto";
+import "wix/rich_content/v1/plugin_gallery.proto";
+import "wix/rich_content/v1/plugin_gif.proto";
+import "wix/rich_content/v1/plugin_html.proto";
+import "wix/rich_content/v1/plugin_image.proto";
+import "wix/rich_content/v1/plugin_link_preview.proto";
+import "wix/rich_content/v1/plugin_map.proto";
+import "wix/rich_content/v1/plugin_poll.proto";
+import "wix/rich_content/v1/plugin_app_embed.proto";
+import "wix/rich_content/v1/plugin_video.proto";
+import "wix/rich_content/v1/plugin_collapsible_list.proto";
+import "wix/rich_content/v1/plugin_embed.proto";
+import "wix/rich_content/v1/plugin_table.proto";
+import "wix/rich_content/v1/plugin_table_cell.proto";
+import "wix/rich_content/v1/decoration_fontsize.proto";
+import "wix/rich_content/v1/plugin_audio.proto";
+import "wix/rich_content/v1/node_list.proto";
+import "wix/rich_content/v1/node_blockquote.proto";
+
+message RichContent {
+    option (wix.api.entity) = {
+        fqdn: "wix.ricos.v1.rich_content",
+        segment: PUBLIC
+    };
+    repeated Node nodes = 1; // List of nodes
+    Metadata metadata = 2;
+    DocumentStyle document_style = 3;
+}
+
+message Node {
+    enum Type {
+        PARAGRAPH = 0;
+        TEXT = 1;
+        HEADING = 2;
+        BULLETED_LIST = 3;
+        ORDERED_LIST = 4;
+        LIST_ITEM = 5;
+        BLOCKQUOTE = 6;
+        CODE_BLOCK = 7;
+        VIDEO = 8;
+        DIVIDER = 9;
+        FILE = 10;
+        GALLERY = 11;
+        GIF = 12;
+        HTML = 13;
+        IMAGE = 14;
+        LINK_PREVIEW = 15;
+        MAP = 16;
+        POLL = 17;
+        APP_EMBED = 18;
+        BUTTON = 19;
+        COLLAPSIBLE_LIST = 20;
+        TABLE = 21;
+        EMBED = 22;
+        COLLAPSIBLE_ITEM = 23;
+        COLLAPSIBLE_ITEM_TITLE = 24;
+        COLLAPSIBLE_ITEM_BODY = 25;
+        TABLE_CELL = 26;
+        TABLE_ROW = 27;
+        EXTERNAL = 28;
+        AUDIO = 29;
+    }
+
+    Type type = 1; // Node type
+    string id = 2; // Node unique identifier
+    repeated Node nodes = 3; // List of child nodes
+    NodeStyle style = 4;
+    oneof data {
+        ButtonData button_data = 5;
+        CodeBlockData code_block_data = 6;
+        DividerData divider_data = 7;
+        FileData file_data = 8;
+        GalleryData gallery_data = 9;
+        GIFData gif_data = 10;
+        HeadingData heading_data = 11;
+        HTMLData html_data = 12;
+        ImageData image_data = 13;
+        LinkPreviewData link_preview_data = 14;
+        MapData map_data = 15;
+        ParagraphData paragraph_data = 16;
+        PollData poll_data = 17;
+        TextData text_data = 18;
+        AppEmbedData app_embed_data = 19;
+        VideoData video_data = 20;
+        EmbedData embed_data = 21;
+        CollapsibleListData collapsible_list_data = 22;
+        TableData table_data = 23;
+        TableCellData table_cell_data = 24;
+        Struct externalData = 25;
+        AudioData audio_data = 26;
+        OrderedListData ordered_list_data = 27;
+        BulletedListData bulleted_list_data = 28;
+        BlockquoteData blockquote_data = 29;
+    }
+}
+
+message NodeStyle {
+    google.protobuf.StringValue padding_top = 1;
+    google.protobuf.StringValue padding_bottom = 2;
+    google.protobuf.StringValue background_color = 3;
+}
+
+message TextData {
+    string text = 1; // Textual data
+    repeated Decoration decorations = 2; // List of decorations
+}
+
+// Adds appearence changes to text
+message Decoration {
+    enum Type {
+        BOLD = 0;
+        ITALIC = 1;
+        UNDERLINE = 2;
+        SPOILER = 3;
+        ANCHOR = 4;
+        MENTION = 5;
+        LINK = 6;
+        COLOR = 7;
+        FONT_SIZE = 8;
+        EXTERNAL = 9;
+    }
+
+    Type type = 1; // Decoration type
+    oneof data {
+        AnchorData anchor_data = 2;
+        ColorData color_data = 3;
+        LinkData link_data = 4;
+        MentionData mention_data = 5;
+        FontSizeData font_size_data = 6;
+        google.protobuf.Int32Value font_weight_value = 7;
+        google.protobuf.BoolValue italic_data = 8;
+        google.protobuf.BoolValue underline_data = 9;
+    }
+}
+
+message Metadata {
+    uint32 version = 1 [(wix.api.min) = 1]; // Schema version
+    google.protobuf.Timestamp created_timestamp = 2 [(wix.api.readOnly) = true]; // Time content was created
+    google.protobuf.Timestamp updated_timestamp = 3; // Time of latest edit
+    google.protobuf.StringValue id = 4;
+}
+
+message TextNodeStyle {
+    repeated Decoration decorations = 1;
+    NodeStyle node_style = 2;
+    google.protobuf.StringValue line_height = 3;
+
+}
+
+message DocumentStyle {
+    TextNodeStyle header_one = 1;
+    TextNodeStyle header_two = 2;
+    TextNodeStyle header_three = 3;
+    TextNodeStyle header_four = 4;
+    TextNodeStyle header_five = 5;
+    TextNodeStyle header_six = 6;
+    TextNodeStyle paragraph = 7;
+    TextNodeStyle blockquote = 8;
+    TextNodeStyle code_block = 9;
+} 

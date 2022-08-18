@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package wix.rich_content.v1;
+
+import "wix/rich_content/v1/common.proto";
+import "google/protobuf/wrappers.proto";
+
+message CollapsibleListData {
+    enum InitialExpandedItems {
+        FIRST = 0;
+        ALL = 1;
+        NONE = 2;
+    }
+    enum Direction {
+        LTR = 0;
+        RTL = 1;
+    }
+    PluginContainerData container_data = 1;
+    google.protobuf.BoolValue expand_only_one = 2;
+    InitialExpandedItems initial_expanded_items = 3;
+    Direction direction = 4;
+}

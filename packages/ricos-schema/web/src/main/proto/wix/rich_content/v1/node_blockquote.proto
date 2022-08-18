@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package wix.rich_content.v1;
+
+message BlockquoteData {
+    int32 indentation = 1;
+}
