@@ -23,6 +23,9 @@
     },
     {
       "path": "./packages/editor/web"
+    },
+    {
+      "path": "./packages/ricos-common/web"
     }
   ]
 }
