@@ -275,7 +275,7 @@ const copyFolders = async () => {
     console.log(pkgLocation);
     const staticsPath = `${pkgLocation}/statics`;
     if (fs.existsSync(staticsPath)) {
-      ncp(staticsPath, staticsPath.replace('statics', 'dist'), err => {
+      ncp(staticsPath, staticsPath.replace('statics', 'dist/statics/'), err => {
         if (err) {
           return console.error(err);
         }
