@@ -1,0 +1,79 @@
+@import './consts';
+@import './mixins';
+
+.alignLeft {
+  /* rtl:ignore */
+  z-index: 1;
+  margin-right: auto;
+  margin-left: 0;
+
+  &:not(.textWrapNowrap) {
+    /* rtl:begin:ignore */
+    float: left;
+    margin-right: $innerSpacing;
+    /* rtl:end:ignore */
+  }
+}
+
+.alignRight {
+  /* rtl:ignore */
+  z-index: 1;
+  margin-left: auto;
+  margin-right: 0;
+
+  &:not(.textWrapNowrap) {
+    /* rtl:begin:ignore */
+    float: right;
+    margin-left: $innerSpacing;
+    /* rtl:end:ignore */
+  }
+}
+
+.alignCenter {
+  display: block;
+
+  &:not(.sizeFullWidth) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+}
+
+.sizeFullWidth,
+.textWrapNowrap {
+  width: 100%;
+  .renderedInTable & {
+    margin: 0 -8px;
+    width: auto;
+  }
+}
+
+.sizeOriginal {
+  width: fit-content;
+}
+
+.sizeContent {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sizeSmall {
+  width: 350px !important;
+  .renderedInTable & {
+    width: 50%;
+  }
+}
+
+.sizeSmallCenter {
+  width: 350px !important;
+  margin-left: auto;
+  margin-right: auto;
+  .renderedInTable & {
+    width: 150px;
+  }
+}
+
+.flex {
+  display: flex;
+}
