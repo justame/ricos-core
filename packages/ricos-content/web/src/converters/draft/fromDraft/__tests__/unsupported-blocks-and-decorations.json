@@ -1,0 +1,48 @@
+{
+  "blocks": [
+    {
+      "key": "65eju",
+      "text": "Somebody take me home. ",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "fudc8",
+      "text": "",
+      "type": "figure",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "bh5fg",
+      "text": "After reading these reasons, I think you already have a choice in your mind to choose a pet bed for your puppy.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        {
+          "offset": 20,
+          "length": 7,
+          "style": "textColor0"
+        },
+        {
+          "offset": 88,
+          "length": 7,
+          "style": "bgcolor-rgb(255,255,255)"
+        },
+        {
+          "offset": 41,
+          "length": 7,
+          "style": "UNDERLINE"
+        }
+      ],
+      "entityRanges": [],
+      "data": {}
+    }
+  ],
+  "entityMap": {}
+}

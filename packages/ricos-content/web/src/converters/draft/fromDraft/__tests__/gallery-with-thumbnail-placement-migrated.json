@@ -1,0 +1,45 @@
+{
+    "nodes": [
+      {
+        "type": "GALLERY",
+        "id": "f8090",
+        "nodes": [],
+        "galleryData": {
+          "items": [
+            {
+              "image": {
+                "media": {
+                  "src": {
+                    "url": "8bb438_4ce63dbf08904e42af4d6e5846e6e0c1.jpg"
+                  },
+                  "width": 1621,
+                  "height": 1081
+                }
+              }
+            }
+          ],
+          "containerData": {
+            "alignment": "CENTER",
+            "width": { "size": "CONTENT" },
+            "textWrap": true
+          },
+          "options": {
+            "layout": {
+              "type": "COLUMN",
+              "orientation": "ROWS"
+            },
+            "item": {
+              "crop": "FILL"
+            },
+            "thumbnails": { "placement": "NONE" }
+          }
+        }
+      }
+    ],
+   "metadata": {
+      "version": 1,
+      "createdTimestamp": "2021-12-02T16:19:25.159Z",
+      "updatedTimestamp": "2021-12-02T16:19:25.159Z",
+      "id": "1941cbba-1c0c-41bb-8258-ff125f977b56"
+    }
+}

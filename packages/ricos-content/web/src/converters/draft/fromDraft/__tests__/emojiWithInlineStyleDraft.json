@@ -1,0 +1,38 @@
+{
+  "blocks": [
+    {
+      "key": "1dz8t19",
+      "text": "😜",
+      "type": "header-two",
+      "depth": 0,
+      "inlineStyleRanges": [
+        {
+          "offset": 0,
+          "length": 1,
+          "style": "BOLD"
+        }
+      ],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "3bo4o25",
+      "text": "😂",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        {
+          "offset": 0,
+          "length": 1,
+          "style": "BOLD"
+        }
+      ],
+      "entityRanges": [],
+      "data": {}
+    }
+  ],
+  "entityMap": {},
+  "documentStyle": {},
+  "VERSION": "8.70.41",
+  "ID": "82c7060c-11fa-477d-be37-85abf9bacf07"
+}

@@ -1,0 +1,5 @@
+{
+    "main": "../../dist/lib/velo-adapter.cjs.js",
+    "module": "../../dist/lib/velo-adapter.js",
+    "types": "../../dist/lib/velo-adapter.d.ts"
+}

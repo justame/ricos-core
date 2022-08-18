@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "type": "PARAGRAPH",
+      "id": "5wx6k210",
+      "nodes": [],
+      "paragraphData": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0
+      }
+    },
+    {
+      "type": "AUDIO",
+      "id": "4a126",
+      "nodes": [],
+      "audioData": {
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "size": "CONTENT"
+          },
+          "textWrap": true
+        },
+        "audio": {
+          "src": {
+            "id": "mp3/f0f74f_35a1cdce4973490eac49e74c3244364d.mp3"
+          },
+          "duration": 199.632
+        },
+        "disableDownload": true,
+        "coverImage": {
+          "src": {
+            "id": "8bb438_e1d1af8cd51a452b9b24dcebdc665805.jpg"
+          },
+          "width": 5616,
+          "height": 3744
+        },
+        "name": "Dear Fear",
+        "authorName": "KOTA The Friend"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "id": "2ghmc",
+      "nodes": [],
+      "paragraphData": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0
+      }
+    }
+  ],
+  "metadata": {
+    "version": 1,
+    "createdTimestamp": "2022-06-02T10:58:05.622Z",
+    "updatedTimestamp": "2022-06-02T10:58:05.622Z",
+    "id": "039f95e0-970c-451c-9d22-72ba142639a0"
+  },
+  "documentStyle": {}
+}

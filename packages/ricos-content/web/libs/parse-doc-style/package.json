@@ -1,0 +1,5 @@
+{
+    "main": "../../dist/lib/parse-doc-style.cjs.js",
+    "module": "../../dist/lib/parse-doc-style.js",
+    "types": "../../dist/lib/parse-doc-style.d.ts"
+}

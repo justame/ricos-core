@@ -1,0 +1,68 @@
+{
+  "blocks": [
+    {
+      "key": "5wx6k210",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "4a126",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [
+        {
+          "offset": 0,
+          "length": 1,
+          "key": 0
+        }
+      ],
+      "data": {}
+    },
+    {
+      "key": "2ghmc",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    }
+  ],
+  "entityMap": {
+    "0": {
+      "type": "ricos-audio",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "config": {
+          "size": "content",
+          "alignment": "center"
+        },
+        "disableDownload": true,
+        "audio": {
+          "src": {
+            "id": "mp3/f0f74f_35a1cdce4973490eac49e74c3244364d.mp3"
+          },
+          "duration": 199.632
+        },
+        "name": "Dear Fear",
+        "authorName": "KOTA The Friend",
+        "coverImage": {
+          "id": "31ebbd58a30a082b0b2a2e64af2d5483",
+          "original_file_name": "8bb438_e1d1af8cd51a452b9b24dcebdc665805.jpg",
+          "file_name": "8bb438_e1d1af8cd51a452b9b24dcebdc665805.jpg",
+          "width": 5616,
+          "height": 3744
+        }
+      }
+    }
+  },
+  "documentStyle": {},
+  "VERSION": "8.71.19",
+  "ID": "039f95e0-970c-451c-9d22-72ba142639a0"
+}

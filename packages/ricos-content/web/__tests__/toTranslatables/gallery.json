@@ -1,0 +1,78 @@
+{
+  "nodes": [
+    {
+      "type": "GALLERY",
+      "id": "dq17c",
+      "nodes": [],
+      "galleryData": {
+        "items": [
+          {
+            "image": {
+              "media": {
+                "src": {
+                  "url": "8bb438_d675baa15a344a72b357197c11478240.jpg"
+                },
+                "width": 3718,
+                "height": 5577
+              }
+            },
+            "title": "Mocked Caption",
+            "altText": "Mocked AltText"
+          },
+          {
+            "image": {
+              "media": {
+                "src": {
+                  "url": "8bb438_9d663d62dd494ff393583bd396cbdd09.jpg"
+                },
+                "width": 5600,
+                "height": 3733
+              }
+            },
+            "title": "Mocked Caption 2",
+            "altText": "Mocked AltText 2"
+          },
+          {
+            "image": {
+              "media": {
+                "src": {
+                  "url": "8bb438_4ce63dbf08904e42af4d6e5846e6e0c1.jpg"
+                },
+                "width": 1621,
+                "height": 1081
+              }
+            },
+            "title": "Mocked Caption 3",
+            "altText": "Mocked AltText 3"
+          }
+        ],
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "size": "CONTENT"
+          }
+        },
+        "options": {
+          "layout": {
+            "type": "GRID",
+            "orientation": "COLUMNS",
+            "horizontalScroll": false,
+            "numberOfColumns": 3
+          },
+          "item": {
+            "crop": "FILL",
+            "ratio": 1
+          },
+          "thumbnails": {
+            "placement": "TOP"
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": 1,
+    "createdTimestamp": "2021-08-17T15:41:25.616Z",
+    "updatedTimestamp": "2021-08-17T15:41:25.616Z"
+  }
+}

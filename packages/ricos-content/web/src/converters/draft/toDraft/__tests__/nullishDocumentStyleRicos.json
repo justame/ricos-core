@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "type": "PARAGRAPH",
+      "id": "foo",
+      "nodes": [
+        {
+          "type": "TEXT",
+          "id": "",
+          "nodes": [],
+          "style": null,
+          "textData": {
+            "text": "Simple sentence.",
+            "decorations": []
+          }
+        }
+      ],
+      "style": null,
+      "paragraphData": {
+        "textStyle": {
+          "textAlignment": "AUTO",
+          "lineHeight": null
+        },
+        "indentation": 0
+      }
+    }
+  ],
+  "metadata": {
+    "version": 1,
+    "createdTimestamp": "2022-03-21T16:40:53.970Z",
+    "updatedTimestamp": "2022-03-21T16:40:53.970Z",
+    "id": "69f4c2f6-e563-4872-b406-5750d87c23c0"
+  },
+  "documentStyle": {
+    "headerOne": null,
+    "headerTwo": null,
+    "headerThree": null,
+    "headerFour": null,
+    "headerFive": null,
+    "headerSix": null,
+    "paragraph": null
+  }
+}

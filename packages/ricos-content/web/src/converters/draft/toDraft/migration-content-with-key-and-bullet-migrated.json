@@ -1,0 +1,158 @@
+{
+    "blocks": [
+      {
+        "key": "0",
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {
+          "textAlignment": "justify",
+          "dynamicStyles": {
+            "padding-top": "0px",
+            "padding-bottom": "0px"
+          }
+        }
+      },
+      {
+        "key": "30",
+        "text": " ",
+        "type": "atomic",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [
+          {
+            "offset": 0,
+            "length": 1,
+            "key": 0
+          }
+        ],
+        "data": {}
+      },
+      {
+        "key": "31",
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "41",
+        "text": "In imperdiet eros elementum nulla fringilla sollicitudin.",
+        "type": "ordered-list-item",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "44",
+        "text": "Proin dictum aliquam sapien at pretium.",
+        "type": "ordered-list-item",
+        "depth": 1,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "47",
+        "text": "Quisque pulvinar ac erat vitae imperdiet.",
+        "type": "ordered-list-item",
+        "depth": 2,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "50",
+        "text": "Phasellus ultricies urna ut ultrices imperdiet.",
+        "type": "ordered-list-item",
+        "depth": 3,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "53",
+        "text": "Nulla non varius ipsum, sit amet consectetur quam.",
+        "type": "ordered-list-item",
+        "depth": 4,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "55",
+        "text": "Nunc scelerisque fringilla aliquet.",
+        "type": "ordered-list-item",
+        "depth": 4,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "57",
+        "text": "Praesent purus nibh, sodales",
+        "type": "ordered-list-item",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "60",
+        "text": "non efficitur a",
+        "type": "unordered-list-item",
+        "depth": 1,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "62",
+        "text": "consequat ac ante.",
+        "type": "ordered-list-item",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "63",
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      }
+    ],
+    "entityMap": {
+      "0": {
+        "type": "wix-draft-plugin-vertical-embed",
+        "mutability": "IMMUTABLE",
+        "data": {
+          "type": "event",
+          "selectedProduct": {
+            "id": "65129504-3bfc-44c8-90cc-f9eedfea9321",
+            "name": "2-week course of intensive physical research, with a sense of plenty of time for process and discovery. Rooted in Ohad N",
+            "imageSrc": "https://static.wixstatic.com/media/2571849c6b0749a4bbd008a06fd65762.jpg",
+            "pageUrl": "https://www.wix.app/events/54e7b326-49ec-434f-a7cc-c2ad1eaec049/65129504-3bfc-44c8-90cc-f9eedfea9321/details?d=https://sapirs0.wixsite.com/mysite/event-details/2-week-course-of-intensive-physical-research-with-a-sense-of-plenty-of-time-for-process-and-discovery-rooted-in-ohad-n",
+            "scheduling": "13 de octubre de 2020 19:00–27 de octubre de 2020 23:00 ",
+            "location": " Suzanna Baby Shop"
+          }
+        }
+      }
+    },
+    "documentStyle": {
+      "headerOne": {
+        "color": "red",
+        "font-weight": "bold"
+      }
+    },
+    "VERSION": "8.67.2",
+    "ID": "009dfe2d-afe0-4536-80ff-99aba82f8803"
+  }

@@ -1,0 +1,62 @@
+{
+  "blocks": [
+    {
+      "key": "5nmng",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [
+        {
+          "offset": 0,
+          "length": 1,
+          "key": 0
+        }
+      ],
+      "data": {}
+    },
+    {
+      "key": "bh5fg",
+      "text": "ABC",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        {
+          "offset": 0,
+          "length": 1,
+          "style": "EXTERNAL"
+        },
+        {
+          "offset": 1,
+          "length": 1,
+          "style": "BOLD"
+        },
+        {
+          "offset": 2,
+          "length": 1,
+          "style": "UNDERLINE"
+        }
+      ],
+      "entityRanges": [],
+      "data": {}
+    }
+  ],
+  "entityMap": {
+    "0": {
+      "type": "EXTERNAL",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "type": "section",
+        "price": {
+          "amount": 100,
+          "currency": "USD"
+        },
+        "config": {
+          "size": "large",
+          "alignment": "center",
+          "textWrap": "nowrap"
+        }
+      }
+    }
+  }
+}

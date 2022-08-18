@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {
+      "type": "PARAGRAPH",
+      "id": "6eu4v",
+      "nodes": [],
+      "paragraphData": { "textStyle": { "textAlignment": "AUTO" }, "indentation": 0 }
+    },
+    {
+      "type": "PARAGRAPH",
+      "id": "b0alu",
+      "nodes": [
+        {
+          "type": "TEXT",
+          "id": "",
+          "nodes": [],
+          "textData": {
+            "text": "Example Content of video with no data as appear in blog DB",
+            "decorations": []
+          }
+        }
+      ],
+      "paragraphData": { "textStyle": { "textAlignment": "AUTO" }, "indentation": 0 }
+    }
+  ],
+  "metadata": {
+    "version": 1,
+    "createdTimestamp": "2021-12-12T21:40:05.919Z",
+    "updatedTimestamp": "2021-12-12T21:40:05.919Z",
+    "id": "cf6dd237-f240-4864-9ed9-5278646f6bc8"
+  }
+}
