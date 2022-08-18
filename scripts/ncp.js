@@ -1,9 +1,7 @@
-import fs  from 'fs-extra';
-import globby  from 'glob';
-import path  from 'path';
-import { getPackages } from '@lerna/project'
+import fs from 'fs';
+import path from 'path';
 
-// should be imported
+
 export function ncp (source, dest, options, callback) {
   var cback = callback;
 
@@ -259,31 +257,3 @@ export function ncp (source, dest, options, callback) {
 }
 
 
-
-
-const getDirectories = source =>
-  fs
-    .readdirSync(source, { withFileTypes: true })
-    .filter(dirent => dirent.isDirectory())
-    .map(dirent => dirent.name);
-
-const copyFolders = async () => {
-  //   const list = getDirectories(path.resolve('packages'));
-  const pkgs = await getPackages();
-  const pkgsLocations = pkgs.map(pkg => pkg.location);
-  pkgsLocations.forEach(pkgLocation => {
-    console.log(pkgLocation);
-    const staticsPath = `${pkgLocation}/statics`;
-    if (fs.existsSync(staticsPath)) {
-      ncp(staticsPath, staticsPath.replace('statics', 'dist'), err => {
-        if (err) {
-          return console.error(err);
-        }
-        console.log('done!');
-      });
-      //   console.log(staticsPath, staticsPath.replace('statics', 'dist/statics'));
-    }
-  });
-};
-
-copyFolders();

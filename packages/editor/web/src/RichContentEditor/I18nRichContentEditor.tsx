@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import type { ToolbarType } from 'wix-rich-content-common';
 import { withI18n } from 'wix-rich-content-common';
-import englishResources from 'wix-rich-content-common/dist/statics/locale/messages_en.json';
+import englishResources from 'wix-rich-content-common/dist/statics/viewer/locale/messages_en.json';
 import type { RichContentEditorProps } from './RichContentEditor';
 import RichContentEditor from './RichContentEditor';
 
