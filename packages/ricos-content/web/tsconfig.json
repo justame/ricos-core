@@ -1,12 +1,26 @@
 {
     "extends": "../../../tsconfig.base.json",
     "compilerOptions": {
-        "outDir": "./dist",
+        "outDir": "./dist"
     },
+    "files": [
+        "../../../external-types.d.ts"
+    ],
     "include": [
-        "./src/**/*.ts"
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.json",
+        "**/*.scss"
     ],
     "exclude": [
-        "./src/**/*.spec.ts"
-    ]
+        "**/node_modules/*",
+        "**/dist/*",
+        "**/*.e2e.ts",
+        "**/*.spec.ts",
+        "**/*.spec.tsx",
+        "**/*.spec.js",
+        "**/*.spec.jsx",
+        "__tests__"
+    ],
+    "references": []
 }

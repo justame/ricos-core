@@ -1,0 +1,20 @@
+{
+    "lerna": "3.16.4",
+    "command": {
+        "version": {
+            "allowBranch": [
+                "master"
+            ],
+            "message": "[*] chore(release): %s"
+        }
+    },
+    "packages": [
+        "packages/!(template-*)/web"
+    ],
+    "npmClient": "yarn",
+    "useWorkspaces": true,
+    "npmClientArgs": [
+        "--no-lockfile"
+    ],
+    "version": "8.72.28"
+}

@@ -1,9 +1,15 @@
 // https://github.com/wix/ricos/pull/3079/files#diff-39dcbff12585c4625b6ee9ef2f3c04a81f749320f57c50badc3d3f4d5d083744
-const globby = require('globby');
-const fs = require('fs-extra');
-const path = require('path');
-const ts = require('typescript');
-const { flattenDeep, union } = require('lodash');
+import fs from 'fs-extra';
+import {globby} from 'globby';
+import path from 'path';
+import ts from 'typescript';
+import lodash from 'lodash'
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const { flattenDeep, union } = lodash;
+
 const getFolderNamePkgMap = packageJsonFiles => {
   const folderNamePkgMap = [];
   packageJsonFiles.forEach(pkgJsonPath => {
@@ -21,6 +27,7 @@ const getFolderNamePkgMap = packageJsonFiles => {
 };
 
 const writeFileTsFile = (pkg, references = []) => {
+  console.log('writeFileTsFile', pkg)
   const tsConfigTemplate = fs.readFileSync(path.join(__dirname, 'tsconfig.template'));
   console.log(pkg.folderAbsolutePath, references);
   const referenceStr = references
@@ -35,10 +42,10 @@ const writeFileTsFile = (pkg, references = []) => {
   //   console.log(tsConfigTemplate.toString().replace('${references}', referenceStr));
 };
 
-const getImportFromPackage = async package => {
+const getImportFromPackage = async pkgName => {
   const files = await globby([
-    `packages/${package.folderName}/web/src/**/*.{ts, tsx}`,
-    `packages/${package.folderName}/web/lib/**/*.{ts, tsx}`,
+    `packages/${pkgName.folderName}/web/src/**/*.{ts, tsx}`,
+    `packages/${pkgName.folderName}/web/lib/**/*.{ts, tsx}`,
   ]);
   const totalImports = [];
   files.forEach(file => {
@@ -91,13 +98,13 @@ const build = async () => {
   );
   const pkgFolderNameMap = {};
   const packages = getFolderNamePkgMap(packageJsonFiles);
-  // console.log(
-  //   packages
-  //     .map(pkg => `./packages/${pkg.folderName}/web`)
-  //     .map(pkg => {
-  //       return `{"path": "${pkg}"}`;
-  //     })
-  // );
+  console.log(
+    packages
+      .map(pkg => `./packages/${pkg.folderName}/web`)
+      .map(pkg => {
+        return `{"path": "${pkg}"}`;
+      })
+  );
 
   // const singlePkg = [packages[5]];
   // console.log(singlePkg);
