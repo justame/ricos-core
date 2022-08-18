@@ -11821,6 +11821,47 @@ wix-redraft@^1.1.2:
   dependencies:
     punycode "^1.4.1"
 
+wix-rich-content-common@8.72.29:
+  version "8.72.29"
+  resolved "https://registry.yarnpkg.com/wix-rich-content-common/-/wix-rich-content-common-8.72.29.tgz#2d6e648858b1633468578bd65641e56f3ff0fc99"
+  integrity sha512-qw/Qb+k+S3w3DBV17982hXO4EcMejyhU9KZ1a7RpbgVGEu0xyfD7I+NAbwhcD9ZG65TnHLaYl32lh+mM0JSPxg==
+  dependencies:
+    i18next "^11.6.0"
+    jsonschema "~1.2.4"
+    react-i18next "^7.0.0"
+    react-portal-tooltip "^2.4.7"
+    ricos-content "8.72.29"
+    ricos-types "8.72.29"
+
+wix-rich-content-editor-common@8.72.29:
+  version "8.72.29"
+  resolved "https://registry.yarnpkg.com/wix-rich-content-editor-common/-/wix-rich-content-editor-common-8.72.29.tgz#f86728179eeb1f19ad2f0630aa118a356f700133"
+  integrity sha512-2463l7470fv/mnLun9WMxvZ+vk2o72pfji5tcSsu4nVkwye1dObi15tF3SMmDDR9rT9v31E2yR+W4WjfhFpVKg==
+  dependencies:
+    "@wix/draft-js" "0.0.11"
+    downshift "3.2.12"
+    react-window "~1.5.0"
+    uuid "^3.4.0"
+    wix-rich-content-common "8.72.29"
+    wix-rich-content-ui-components "8.72.29"
+
+wix-rich-content-editor@8.72.29:
+  version "8.72.29"
+  resolved "https://registry.yarnpkg.com/wix-rich-content-editor/-/wix-rich-content-editor-8.72.29.tgz#33fc4bc134ba296483a98a50e769a75f20c0f841"
+  integrity sha512-MtKc+RTM+738CtoLB/vJrJ2Hvth1XlmJuO9GqeFS9dfS0bg3HY1LtqgOLd/kxVt17eyN9Mz/tKLL6mTbsbYUUA==
+  dependencies:
+    draft-js-drag-n-drop-plugin "~2.0.4"
+    draft-js-list-plugin "^1.0.2"
+    draft-js-plugins-editor "~3.0.0"
+    forked-draft-js-focus-plugin "^3.0.1"
+    react-click-outsider "1.1.1"
+    react-measure "~2.3.0"
+    uuid "^3.4.0"
+    wix-rich-content-common "8.72.29"
+    wix-rich-content-editor-common "8.72.29"
+    wix-rich-content-plugin-commons "8.72.29"
+    wix-rich-content-ui-components "8.72.29"
+
 wix-rich-content-plugin-commons@8.72.29:
   version "8.72.29"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/wix-rich-content-plugin-commons/-/wix-rich-content-plugin-commons-8.72.29.tgz#79393d52133c81d2fe7937f73a2361c6811bdd40"

@@ -87,6 +87,7 @@ const setFontSizeWithColor = (
       color: highlightColor,
     });
   }
+  return undefined;
 };
 
 const insertDecorationsMap = {
