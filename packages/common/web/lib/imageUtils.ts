@@ -64,6 +64,7 @@ const createPreloadUrl = (
     const params = `w_${W},h_${H},al_c,q_${rq}${encAutoImageUrls ? ',enc_auto' : ''}`;
     return `${WIX_STATIC_URL}/media/${fileName}/v1/fit/${params}/file${format}`;
   }
+  return undefined;
 };
 
 const createQuailtyPreloadUrl = (

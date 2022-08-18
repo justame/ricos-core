@@ -19,10 +19,9 @@
     "libs",
     "viewer"
   ],
-  "main": "dist/module.cjs.js",
+  "main": "dist/src/js",
   "types": "dist/src/index.d.ts",
-  "module": "dist/module.js",
-  "style": "dist/styles.min.scss",
+  "module": "dist/src/index.js",
   "scripts": {
     "clean": "rm -rf dist/",
     "prebuild": "npm run clean",
@@ -41,7 +40,8 @@
     "react-i18next": "^7.0.0",
     "react-portal-tooltip": "^2.4.7",
     "ricos-content": "8.72.29",
-    "ricos-types": "8.72.29"
+    "ricos-types": "8.72.29",
+    "image-client-api": "1.2218.0"
   },
   "unpkg": true,
   "publishConfig": {
