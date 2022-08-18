@@ -2,7 +2,8 @@ import { EditorState, cloneDeepWithoutEditorState } from 'wix-rich-content-edito
 import type { RawDraftEntity, RawDraftContentState } from '@wix/draft-js';
 import { convertFromRaw as fromRaw, convertToRaw as toRaw } from '@wix/draft-js';
 import { COLLAPSIBLE_LIST_TYPE, TABLE_TYPE, SOUND_CLOUD_TYPE, VIDEO_TYPE } from 'ricos-content';
-import { version } from '../package.json';
+//@ts-ignore
+const version = '1.0.0';
 import { v4 as uuid } from 'uuid';
 
 const addVersion = (obj, version: string): typeof obj => {

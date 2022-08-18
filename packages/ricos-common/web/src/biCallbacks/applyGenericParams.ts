@@ -1,4 +1,5 @@
-import { version } from '../../package.json';
+//@ts-ignore
+const version = '1.0.0';
 import type { Helpers } from 'ricos-types';
 import type { RichContentProps } from '../RicosTypes';
 import { createUploadEndBIData, createUploadStartBIData } from './mediaUploadBI';

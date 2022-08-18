@@ -10,7 +10,7 @@
         "**/*.ts",
         "**/*.tsx",
         "**/*.json",
-        "**/*.scss"
+        "**/*.scss",
     ],
     "exclude": [
         "**/node_modules/*",
@@ -20,11 +20,8 @@
         "**/*.spec.tsx",
         "**/*.spec.js",
         "**/*.spec.jsx",
-        "__tests__"
+        "__tests__",
+        "package.json"
     ],
-    "references": [{
-              "path": "../../common/web"
-          },{
-              "path": "../../ricos-content/web"
-          }]
+    "references": []
 }
