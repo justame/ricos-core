@@ -1,10 +1,10 @@
-import type { Node } from '@justame-ricos/ricos-schema';
+import type { Node } from 'ricos-schema';
 import {
   DividerData_Alignment,
   DividerData_LineStyle,
   DividerData_Width,
   Node_Type,
-} from '@justame-ricos/ricos-schema';
+} from 'ricos-schema';
 import { createEmptyContent } from '../RicosContentAPI/createEmptyContent';
 import { createBuilder } from './builder';
 

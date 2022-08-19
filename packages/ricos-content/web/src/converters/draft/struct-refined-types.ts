@@ -1,5 +1,5 @@
-import type { Struct, Value, ListValue } from '@justame-ricos/ricos-schema';
-import { NullValue } from '@justame-ricos/ricos-schema';
+import type { Struct, Value, ListValue } from 'ricos-schema';
+import { NullValue } from 'ricos-schema';
 import { isObject } from 'lodash';
 
 export type BoolValue = {

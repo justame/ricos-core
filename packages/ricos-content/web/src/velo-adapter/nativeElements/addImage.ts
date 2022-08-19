@@ -1,7 +1,7 @@
 import { isString } from 'lodash';
 import { firstRight } from '../../fp-utils';
 import type { AddImageParams, ImageElement, OriginalAddImageParams } from '../types';
-import type { ImageData } from '@justame-ricos/ricos-schema';
+import type { ImageData } from 'ricos-schema';
 
 // https://www.wix.com/velo/reference/$w/image/src
 const imageElementRegex = /^wix:image:\/\/v1\/(.+)\/(.+)#originWidth=(\d+)&originHeight=(\d+)/i;

@@ -1,6 +1,6 @@
 import { generateId } from '../converters/generateRandomId';
-import type { Node } from '@justame-ricos/ricos-schema';
-import { Node_Type } from '@justame-ricos/ricos-schema';
+import type { Node } from 'ricos-schema';
+import { Node_Type } from 'ricos-schema';
 import type { NodeCreatorsCollection } from '../types';
 import { setupAbstractContentBuilder } from '../RicosContentAPI/AbstractContentBuilder';
 import { makeTextNode, makeListNode, makeNode } from '../RicosContentAPI/node-builder-methods';

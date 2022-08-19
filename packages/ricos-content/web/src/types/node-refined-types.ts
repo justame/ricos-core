@@ -5,7 +5,7 @@
  * that have bundle size impact and potentially modify data rather than validate it.
  */
 
-import { Node_Type } from '@justame-ricos/ricos-schema';
+import { Node_Type } from 'ricos-schema';
 import type {
   Node,
   AppEmbedData,
@@ -34,7 +34,7 @@ import type {
   BulletedListData,
   BlockquoteData,
   NodeStyle,
-} from '@justame-ricos/ricos-schema';
+} from 'ricos-schema';
 import { isTextData, isParagraphData } from './node-data-refined-types';
 
 type Identified = {

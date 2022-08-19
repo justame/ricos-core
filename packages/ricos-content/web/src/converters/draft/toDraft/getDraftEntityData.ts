@@ -1,6 +1,6 @@
 /* eslint-disable fp/no-delete */
-import type { Node } from '@justame-ricos/ricos-schema';
-import { Node_Type, ButtonData_Type } from '@justame-ricos/ricos-schema';
+import type { Node } from 'ricos-schema';
+import { Node_Type, ButtonData_Type } from 'ricos-schema';
 import {
   ENTITY_DECORATION_TO_MUTABILITY,
   FROM_RICOS_ENTITY_TYPE,

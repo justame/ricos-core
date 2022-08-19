@@ -30,8 +30,8 @@ import type {
   TableData,
   TableCellData,
   CollapsibleListData,
-} from '@justame-ricos/ricos-schema';
-import { TextStyle_TextAlignment, Node_Type, Decoration_Type, LATEST_VERSION } from '@justame-ricos/ricos-schema';
+} from 'ricos-schema';
+import { TextStyle_TextAlignment, Node_Type, Decoration_Type, LATEST_VERSION } from 'ricos-schema';
 import { generateId } from './generateRandomId';
 import { fromEntries } from '../utils';
 

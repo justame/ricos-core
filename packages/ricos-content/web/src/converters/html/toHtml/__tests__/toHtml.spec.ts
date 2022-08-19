@@ -1,7 +1,7 @@
 import { toHtml } from '../toHtml';
 import complexContent from '../../../../../statics/json/migratedFixtures/migration-content.json';
 import { readFileSync } from 'fs';
-import { RichContent } from '@justame-ricos/ricos-schema';
+import { RichContent } from 'ricos-schema';
 import fromHtml from '../../fromHtml/rich-text/parser';
 
 const htmlContent = readFileSync(`${__dirname}/richContentHtml.html`, 'utf8');

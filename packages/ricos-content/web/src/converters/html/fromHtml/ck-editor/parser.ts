@@ -6,8 +6,8 @@ import * as RONEA from 'fp-ts/ReadonlyNonEmptyArray';
 import * as R from 'fp-ts/Record';
 import * as S from 'fp-ts/string';
 import type { Element } from 'parse5';
-import type { Node, PluginContainerData, TextStyle, TextStyle_TextAlignment } from '@justame-ricos/ricos-schema';
-import { Decoration_Type, PluginContainerData_Alignment } from '@justame-ricos/ricos-schema';
+import type { Node, PluginContainerData, TextStyle, TextStyle_TextAlignment } from 'ricos-schema';
+import { Decoration_Type, PluginContainerData_Alignment } from 'ricos-schema';
 import { and, or } from '../../../../fp-utils';
 import { createParagraphNode } from '../../../nodeUtils';
 import {

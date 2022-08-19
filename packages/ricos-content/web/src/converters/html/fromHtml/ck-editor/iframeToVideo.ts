@@ -1,8 +1,8 @@
 import { identity, flow } from 'fp-ts/function';
 import * as S from 'fp-ts/string';
 import * as E from 'fp-ts/Either';
-import type { VideoData } from '@justame-ricos/ricos-schema';
-import { Node_Type } from '@justame-ricos/ricos-schema';
+import type { VideoData } from 'ricos-schema';
+import { Node_Type } from 'ricos-schema';
 import type { Element } from 'parse5';
 import { createNode } from '../../../nodeUtils';
 import { hasTag, getAttributes, hasAttribute } from '../core/parse5-utils';

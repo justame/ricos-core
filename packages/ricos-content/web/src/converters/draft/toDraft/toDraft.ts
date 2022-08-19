@@ -2,8 +2,8 @@
 import type { DraftBlockType } from 'draft-js';
 import { pipe } from 'fp-ts/function';
 import { merge } from 'lodash';
-import type { Node, RichContent, TextNodeStyle } from '@justame-ricos/ricos-schema';
-import { Node_Type } from '@justame-ricos/ricos-schema';
+import type { Node, RichContent, TextNodeStyle } from 'ricos-schema';
+import { Node_Type } from 'ricos-schema';
 import { v4 as uuid } from 'uuid';
 import { RICOS_NODE_TYPE_TO_DATA_FIELD } from '../../../consts';
 import type { DraftContent, RicosContentBlock } from '../../../types';

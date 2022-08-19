@@ -1,5 +1,5 @@
-import type { RichContent } from '@justame-ricos/ricos-schema';
-import { Node_Type } from '@justame-ricos/ricos-schema';
+import type { RichContent } from 'ricos-schema';
+import { Node_Type } from 'ricos-schema';
 import { createEmptyContent } from './createEmptyContent';
 
 describe('createEmptyContent', () => {

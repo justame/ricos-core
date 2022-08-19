@@ -4,7 +4,7 @@ import * as A from 'fp-ts/Array';
 import * as R from 'fp-ts/Record';
 import { pipe, flow, constFalse, constTrue, identity } from 'fp-ts/function';
 import { set, cloneDeep, get } from 'lodash';
-import type { RichContent, Node } from '@justame-ricos/ricos-schema';
+import type { RichContent, Node } from 'ricos-schema';
 
 import type { TextualNode, NonTextualNode, NonTextualTranslatable, Translatable } from '../types';
 import { isTextualNode, isNonTextualNode } from '../types';

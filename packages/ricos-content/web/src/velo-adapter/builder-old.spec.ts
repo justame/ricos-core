@@ -1,5 +1,5 @@
 console.log('need to fix circular dependency');
-// import type { RichContent } from '@justame-ricos/ricos-schema';
+// import type { RichContent } from 'ricos-schema';
 // import {
 //   Node_Type,
 //   DividerData_Alignment,
@@ -8,7 +8,7 @@ console.log('need to fix circular dependency');
 //   DividerData_LineStyle,
 //   DividerData_Width,
 //   TextStyle_TextAlignment,
-// } from '@justame-ricos/ricos-schema';
+// } from 'ricos-schema';
 // import { compare } from 'wix-rich-content-common';
 // import { createBuilder } from './builder-old';
 // import { emptyContent } from './consts';

@@ -1,5 +1,5 @@
-import type { Node } from '@justame-ricos/ricos-schema';
-import { Node_Type } from '@justame-ricos/ricos-schema';
+import type { Node } from 'ricos-schema';
+import { Node_Type } from 'ricos-schema';
 import { toPlainText } from '..';
 import { LINK_TYPE } from '../../../consts';
 import type { RangedDecoration } from '../../draft/toDraft/decorationParsers';

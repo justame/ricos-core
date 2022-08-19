@@ -1,5 +1,5 @@
 {
-  "name": "@justame-ricos/ricos-core",
+  "name": "ricos-core",
   "version": "1.0.2",
   "main": "index.js",
   "author": "yaron nachshon <yaronn@wix.com>",
@@ -15,6 +15,7 @@
       "packages/!(template-*)/web"
     ]
   },
+  "private": true,
   "type": "module",
   "dependencies": {
     "@types/classnames": "^2.2.10",

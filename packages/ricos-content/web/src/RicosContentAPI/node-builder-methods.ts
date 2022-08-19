@@ -11,7 +11,7 @@ import type {
   RichContent,
   TextData,
   PollData,
-} from '@justame-ricos/ricos-schema';
+} from 'ricos-schema';
 import {
   ButtonData_Type,
   DividerData_Alignment,
@@ -27,7 +27,7 @@ import {
   PollData_Layout_PollLayout_Type,
   PollData_Layout_PollLayout_Direction,
   PollData_Design_PollDesign_Background_Type,
-} from '@justame-ricos/ricos-schema';
+} from 'ricos-schema';
 import { dataByNodeType } from '../converters/nodeUtils';
 import type { BuilderFunctionsMetadata, ListItemData } from '../types/contentApi';
 import type {

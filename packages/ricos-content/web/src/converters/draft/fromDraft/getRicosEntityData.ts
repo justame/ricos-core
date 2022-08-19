@@ -1,6 +1,6 @@
 import { pickBy, identity } from 'lodash';
 /* eslint-disable fp/no-delete */
-import type { TextStyle, NodeStyle } from '@justame-ricos/ricos-schema';
+import type { TextStyle, NodeStyle } from 'ricos-schema';
 import type { RicosEntityMap, RicosContentBlock } from '../../../types';
 import {
   LINK_PREVIEW_TYPE,

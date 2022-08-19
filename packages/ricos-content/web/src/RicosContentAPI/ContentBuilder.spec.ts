@@ -1,5 +1,5 @@
 import { setupContentBuilder } from './RicosContentBuilder';
-import type { ImageData, ParagraphData, AppEmbedData } from '@justame-ricos/ricos-schema';
+import type { ImageData, ParagraphData, AppEmbedData } from 'ricos-schema';
 import {
   PluginContainerData_Width_Type,
   PluginContainerData_Alignment,
@@ -8,7 +8,7 @@ import {
   TextStyle_TextAlignment,
   Decoration_Type,
   AppEmbedData_AppType,
-} from '@justame-ricos/ricos-schema';
+} from 'ricos-schema';
 import type { TableCell } from '../types/contentApi';
 import type { RichText } from '../types/node-refined-types';
 

@@ -1,5 +1,5 @@
-import type { TextData } from '@justame-ricos/ricos-schema';
-import { Node_Type } from '@justame-ricos/ricos-schema';
+import type { TextData } from 'ricos-schema';
+import { Node_Type } from 'ricos-schema';
 import { addNode, toTextDataArray } from './builder-utils';
 
 describe('addNode util', () => {

@@ -1,6 +1,6 @@
 import { extractAppEmbedData } from './extract-app-embed';
 import content from '../../statics/json/migratedFixtures/migration-content.json';
-import { RichContent } from '@justame-ricos/ricos-schema';
+import { RichContent } from 'ricos-schema';
 
 /* eslint-disable max-len */
 describe('extractAppEmbedData', () => {

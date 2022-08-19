@@ -1,7 +1,7 @@
 import migrationContent from '../../statics/json/migratedFixtures/migration-content.json';
 import rawContent from '../../tests/modifyFixtures/images-dividers.json';
 import { select } from './select';
-import type { Node } from '@justame-ricos/ricos-schema';
+import type { Node } from 'ricos-schema';
 import {
   Node_Type,
   PluginContainerData_Alignment,
@@ -9,7 +9,7 @@ import {
   Decoration_Type,
   FontSizeData_fontType,
   RichContent,
-} from '@justame-ricos/ricos-schema';
+} from 'ricos-schema';
 import type { TextNode, VideoNode } from '../types/node-refined-types';
 import { extract } from '../RicosContentAPI/extract';
 

@@ -2,7 +2,7 @@ import { isNumber, isString, isArray, isObject } from 'lodash';
 import { flow } from 'fp-ts/function';
 import * as A from 'fp-ts/Array';
 import * as O from 'fp-ts/Option';
-import type { ParagraphData, RichContent, TextData, Node } from '@justame-ricos/ricos-schema';
+import type { ParagraphData, RichContent, TextData, Node } from 'ricos-schema';
 import { firstRight } from '../fp-utils';
 import type { ListItemData } from '../types';
 import { modify } from './modify';

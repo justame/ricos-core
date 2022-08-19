@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 import { getMedia, getPluginData, getText } from './extract-by-type';
-import { RichContent, Node_Type } from '@justame-ricos/ricos-schema';
+import { RichContent, Node_Type } from 'ricos-schema';
 import adapterExtractMock from '../../__tests__/adapterExtractMock.json';
 
 const content = RichContent.fromJSON(adapterExtractMock);

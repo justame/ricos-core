@@ -1,6 +1,6 @@
 import type { Overwrite } from 'utility-types';
 import { isArray, isObject } from 'lodash';
-import type { Node, RichContent } from '@justame-ricos/ricos-schema';
+import type { Node, RichContent } from 'ricos-schema';
 import type {
   RawDraftInlineStyleRange,
   RawDraftContentBlock,

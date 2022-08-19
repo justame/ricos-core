@@ -13,9 +13,6 @@
   ],
   "references": [
     {
-      "path": "./packages/ricos-content/web"
-    },
-    {
       "path": "./packages/common/web"
     },
     {
@@ -25,7 +22,82 @@
       "path": "./packages/editor/web"
     },
     {
+      "path": "./packages/ricos-common-plugins/web"
+    },
+    {
       "path": "./packages/ricos-common/web"
+    },
+    {
+      "path": "./packages/ricos-content-query/web"
+    },
+    {
+      "path": "./packages/ricos-content/web"
+    },
+    {
+      "path": "./packages/ricos-context/web"
+    },
+    {
+      "path": "./packages/ricos-converters/web"
+    },
+    {
+      "path": "./packages/ricos-driver/web"
+    },
+    {
+      "path": "./packages/ricos-editor/web"
+    },
+    {
+      "path": "./packages/ricos-events/web"
+    },
+    {
+      "path": "./packages/ricos-modals/web"
+    },
+    {
+      "path": "./packages/ricos-orchestrator/web"
+    },
+    {
+      "path": "./packages/ricos-plugins/web"
+    },
+    {
+      "path": "./packages/ricos-shortcuts/web"
+    },
+    {
+      "path": "./packages/ricos-styles/web"
+    },
+    {
+      "path": "./packages/ricos-types/web"
+    },
+    {
+      "path": "./packages/ricos-viewer/web"
+    },
+    {
+      "path": "./packages/text-selection-toolbar/web"
+    },
+    {
+      "path": "./packages/tiptap-editor/web"
+    },
+    {
+      "path": "./packages/tiptap-extensions/web"
+    },
+    {
+      "path": "./packages/toolbars-modals/web"
+    },
+    {
+      "path": "./packages/toolbars-new/web"
+    },
+    {
+      "path": "./packages/toolbars-ui/web"
+    },
+    {
+      "path": "./packages/toolbars-v3/web"
+    },
+    {
+      "path": "./packages/toolbars/web"
+    },
+    {
+      "path": "./packages/ui-components/web"
+    },
+    {
+      "path": "./packages/viewer/web"
     }
   ]
 }

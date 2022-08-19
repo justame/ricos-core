@@ -33,8 +33,8 @@ import type {
   GIFData,
   GalleryData,
   FileData,
-} from '@justame-ricos/ricos-schema';
-import { PluginContainerData_Width_Type, ButtonData_Type } from '@justame-ricos/ricos-schema';
+} from 'ricos-schema';
+import { PluginContainerData_Width_Type, ButtonData_Type } from 'ricos-schema';
 import { TO_RICOS_DATA } from './consts';
 import type {
   AudioComponentData,
