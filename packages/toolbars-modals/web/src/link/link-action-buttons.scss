@@ -1,0 +1,26 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.actionButtons_wrapper {
+  width: 212px;
+  &.actionButtons_wrapper_mobile {
+    width: 100%;
+  }
+}
+
+.LinkButtons_wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  margin-top: 12px;
+  &.multiSelectLinkPanel_wrapper {
+    margin: 20px 0 0;
+  }
+  &.LinkButtons_wrapper_mobile {
+    margin: 0;
+    padding-top: 12px;
+    width: 100%;
+  }
+  &.LinkButtons_wrapper_row_reverse {
+    flex-direction: row-reverse;
+  }
+}

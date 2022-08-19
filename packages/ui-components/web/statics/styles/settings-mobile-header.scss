@@ -1,0 +1,31 @@
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+
+.setting_mobile_header {
+  padding: 16px;
+  position: relative;
+  border-bottom: 1px solid #ededed;
+  justify-content: space-between;
+  display: flex;
+  font-family: inherit;
+  &.setting_mobile_header_newUi {
+    @include border-box;
+    height: 50px;
+    padding: 0 16px;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 13;
+    flex-direction: row-reverse;
+  }
+  .setting_mobile_header_title {
+    color: $secondary-text-color;
+    font-size: 16px;
+    font-family: $ricos-settings-font-family;
+    font-weight: 400;
+    align-self: center;
+  }
+}

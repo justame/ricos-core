@@ -1,0 +1,2713 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "JUSTIFY"
+        },
+        "indentation": 0,
+        "style": {
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        "id": "0"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Lorem ipsum dolor sit amet",
+          "marks": [
+            {
+              "type": "BOLD",
+              "attrs": {
+                "fontWeightValue": 700
+              }
+            },
+            {
+              "type": "FONT_SIZE",
+              "attrs": {
+                "unit": "PX",
+                "value": 20
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": " 😎, ",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": "consectetur adipiscing",
+          "marks": [
+            {
+              "type": "UNDERLINE",
+              "attrs": {
+                "underlineData": true
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": " elit. Quisque quis ex ",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": "auctor",
+          "marks": [
+            {
+              "type": "ITALIC",
+              "attrs": {
+                "italicData": true
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": ", facilisis lectus id, sodales ipsum. In ",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": "sagittis ",
+          "marks": [
+            {
+              "type": "BOLD",
+              "attrs": {
+                "fontWeightValue": 700
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": "ultrices",
+          "marks": [
+            {
+              "type": "BOLD",
+              "attrs": {
+                "fontWeightValue": 700
+              }
+            },
+            {
+              "type": "UNDERLINE",
+              "attrs": {
+                "underlineData": true
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": " sem",
+          "marks": [
+            {
+              "type": "UNDERLINE",
+              "attrs": {
+                "underlineData": true
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": " ac elementum. Ut ",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": "ut",
+          "marks": [
+            {
+              "type": "LINK",
+              "attrs": {
+                "link": {
+                  "target": "BLANK",
+                  "url": "www.google.com",
+                  "rel": {
+                    "nofollow": true,
+                    "sponsored": true,
+                    "ugc": true
+                  }
+                }
+              }
+            },
+            {
+              "type": "UNDERLINE",
+              "attrs": {
+                "underlineData": true
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": " iaculis ex. ",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": "Lorem ipsum",
+          "marks": [
+            {
+              "type": "SPOILER"
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": " dolor sit ",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": "@amet",
+          "marks": [
+            {
+              "type": "MENTION",
+              "attrs": {
+                "name": "amet",
+                "slug": "amet",
+                "mentionId": "1234"
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": ", consectetur adipiscing elit. In hac ",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": "habitasse ",
+          "marks": [
+            {
+              "type": "COLOR",
+              "attrs": {
+                "foreground": "color4"
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": "platea",
+          "marks": [
+            {
+              "type": "COLOR",
+              "attrs": {
+                "background": "color3",
+                "foreground": "color4"
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": " dictumst",
+          "marks": [
+            {
+              "type": "COLOR",
+              "attrs": {
+                "background": "color3"
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": ". Aenean placerat, quam eget vestibulum ",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": "varius",
+          "marks": [
+            {
+              "type": "LINK",
+              "attrs": {
+                "link": {
+                  "target": "BLANK",
+                  "url": "www.link.com"
+                }
+              }
+            },
+            {
+              "type": "UNDERLINE",
+              "attrs": {
+                "underlineData": true
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": ", nisl ligula vulputate ",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": "tortor",
+          "marks": [
+            {
+              "type": "ANCHOR",
+              "attrs": {
+                "anchor": "98ccj"
+              }
+            },
+            {
+              "type": "UNDERLINE",
+              "attrs": {
+                "underlineData": true
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": ", id lacinia odio magna eu arcu.",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "1"
+      },
+      "content": []
+    },
+    {
+      "type": "IMAGE",
+      "attrs": {
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "size": "FULL_WIDTH"
+          },
+          "spoiler": {
+            "enabled": true,
+            "description": "SPOILER ALERT!!!",
+            "buttonText": "What's behind door number 1?"
+          },
+          "textWrap": true
+        },
+        "image": {
+          "src": {
+            "id": "8bb438_67a68c0652d740bab508f68662acc882.jpg"
+          },
+          "width": 3192,
+          "height": 2124
+        },
+        "link": {
+          "target": "BLANK",
+          "url": "www.image-link.com"
+        },
+        "caption": "Dad holding his baby",
+        "id": "2"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "3"
+      },
+      "content": []
+    },
+    {
+      "type": "VIDEO",
+      "attrs": {
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "size": "CONTENT"
+          },
+          "textWrap": true
+        },
+        "video": {
+          "src": {
+            "url": "https://www.youtube.com/watch?v=CoJ23XNHgG0"
+          },
+          "duration": 14
+        },
+        "thumbnail": {
+          "src": {
+            "url": "https://i.ytimg.com/vi/BBu5codsO6Y/hqdefault.jpg"
+          },
+          "width": 480,
+          "height": 270
+        },
+        "title": "iJustine | Create a Website with Wix Artificial Design Intelligence",
+        "id": "4"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "5"
+      },
+      "content": []
+    },
+    {
+      "type": "VIDEO",
+      "attrs": {
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "size": "SMALL"
+          },
+          "textWrap": true
+        },
+        "video": {
+          "src": {
+            "id": "video/d3dd72_9397c7bfa03f4fa8920b16bdd667f73b/1080p/mp4/file.mp4"
+          },
+          "duration": 666
+        },
+        "thumbnail": {
+          "src": {
+            "id": "media/d3dd72_9397c7bfa03f4fa8920b16bdd667f73bf000.jpg"
+          },
+          "width": 1920,
+          "height": 1080
+        },
+        "disableDownload": false,
+        "id": "6"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "7"
+      },
+      "content": []
+    },
+    {
+      "type": "GALLERY",
+      "attrs": {
+        "items": [
+          {
+            "image": {
+              "media": {
+                "src": {
+                  "url": "8bb438_0ab44689f626435c94b9a5b996524aba.jpg"
+                },
+                "width": 5600,
+                "height": 3733
+              }
+            }
+          },
+          {
+            "image": {
+              "media": {
+                "src": {
+                  "url": "8bb438_6a7159be0f944dde9098fe566bf22831.jpg"
+                },
+                "width": 1920,
+                "height": 1922
+              },
+              "link": {
+                "target": "BLANK",
+                "url": "wix.com",
+                "rel": {
+                  "nofollow": true
+                }
+              }
+            }
+          },
+          {
+            "video": {
+              "media": {
+                "src": {
+                  "url": "0d72ac_31569a98fd8d436f98ae9c827c216443"
+                },
+                "width": 1920,
+                "height": 1080
+              },
+              "thumbnail": {
+                "src": {
+                  "url": "8bb438_cabd67053eae45e7ab273832504717ff.jpg"
+                },
+                "width": 5600,
+                "height": 3727
+              }
+            }
+          }
+        ],
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "size": "CONTENT"
+          },
+          "textWrap": true
+        },
+        "options": {
+          "layout": {
+            "type": "GRID",
+            "orientation": "ROWS",
+            "horizontalScroll": false,
+            "numberOfColumns": 3,
+            "mobileNumberOfColumns": 3
+          },
+          "item": {
+            "crop": "FILL",
+            "targetSize": 300,
+            "ratio": 1,
+            "spacing": 20
+          },
+          "thumbnails": {
+            "placement": "BOTTOM",
+            "spacing": 0
+          }
+        },
+        "disableExpand": false,
+        "id": "8"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "9"
+      },
+      "content": []
+    },
+    {
+      "type": "HTML",
+      "attrs": {
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "custom": "350"
+          },
+          "height": {
+            "custom": "490"
+          },
+          "textWrap": true
+        },
+        "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">How we cut cost on 55% of our storage without deleting a single file? We understood that NOT all files should be treated equally. <br><br>Here’s the full story:<a href=\"https://t.co/zC3d0uBkEA\">https://t.co/zC3d0uBkEA</a> <a href=\"https://t.co/j8ND7GfOEg\">pic.twitter.com/j8ND7GfOEg</a></p>&mdash; Wix Engineering (@WixEng) <a href=\"https://twitter.com/WixEng/status/1348206215336259584?ref_src=twsrc%5Etfw\">January 10, 2021</a></blockquote> <script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
+        "id": "10"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "11"
+      },
+      "content": []
+    },
+    {
+      "type": "EMBED",
+      "attrs": {
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "custom": "350"
+          },
+          "textWrap": true
+        },
+        "oembed": {
+          "type": "rich",
+          "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Eleven veterans who live at the Soldiers&#39; Home in Holyoke, Massachusetts, have died and five of them tested positive for coronavirus.<br><br>Tests are still pending for five other veterans who passed away, and the status of the last one is unknown, officials say <a href=\"https://t.co/rTVjn9FiBC\">https://t.co/rTVjn9FiBC</a></p>&mdash; CNN (@CNN) <a href=\"https://twitter.com/CNN/status/1244886173409034240?ref_src=twsrc%5Etfw\">March 31, 2020</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n"
+        },
+        "src": "https://twitter.com/CNN/status/1244886173409034240",
+        "id": "12"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "13"
+      },
+      "content": []
+    },
+    {
+      "type": "LINK_BUTTON",
+      "attrs": {
+        "type": "LINK",
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "custom": "212"
+          },
+          "textWrap": true
+        },
+        "styles": {
+          "border": {
+            "width": 7,
+            "radius": 5
+          },
+          "colors": {
+            "text": "#0261FF",
+            "border": "#0261FF",
+            "background": "#FEFDFD"
+          }
+        },
+        "text": "Link Button",
+        "link": {
+          "target": "BLANK",
+          "url": "www.wix.com",
+          "rel": {
+            "nofollow": true
+          }
+        },
+        "id": "14"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "15"
+      },
+      "content": []
+    },
+    {
+      "type": "ACTION_BUTTON",
+      "attrs": {
+        "type": "ACTION",
+        "containerData": {
+          "alignment": "LEFT",
+          "width": {
+            "size": "ORIGINAL"
+          },
+          "textWrap": true
+        },
+        "styles": {
+          "border": {
+            "width": 0,
+            "radius": 15
+          },
+          "colors": {
+            "text": "#FEFDFD",
+            "border": "#0261FF",
+            "background": "#81B0FF"
+          }
+        },
+        "text": "Action Button",
+        "id": "16"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "17"
+      },
+      "content": []
+    },
+    {
+      "type": "DIVIDER",
+      "attrs": {
+        "lineStyle": "DOUBLE",
+        "width": "MEDIUM",
+        "alignment": "CENTER",
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "size": "CONTENT"
+          },
+          "textWrap": false
+        },
+        "id": "18"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "19"
+      },
+      "content": []
+    },
+    {
+      "type": "CODE_BLOCK",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "id": "20"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "songs = pd.read_csv(SONGS_FILE)",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "21"
+      },
+      "content": []
+    },
+    {
+      "type": "GIF",
+      "attrs": {
+        "height": 281,
+        "width": 500,
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "size": "SMALL"
+          },
+          "textWrap": true
+        },
+        "original": {
+          "gif": "https://media1.giphy.com/media/Cn44PUsTVimwBAtIRx/giphy.gif?cid=558f2fbejldbq3cgzrasbh2j4z47w8nn51qcbjzc6dg7g7af&rid=giphy.gif",
+          "mp4": "https://media1.giphy.com/media/Cn44PUsTVimwBAtIRx/giphy.mp4?cid=558f2fbejldbq3cgzrasbh2j4z47w8nn51qcbjzc6dg7g7af&rid=giphy.mp4",
+          "still": "https://media1.giphy.com/media/Cn44PUsTVimwBAtIRx/giphy_s.gif?cid=558f2fbejldbq3cgzrasbh2j4z47w8nn51qcbjzc6dg7g7af&rid=giphy_s.gif"
+        },
+        "downsized": {
+          "gif": "https://media1.giphy.com/media/Cn44PUsTVimwBAtIRx/giphy-downsized.gif?cid=558f2fbejldbq3cgzrasbh2j4z47w8nn51qcbjzc6dg7g7af&rid=giphy-downsized.gif",
+          "mp4": "https://media1.giphy.com/media/Cn44PUsTVimwBAtIRx/giphy-downsized-small.mp4?cid=558f2fbejldbq3cgzrasbh2j4z47w8nn51qcbjzc6dg7g7af&rid=giphy-downsized-small.mp4",
+          "still": "https://media1.giphy.com/media/Cn44PUsTVimwBAtIRx/giphy-downsized_s.gif?cid=558f2fbejldbq3cgzrasbh2j4z47w8nn51qcbjzc6dg7g7af&rid=giphy-downsized_s.gif"
+        },
+        "id": "22"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "23"
+      },
+      "content": []
+    },
+    {
+      "type": "MAP",
+      "attrs": {
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "custom": "286"
+          },
+          "height": {
+            "custom": "271"
+          },
+          "textWrap": true
+        },
+        "mapSettings": {
+          "mapType": "ROADMAP",
+          "address": "Wix HQ, Nemal Tel Aviv Street, Tel Aviv-Yafo, Israel",
+          "draggable": true,
+          "marker": true,
+          "streetViewControl": false,
+          "zoomControl": false,
+          "lat": 32.097235,
+          "lng": 34.77427,
+          "locationName": "Wix HQ, Nemal Tel Aviv Street, Tel Aviv-Yafo, Israel",
+          "initialZoom": 18
+        },
+        "id": "24"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "25"
+      },
+      "content": []
+    },
+    {
+      "type": "FILE",
+      "attrs": {
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "size": "CONTENT"
+          },
+          "textWrap": true
+        },
+        "src": {
+          "url": "https://www.w3.org/wai/er/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "private": false
+        },
+        "name": "document.pdf",
+        "type": "pdf",
+        "size": 150000,
+        "pdfSettings": {
+          "viewMode": "FULL",
+          "disableDownload": false,
+          "disablePrint": false
+        },
+        "id": "26"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "27"
+      },
+      "content": []
+    },
+    {
+      "type": "APP_EMBED",
+      "attrs": {
+        "type": "PRODUCT",
+        "itemId": "265beaf5-3008-c5c2-fa5e-1447e0bebf71",
+        "name": "flowers",
+        "imageSrc": "https://static.wixstatic.com/media/11062b_3a93dbce5ab64e7c90d9b2a83a598893~mv2.jpg/v1/fit/w_6720,h_4480,q_90/file.jpg",
+        "url": "https://www.wix.app/stores/54e7b326-49ec-434f-a7cc-c2ad1eaec049/catalog/265beaf5-3008-c5c2-fa5e-1447e0bebf71?d=https://sapirs0.wixsite.com/mysite/product-page/flowers",
+        "image": {
+          "src": {
+            "url": "https://static.wixstatic.com/media/11062b_3a93dbce5ab64e7c90d9b2a83a598893~mv2.jpg/v1/fit/w_6720,h_4480,q_90/file.jpg"
+          }
+        },
+        "id": "28"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "29"
+      },
+      "content": []
+    },
+    {
+      "type": "APP_EMBED",
+      "attrs": {
+        "type": "EVENT",
+        "itemId": "65129504-3bfc-44c8-90cc-f9eedfea9321",
+        "name": "2-week course of intensive physical research, with a sense of plenty of time for process and discovery. Rooted in Ohad N",
+        "imageSrc": "https://static.wixstatic.com/media/2571849c6b0749a4bbd008a06fd65762.jpg",
+        "url": "https://www.wix.app/events/54e7b326-49ec-434f-a7cc-c2ad1eaec049/65129504-3bfc-44c8-90cc-f9eedfea9321/details?d=https://sapirs0.wixsite.com/mysite/event-details/2-week-course-of-intensive-physical-research-with-a-sense-of-plenty-of-time-for-process-and-discovery-rooted-in-ohad-n",
+        "image": {
+          "src": {
+            "url": "https://static.wixstatic.com/media/2571849c6b0749a4bbd008a06fd65762.jpg"
+          }
+        },
+        "eventData": {
+          "scheduling": "13 de octubre de 2020 19:00–27 de octubre de 2020 23:00 ",
+          "location": " Suzanna Baby Shop"
+        },
+        "id": "30"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "31"
+      },
+      "content": []
+    },
+    {
+      "type": "APP_EMBED",
+      "attrs": {
+        "type": "BOOKING",
+        "itemId": "03ef6546-985d-4739-951e-ca897375b967",
+        "name": "CUPCAKE MASTER",
+        "imageSrc": "https://static.wixstatic.com/media/78ccafc88f7fce3e55bd7a33f166704b.jpg",
+        "url": "https://www.wix.app/bookings/54e7b326-49ec-434f-a7cc-c2ad1eaec049/service/03ef6546-985d-4739-951e-ca897375b967/details?d=https://sapirs0.wixsite.com/mysite/bookings-checkout/cupcake-master",
+        "image": {
+          "src": {
+            "url": "https://static.wixstatic.com/media/78ccafc88f7fce3e55bd7a33f166704b.jpg"
+          }
+        },
+        "bookingData": {
+          "durations": "90"
+        },
+        "id": "32"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "33"
+      },
+      "content": []
+    },
+    {
+      "type": "LINK_PREVIEW",
+      "attrs": {
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "size": "CONTENT"
+          },
+          "textWrap": true
+        },
+        "link": {
+          "target": "BLANK",
+          "url": "www.wix.com"
+        },
+        "title": "A mock title",
+        "thumbnailUrl": "https://image.insider.com/5de5784979d757159d0b6838?width=1100&format=jpeg&auto=webp",
+        "description": "A mock description",
+        "id": "34"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "35"
+      },
+      "content": []
+    },
+    {
+      "type": "POLL",
+      "attrs": {
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "size": "CONTENT"
+          },
+          "textWrap": true
+        },
+        "poll": {
+          "options": [
+            {
+              "id": "067ed3b5-f19d-4886-8f23-acd84a586522",
+              "title": "Cafe Nordoy",
+              "image": {
+                "src": {
+                  "url": "https://static.wixstatic.com/media/3efa7e_f12aec64c02f464c9d3f0f6d62ec7384~mv2.png"
+                }
+              }
+            },
+            {
+              "id": "ee32a57f-bf6c-425a-a20c-e678bcf4a73b",
+              "title": "קפה רוטשילד 65",
+              "image": {
+                "src": {
+                  "url": "https://static.wixstatic.com/media/3efa7e_c6ebbeecf9b4494f91244656beee6e78~mv2.jpg"
+                }
+              }
+            },
+            {
+              "id": "41679bf9-89ba-41f2-81d3-832d567531da",
+              "title": "האחים",
+              "image": {
+                "src": {
+                  "url": "https://static.wixstatic.com/media/3efa7e_26d7f9c215944dbcb783c6b16f536c33~mv2.jpg"
+                }
+              }
+            },
+            {
+              "id": "378c6042-55cc-4e4a-9f0c-77824bee4964",
+              "title": "הוטל מונטיפיורי",
+              "image": {
+                "src": {
+                  "url": "https://static.wixstatic.com/media/3efa7e_d9b16be508ce41aa8e635d0e9e97b923~mv2.jpeg"
+                }
+              }
+            }
+          ],
+          "id": "f3fa62b4-6d75-4016-a895-acb793ca6f5c",
+          "title": "Where do you want to have breakfast tomorrow to use the monthly budget?",
+          "creatorId": "3efa7e86-fc25-4ef1-a002-19769b84202f",
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/436483e6ed9e41fe91b9f286d2ea4efb.jpg"
+            }
+          },
+          "settings": {
+            "permissions": {
+              "view": "VOTERS",
+              "vote": "SITE_MEMBERS",
+              "allowMultipleVotes": true
+            },
+            "showVoters": true,
+            "showVotesCount": true
+          }
+        },
+        "layout": {
+          "poll": {
+            "type": "GRID",
+            "direction": "LTR",
+            "enableImage": false
+          },
+          "options": {
+            "enableImage": true
+          }
+        },
+        "design": {
+          "poll": {
+            "background": {
+              "type": "IMAGE",
+              "image": {
+                "src": {
+                  "url": "https://static.wixstatic.com/media/2dfdd3_b120b7d9cffd4645bb143beadef13c56~mv2.jpg"
+                }
+              }
+            },
+            "borderRadius": 0
+          },
+          "options": {
+            "borderRadius": 0
+          }
+        },
+        "id": "36"
+      }
+    },
+    {
+      "type": "BLOCKQUOTE",
+      "attrs": {
+        "paragraphId": "uqf2o20",
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 1,
+        "id": "37"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Nunc eros ante , porttitor ",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": "sed",
+          "marks": [
+            {
+              "type": "BOLD",
+              "attrs": {
+                "fontWeightValue": 700
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": " tempor nec, sagittis non mi. Nulla non ",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": "vulputate",
+          "marks": [
+            {
+              "type": "UNDERLINE",
+              "attrs": {
+                "underlineData": true
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": " ",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": "magna",
+          "marks": [
+            {
+              "type": "COLOR",
+              "attrs": {
+                "background": "color4"
+              }
+            }
+          ],
+          "attrs": {
+            "id": ""
+          }
+        },
+        {
+          "type": "text",
+          "text": ", semper convallis sapien.",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "ORDERED_LIST",
+      "attrs": {
+        "indentation": 0,
+        "id": "38"
+      },
+      "content": [
+        {
+          "type": "LIST_ITEM",
+          "attrs": {
+            "dir": "ltr",
+            "textStyle": {
+              "textAlignment": "AUTO"
+            },
+            "id": "39"
+          },
+          "content": [
+            {
+              "type": "PARAGRAPH",
+              "attrs": {
+                "textStyle": {
+                  "textAlignment": "AUTO"
+                },
+                "indentation": 0,
+                "id": "40"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "In imperdiet eros elementum nulla fringilla sollicitudin.",
+                  "marks": [],
+                  "attrs": {
+                    "id": ""
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ORDERED_LIST",
+              "attrs": {
+                "indentation": 1,
+                "id": "41"
+              },
+              "content": [
+                {
+                  "type": "LIST_ITEM",
+                  "attrs": {
+                    "dir": "ltr",
+                    "textStyle": {
+                      "textAlignment": "AUTO"
+                    },
+                    "id": "42"
+                  },
+                  "content": [
+                    {
+                      "type": "PARAGRAPH",
+                      "attrs": {
+                        "textStyle": {
+                          "textAlignment": "AUTO"
+                        },
+                        "indentation": 0,
+                        "id": "43"
+                      },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Proin dictum aliquam sapien at pretium.",
+                          "marks": [],
+                          "attrs": {
+                            "id": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ORDERED_LIST",
+                      "attrs": {
+                        "indentation": 2,
+                        "id": "44"
+                      },
+                      "content": [
+                        {
+                          "type": "LIST_ITEM",
+                          "attrs": {
+                            "dir": "ltr",
+                            "textStyle": {
+                              "textAlignment": "AUTO"
+                            },
+                            "id": "45"
+                          },
+                          "content": [
+                            {
+                              "type": "PARAGRAPH",
+                              "attrs": {
+                                "textStyle": {
+                                  "textAlignment": "AUTO"
+                                },
+                                "indentation": 0,
+                                "id": "46"
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "Quisque pulvinar ac erat vitae imperdiet.",
+                                  "marks": [],
+                                  "attrs": {
+                                    "id": ""
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "ORDERED_LIST",
+                              "attrs": {
+                                "indentation": 3,
+                                "id": "47"
+                              },
+                              "content": [
+                                {
+                                  "type": "LIST_ITEM",
+                                  "attrs": {
+                                    "dir": "ltr",
+                                    "textStyle": {
+                                      "textAlignment": "AUTO"
+                                    },
+                                    "id": "48"
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "PARAGRAPH",
+                                      "attrs": {
+                                        "textStyle": {
+                                          "textAlignment": "AUTO"
+                                        },
+                                        "indentation": 0,
+                                        "id": "49"
+                                      },
+                                      "content": [
+                                        {
+                                          "type": "text",
+                                          "text": "Phasellus ultricies urna ut ultrices imperdiet.",
+                                          "marks": [],
+                                          "attrs": {
+                                            "id": ""
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "ORDERED_LIST",
+                                      "attrs": {
+                                        "indentation": 4,
+                                        "id": "50"
+                                      },
+                                      "content": [
+                                        {
+                                          "type": "LIST_ITEM",
+                                          "attrs": {
+                                            "dir": "ltr",
+                                            "textStyle": {
+                                              "textAlignment": "AUTO"
+                                            },
+                                            "id": "51"
+                                          },
+                                          "content": [
+                                            {
+                                              "type": "PARAGRAPH",
+                                              "attrs": {
+                                                "textStyle": {
+                                                  "textAlignment": "AUTO"
+                                                },
+                                                "indentation": 0,
+                                                "id": "52"
+                                              },
+                                              "content": [
+                                                {
+                                                  "type": "text",
+                                                  "text": "Nulla non varius ipsum, sit amet consectetur quam.",
+                                                  "marks": [],
+                                                  "attrs": {
+                                                    "id": ""
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "LIST_ITEM",
+                                          "attrs": {
+                                            "dir": "ltr",
+                                            "textStyle": {
+                                              "textAlignment": "AUTO"
+                                            },
+                                            "id": "53"
+                                          },
+                                          "content": [
+                                            {
+                                              "type": "PARAGRAPH",
+                                              "attrs": {
+                                                "textStyle": {
+                                                  "textAlignment": "AUTO"
+                                                },
+                                                "indentation": 0,
+                                                "id": "54"
+                                              },
+                                              "content": [
+                                                {
+                                                  "type": "text",
+                                                  "text": "Nunc scelerisque fringilla aliquet.",
+                                                  "marks": [],
+                                                  "attrs": {
+                                                    "id": ""
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "LIST_ITEM",
+          "attrs": {
+            "dir": "ltr",
+            "textStyle": {
+              "textAlignment": "AUTO"
+            },
+            "id": "55"
+          },
+          "content": [
+            {
+              "type": "PARAGRAPH",
+              "attrs": {
+                "textStyle": {
+                  "textAlignment": "AUTO"
+                },
+                "indentation": 0,
+                "id": "56"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Praesent purus nibh, sodales",
+                  "marks": [],
+                  "attrs": {
+                    "id": ""
+                  }
+                }
+              ]
+            },
+            {
+              "type": "BULLETED_LIST",
+              "attrs": {
+                "indentation": 1,
+                "id": "57"
+              },
+              "content": [
+                {
+                  "type": "LIST_ITEM",
+                  "attrs": {
+                    "dir": "ltr",
+                    "textStyle": {
+                      "textAlignment": "AUTO"
+                    },
+                    "id": "58"
+                  },
+                  "content": [
+                    {
+                      "type": "PARAGRAPH",
+                      "attrs": {
+                        "textStyle": {
+                          "textAlignment": "AUTO"
+                        },
+                        "indentation": 0,
+                        "id": "59"
+                      },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "non efficitur a",
+                          "marks": [],
+                          "attrs": {
+                            "id": ""
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "LIST_ITEM",
+          "attrs": {
+            "dir": "ltr",
+            "textStyle": {
+              "textAlignment": "AUTO"
+            },
+            "id": "60"
+          },
+          "content": [
+            {
+              "type": "PARAGRAPH",
+              "attrs": {
+                "textStyle": {
+                  "textAlignment": "AUTO"
+                },
+                "indentation": 0,
+                "id": "61"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "consequat ac ante.",
+                  "marks": [],
+                  "attrs": {
+                    "id": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "62"
+      },
+      "content": []
+    },
+    {
+      "type": "BULLETED_LIST",
+      "attrs": {
+        "indentation": 0,
+        "id": "63"
+      },
+      "content": [
+        {
+          "type": "LIST_ITEM",
+          "attrs": {
+            "dir": "ltr",
+            "textStyle": {
+              "textAlignment": "AUTO"
+            },
+            "id": "64"
+          },
+          "content": [
+            {
+              "type": "PARAGRAPH",
+              "attrs": {
+                "textStyle": {
+                  "textAlignment": "AUTO"
+                },
+                "indentation": 0,
+                "id": "65"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Aenean sed posuere odio.",
+                  "marks": [],
+                  "attrs": {
+                    "id": ""
+                  }
+                }
+              ]
+            },
+            {
+              "type": "BULLETED_LIST",
+              "attrs": {
+                "indentation": 1,
+                "id": "66"
+              },
+              "content": [
+                {
+                  "type": "LIST_ITEM",
+                  "attrs": {
+                    "dir": "ltr",
+                    "textStyle": {
+                      "textAlignment": "AUTO"
+                    },
+                    "id": "67"
+                  },
+                  "content": [
+                    {
+                      "type": "PARAGRAPH",
+                      "attrs": {
+                        "textStyle": {
+                          "textAlignment": "AUTO"
+                        },
+                        "indentation": 0,
+                        "id": "68"
+                      },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Pellentesque imperdiet maximus turpis nec faucibus.",
+                          "marks": [],
+                          "attrs": {
+                            "id": ""
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BULLETED_LIST",
+                      "attrs": {
+                        "indentation": 2,
+                        "id": "69"
+                      },
+                      "content": [
+                        {
+                          "type": "LIST_ITEM",
+                          "attrs": {
+                            "dir": "ltr",
+                            "textStyle": {
+                              "textAlignment": "AUTO"
+                            },
+                            "id": "70"
+                          },
+                          "content": [
+                            {
+                              "type": "PARAGRAPH",
+                              "attrs": {
+                                "textStyle": {
+                                  "textAlignment": "AUTO"
+                                },
+                                "indentation": 0,
+                                "id": "71"
+                              },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "Nulla at tempus lectus,",
+                                  "marks": [],
+                                  "attrs": {
+                                    "id": ""
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BULLETED_LIST",
+                              "attrs": {
+                                "indentation": 3,
+                                "id": "72"
+                              },
+                              "content": [
+                                {
+                                  "type": "LIST_ITEM",
+                                  "attrs": {
+                                    "dir": "ltr",
+                                    "textStyle": {
+                                      "textAlignment": "AUTO"
+                                    },
+                                    "id": "73"
+                                  },
+                                  "content": [
+                                    {
+                                      "type": "PARAGRAPH",
+                                      "attrs": {
+                                        "textStyle": {
+                                          "textAlignment": "AUTO"
+                                        },
+                                        "indentation": 0,
+                                        "id": "74"
+                                      },
+                                      "content": [
+                                        {
+                                          "type": "text",
+                                          "text": "non tempor tortor.",
+                                          "marks": [],
+                                          "attrs": {
+                                            "id": ""
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BULLETED_LIST",
+                                      "attrs": {
+                                        "indentation": 4,
+                                        "id": "75"
+                                      },
+                                      "content": [
+                                        {
+                                          "type": "LIST_ITEM",
+                                          "attrs": {
+                                            "dir": "ltr",
+                                            "textStyle": {
+                                              "textAlignment": "AUTO"
+                                            },
+                                            "id": "76"
+                                          },
+                                          "content": [
+                                            {
+                                              "type": "PARAGRAPH",
+                                              "attrs": {
+                                                "textStyle": {
+                                                  "textAlignment": "AUTO"
+                                                },
+                                                "indentation": 0,
+                                                "id": "77"
+                                              },
+                                              "content": [
+                                                {
+                                                  "type": "text",
+                                                  "text": "Vivamus mauris",
+                                                  "marks": [],
+                                                  "attrs": {
+                                                    "id": ""
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "LIST_ITEM",
+                                          "attrs": {
+                                            "dir": "ltr",
+                                            "textStyle": {
+                                              "textAlignment": "AUTO"
+                                            },
+                                            "id": "78"
+                                          },
+                                          "content": [
+                                            {
+                                              "type": "PARAGRAPH",
+                                              "attrs": {
+                                                "textStyle": {
+                                                  "textAlignment": "AUTO"
+                                                },
+                                                "indentation": 0,
+                                                "id": "79"
+                                              },
+                                              "content": [
+                                                {
+                                                  "type": "text",
+                                                  "text": "diam",
+                                                  "marks": [],
+                                                  "attrs": {
+                                                    "id": ""
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "LIST_ITEM",
+          "attrs": {
+            "dir": "rtl",
+            "textStyle": {
+              "textAlignment": "RIGHT"
+            },
+            "id": "80"
+          },
+          "content": [
+            {
+              "type": "PARAGRAPH",
+              "attrs": {
+                "textStyle": {
+                  "textAlignment": "RIGHT"
+                },
+                "indentation": 0,
+                "dir": "rtl",
+                "id": "81"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Auctor in sollicitudin eget, suscipit sed nulla.",
+                  "marks": [],
+                  "attrs": {
+                    "id": ""
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "LIST_ITEM",
+          "attrs": {
+            "dir": "ltr",
+            "textStyle": {
+              "textAlignment": "AUTO"
+            },
+            "id": "82"
+          },
+          "content": [
+            {
+              "type": "PARAGRAPH",
+              "attrs": {
+                "textStyle": {
+                  "textAlignment": "AUTO"
+                },
+                "indentation": 0,
+                "id": "83"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Aenean sapien lectus, interdum ultrices enim a, sodales ultrices mi. Quisque ut mi metus.",
+                  "marks": [],
+                  "attrs": {
+                    "id": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "84"
+      },
+      "content": []
+    },
+    {
+      "type": "HEADING",
+      "attrs": {
+        "level": 3,
+        "textStyle": {
+          "textAlignment": "JUSTIFY"
+        },
+        "indentation": 0,
+        "style": {
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        "id": "85"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Donec sit amet sapien quis velit ultrices sollicitudin id facilisis ligula.",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "JUSTIFY"
+        },
+        "indentation": 0,
+        "style": {
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        "id": "86"
+      },
+      "content": []
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "JUSTIFY",
+          "lineHeight": "2.5"
+        },
+        "indentation": 2,
+        "style": {
+          "paddingTop": "0px",
+          "paddingBottom": "0px"
+        },
+        "id": "87"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac 👨‍👩‍👦‍👦 habitasse platea dictumst. In hac habitasse platea dictumst. Cras porta dolor lorem, ac luctus justo pretium quis. Vestibulum et lacinia tortor, in viverra ipsum.",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 1,
+        "id": "88"
+      },
+      "content": []
+    },
+    {
+      "type": "IMAGE",
+      "attrs": {
+        "containerData": {
+          "alignment": "RIGHT",
+          "width": {
+            "custom": "300"
+          },
+          "spoiler": {
+            "enabled": true
+          },
+          "textWrap": true
+        },
+        "image": {
+          "src": {
+            "id": "8bb438_35ed730d87524b1a88179adc18ed9cd4.jpg"
+          },
+          "width": 1920,
+          "height": 1280
+        },
+        "disableExpand": false,
+        "disableDownload": false,
+        "id": "89"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "90"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם סולגק.",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "91"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "בראיט ולחת צורק מונחף, בגורמי מגמש.\n",
+          "marks": [],
+          "attrs": {
+            "id": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "92"
+      },
+      "content": []
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "93"
+      },
+      "content": []
+    },
+    {
+      "type": "COLLAPSIBLE_LIST",
+      "attrs": {
+        "initialExpandedItems": "FIRST",
+        "direction": "LTR",
+        "containerData": {
+          "alignment": "CENTER",
+          "textWrap": true
+        },
+        "expandOnlyOne": false,
+        "id": "94"
+      },
+      "content": [
+        {
+          "type": "COLLAPSIBLE_ITEM",
+          "attrs": {
+            "id": "95"
+          },
+          "content": [
+            {
+              "type": "COLLAPSIBLE_ITEM_TITLE",
+              "attrs": {
+                "id": "96"
+              },
+              "content": [
+                {
+                  "type": "PARAGRAPH",
+                  "attrs": {
+                    "textStyle": {
+                      "textAlignment": "AUTO"
+                    },
+                    "indentation": 0,
+                    "id": "97"
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Collapsible List",
+                      "marks": [
+                        {
+                          "type": "COLOR",
+                          "attrs": {
+                            "foreground": "color4"
+                          }
+                        }
+                      ],
+                      "attrs": {
+                        "id": ""
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "COLLAPSIBLE_ITEM_BODY",
+              "attrs": {
+                "id": "98"
+              },
+              "content": [
+                {
+                  "type": "PARAGRAPH",
+                  "attrs": {
+                    "textStyle": {
+                      "textAlignment": "AUTO"
+                    },
+                    "indentation": 0,
+                    "id": "99"
+                  },
+                  "content": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "COLLAPSIBLE_ITEM",
+          "attrs": {
+            "id": "100"
+          },
+          "content": [
+            {
+              "type": "COLLAPSIBLE_ITEM_TITLE",
+              "attrs": {
+                "id": "101"
+              },
+              "content": [
+                {
+                  "type": "BLOCKQUOTE",
+                  "attrs": {
+                    "paragraphId": "kh80k63",
+                    "textStyle": {
+                      "textAlignment": "AUTO"
+                    },
+                    "indentation": 0,
+                    "id": "102"
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "#LivingTheDream",
+                      "marks": [],
+                      "attrs": {
+                        "id": ""
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "COLLAPSIBLE_ITEM_BODY",
+              "attrs": {
+                "id": "103"
+              },
+              "content": [
+                {
+                  "type": "PARAGRAPH",
+                  "attrs": {
+                    "textStyle": {
+                      "textAlignment": "AUTO"
+                    },
+                    "indentation": 0,
+                    "id": "104"
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Yo yo yo!",
+                      "marks": [
+                        {
+                          "type": "BOLD",
+                          "attrs": {
+                            "fontWeightValue": 700
+                          }
+                        }
+                      ],
+                      "attrs": {
+                        "id": ""
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "105"
+      },
+      "content": []
+    },
+    {
+      "type": "TABLE",
+      "attrs": {
+        "containerData": {
+          "alignment": "CENTER",
+          "textWrap": true
+        },
+        "dimensions": {
+          "colsWidthRatio": [
+            10,
+            10
+          ],
+          "rowsHeight": [
+            47,
+            47
+          ],
+          "colsMinWidth": [
+            120,
+            120
+          ]
+        },
+        "rowHeader": true,
+        "columnHeader": true,
+        "id": "106"
+      },
+      "content": [
+        {
+          "type": "TABLE_ROW",
+          "attrs": {
+            "id": "107"
+          },
+          "content": [
+            {
+              "type": "TABLE_CELL",
+              "attrs": {
+                "cellStyle": {
+                  "verticalAlignment": "TOP",
+                  "backgroundColor": "#FF0000"
+                },
+                "borderColors": {},
+                "id": "108"
+              },
+              "content": [
+                {
+                  "type": "PARAGRAPH",
+                  "attrs": {
+                    "textStyle": {
+                      "textAlignment": "AUTO"
+                    },
+                    "indentation": 0,
+                    "id": "109"
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "​",
+                      "marks": [],
+                      "attrs": {
+                        "id": ""
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "TABLE_CELL",
+              "attrs": {
+                "cellStyle": {
+                  "verticalAlignment": "TOP"
+                },
+                "borderColors": {
+                  "left": "#3A54B4",
+                  "right": "#3A54B4",
+                  "top": "#3A54B4",
+                  "bottom": "#3A54B4"
+                },
+                "id": "110"
+              },
+              "content": [
+                {
+                  "type": "PARAGRAPH",
+                  "attrs": {
+                    "textStyle": {
+                      "textAlignment": "AUTO"
+                    },
+                    "indentation": 0,
+                    "id": "111"
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Yo yo yo!",
+                      "marks": [
+                        {
+                          "type": "BOLD",
+                          "attrs": {
+                            "fontWeightValue": 700
+                          }
+                        }
+                      ],
+                      "attrs": {
+                        "id": ""
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TABLE_ROW",
+          "attrs": {
+            "id": "112"
+          },
+          "content": [
+            {
+              "type": "TABLE_CELL",
+              "attrs": {
+                "cellStyle": {
+                  "verticalAlignment": "TOP"
+                },
+                "borderColors": {},
+                "id": "113"
+              },
+              "content": [
+                {
+                  "type": "PARAGRAPH",
+                  "attrs": {
+                    "textStyle": {
+                      "textAlignment": "AUTO"
+                    },
+                    "indentation": 1,
+                    "id": "114"
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "​SPOILER ALERT!",
+                      "marks": [
+                        {
+                          "type": "SPOILER"
+                        },
+                        {
+                          "type": "COLOR",
+                          "attrs": {
+                            "foreground": "color3"
+                          }
+                        }
+                      ],
+                      "attrs": {
+                        "id": ""
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "TABLE_CELL",
+              "attrs": {
+                "cellStyle": {
+                  "verticalAlignment": "TOP"
+                },
+                "borderColors": {},
+                "id": "115"
+              },
+              "content": [
+                {
+                  "type": "PARAGRAPH",
+                  "attrs": {
+                    "textStyle": {
+                      "textAlignment": "AUTO"
+                    },
+                    "indentation": 0,
+                    "id": "116"
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "​",
+                      "marks": [],
+                      "attrs": {
+                        "id": ""
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "117"
+      },
+      "content": []
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "118"
+      },
+      "content": []
+    },
+    {
+      "type": "POLL",
+      "attrs": {
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "size": "CONTENT"
+          },
+          "textWrap": true
+        },
+        "poll": {
+          "options": [
+            {
+              "id": "067ed3b5-f19d-4886-8f23-acd84a586522",
+              "title": "Cafe Nordoy",
+              "image": {
+                "src": {
+                  "url": "https://static.wixstatic.com/media/3efa7e_f12aec64c02f464c9d3f0f6d62ec7384~mv2.png"
+                }
+              }
+            },
+            {
+              "id": "ee32a57f-bf6c-425a-a20c-e678bcf4a73b",
+              "title": "קפה רוטשילד 65",
+              "image": {
+                "src": {
+                  "url": "https://static.wixstatic.com/media/3efa7e_c6ebbeecf9b4494f91244656beee6e78~mv2.jpg"
+                }
+              }
+            },
+            {
+              "id": "41679bf9-89ba-41f2-81d3-832d567531da",
+              "title": "האחים",
+              "image": {
+                "src": {
+                  "url": "https://static.wixstatic.com/media/3efa7e_26d7f9c215944dbcb783c6b16f536c33~mv2.jpg"
+                }
+              }
+            },
+            {
+              "id": "378c6042-55cc-4e4a-9f0c-77824bee4964",
+              "title": "הוטל מונטיפיורי",
+              "image": {
+                "src": {
+                  "url": "https://static.wixstatic.com/media/3efa7e_d9b16be508ce41aa8e635d0e9e97b923~mv2.jpeg"
+                }
+              }
+            }
+          ],
+          "id": "f3fa62b4-6d75-4016-a895-acb793ca6f5c",
+          "title": "Where do you want to have breakfast tomorrow to use the monthly budget?",
+          "creatorId": "3efa7e86-fc25-4ef1-a002-19769b84202f",
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/436483e6ed9e41fe91b9f286d2ea4efb.jpg"
+            }
+          },
+          "settings": {
+            "permissions": {
+              "view": "EVERYONE",
+              "vote": "SITE_MEMBERS",
+              "allowMultipleVotes": true
+            },
+            "showVoters": false,
+            "showVotesCount": false
+          }
+        },
+        "layout": {
+          "poll": {
+            "type": "GRID",
+            "direction": "LTR",
+            "enableImage": false
+          },
+          "options": {
+            "enableImage": true
+          }
+        },
+        "design": {
+          "poll": {
+            "background": {
+              "type": "GRADIENT",
+              "gradient": {
+                "angle": 45,
+                "startColor": "#EF4538",
+                "lastColor": "#488FFE"
+              }
+            },
+            "borderRadius": 5
+          },
+          "options": {
+            "borderRadius": 5
+          }
+        },
+        "id": "119"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "120"
+      },
+      "content": []
+    },
+    {
+      "type": "POLL",
+      "attrs": {
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "size": "CONTENT"
+          },
+          "textWrap": true
+        },
+        "poll": {
+          "options": [
+            {
+              "id": "067ed3b5-f19d-4886-8f23-acd84a586522",
+              "title": "Cafe Nordoy",
+              "image": {
+                "src": {
+                  "url": "https://static.wixstatic.com/media/3efa7e_f12aec64c02f464c9d3f0f6d62ec7384~mv2.png"
+                }
+              }
+            },
+            {
+              "id": "ee32a57f-bf6c-425a-a20c-e678bcf4a73b",
+              "title": "קפה רוטשילד 65",
+              "image": {
+                "src": {
+                  "url": "https://static.wixstatic.com/media/3efa7e_c6ebbeecf9b4494f91244656beee6e78~mv2.jpg"
+                }
+              }
+            },
+            {
+              "id": "41679bf9-89ba-41f2-81d3-832d567531da",
+              "title": "האחים",
+              "image": {
+                "src": {
+                  "url": "https://static.wixstatic.com/media/3efa7e_26d7f9c215944dbcb783c6b16f536c33~mv2.jpg"
+                }
+              }
+            },
+            {
+              "id": "378c6042-55cc-4e4a-9f0c-77824bee4964",
+              "title": "הוטל מונטיפיורי",
+              "image": {
+                "src": {
+                  "url": "https://static.wixstatic.com/media/3efa7e_d9b16be508ce41aa8e635d0e9e97b923~mv2.jpeg"
+                }
+              }
+            }
+          ],
+          "id": "f3fa62b4-6d75-4016-a895-acb793ca6f5c",
+          "title": "Where do you want to have breakfast tomorrow to use the monthly budget?",
+          "creatorId": "3efa7e86-fc25-4ef1-a002-19769b84202f",
+          "image": {
+            "src": {
+              "url": "https://static.wixstatic.com/media/436483e6ed9e41fe91b9f286d2ea4efb.jpg"
+            }
+          },
+          "settings": {
+            "permissions": {
+              "view": "CREATOR",
+              "vote": "SITE_MEMBERS",
+              "allowMultipleVotes": false
+            },
+            "showVoters": true,
+            "showVotesCount": true
+          }
+        },
+        "layout": {
+          "poll": {
+            "type": "GRID",
+            "direction": "RTL",
+            "enableImage": true
+          },
+          "options": {
+            "enableImage": true
+          }
+        },
+        "design": {
+          "poll": {
+            "background": {
+              "type": "COLOR",
+              "color": "#EF4538"
+            },
+            "borderRadius": 8
+          },
+          "options": {
+            "borderRadius": 2
+          }
+        },
+        "id": "121"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "122"
+      },
+      "content": []
+    },
+    {
+      "type": "AUDIO",
+      "attrs": {
+        "containerData": {
+          "alignment": "CENTER",
+          "width": {
+            "size": "CONTENT"
+          },
+          "textWrap": true
+        },
+        "audio": {
+          "src": {
+            "id": "mp3/f0f74f_35a1cdce4973490eac49e74c3244364d.mp3"
+          },
+          "duration": 300
+        },
+        "disableDownload": true,
+        "coverImage": {
+          "src": {
+            "id": "8bb438_aab736569612405a8381d4965c769f51.jpg"
+          },
+          "width": 5472,
+          "height": 3648
+        },
+        "name": "Dear Fear",
+        "authorName": "Kota",
+        "id": "123"
+      }
+    },
+    {
+      "type": "PARAGRAPH",
+      "attrs": {
+        "textStyle": {
+          "textAlignment": "AUTO"
+        },
+        "indentation": 0,
+        "id": "124"
+      },
+      "content": []
+    }
+  ],
+  "attrs": {
+    "metadata": {
+      "version": 1,
+      "createdTimestamp": "2021-07-15T07:42:30.023Z",
+      "updatedTimestamp": "2021-07-15T07:42:30.023Z",
+      "id": "c444e53d-12e2-4460-9d79-76f6ab639a16"
+    },
+    "documentStyle": {
+      "headerOne": {
+        "decorations": [
+          {
+            "type": "COLOR",
+            "colorData": {
+              "foreground": "red"
+            }
+          },
+          {
+            "type": "BOLD",
+            "fontWeightValue": 700
+          }
+        ]
+      },
+      "headerThree": {
+        "decorations": [
+          {
+            "type": "FONT_SIZE",
+            "fontSizeData": {
+              "unit": "PX",
+              "value": 24
+            }
+          },
+          {
+            "type": "COLOR",
+            "colorData": {
+              "foreground": "#bfad80"
+            }
+          }
+        ]
+      },
+      "headerSix": {
+        "decorations": [
+          {
+            "type": "ITALIC",
+            "italicData": true
+          },
+          {
+            "type": "BOLD",
+            "fontWeightValue": 700
+          },
+          {
+            "type": "COLOR",
+            "colorData": {
+              "background": "#bf695c"
+            }
+          }
+        ],
+        "nodeStyle": {
+          "paddingTop": "2px",
+          "paddingBottom": "3px"
+        },
+        "lineHeight": "3"
+      },
+      "paragraph": {
+        "decorations": [],
+        "nodeStyle": {
+          "paddingTop": "2px",
+          "paddingBottom": "3px"
+        },
+        "lineHeight": "2"
+      }
+    }
+  }
+}

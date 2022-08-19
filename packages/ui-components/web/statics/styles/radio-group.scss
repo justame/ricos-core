@@ -1,0 +1,45 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.radioGroup {
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.5;
+
+  &:hover .radioGroup_button {
+    border-color: var(--ricos-settings-action-color, #000000);
+  }
+}
+
+.radioGroup_button {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid var(--ricos-settings-action-color, #00000099);
+  background: #fff;
+  margin-right: 12px;
+  display: inline-block;
+
+  &::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    display: block;
+  }
+}
+
+.radioGroup_input {
+  display: none;
+}
+
+.radioGroup_input:checked + .radioGroup_button {
+  border-color: var(--ricos-settings-action-color, #00000099);
+
+  &::after {
+    background-color: $settings-action-color-fallback;
+  }
+}

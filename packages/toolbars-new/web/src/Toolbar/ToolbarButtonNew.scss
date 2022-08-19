@@ -1,0 +1,141 @@
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/consts';
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+
+.toolbarButton_wrapper {
+  display: flex;
+  &.renderAsGroupButton {
+    height: 34px;
+  }
+
+  &.toolbarButton_wrapper_mobile:not(.toolbarButton_active) {
+    &:hover {
+      button {
+        background-color: unset;
+      }
+    }
+  }
+
+  &.toolbarButton_wrapper_mobile {
+    &.toolbarButton_wrapper_asLink {
+      button {
+        min-width: calc(100vw - 109px);
+      }
+    }
+  }
+
+  &.toolbarButton_wrapper_asLink {
+    button {
+      display: inline-block;
+      color: $settings-action-color-fallback;
+      max-width: 270px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-decoration: none;
+    }
+
+    &:hover {
+      button {
+        background-color: unset;
+        text-decoration: underline;
+      }
+    }
+  }
+  &:hover {
+    button {
+      background-color: rgba(var(--ricos-settings-action-color-tuple, $fallbackColorTuple), 0.06);
+    }
+    // .inlineToolbarButton_icon,
+    // .inlineToolbarButton_icon svg,
+    // .inlineToolbarDropdownButton_icon svg {
+    //   @include fillWithActionColor();
+    // }
+  }
+  &.toolbarButton_active button {
+    background-color: rgba($settings-action-color-fallback-tuple, 0.1);
+  }
+}
+
+.toolbarButton {
+  border-radius: var(--ricos-settings-small-buttons-border-radius, unset);
+  display: flex;
+  background: transparent;
+  color: var(--ricos-settings-text-color, #000000);
+  padding: 4px;
+  border: 0 none;
+  line-height: normal;
+  width: 100%;
+  text-align: left;
+  line-height: 1.5;
+  cursor: pointer;
+  &.toolbarButton_mobile {
+    height: 40px;
+    min-width: 40px;
+  }
+  // &:hover,
+  &:focus {
+    outline: 5px auto Highlight !important;
+    outline: 5px auto -webkit-focus-ring-color !important;
+  }
+  &:disabled,
+  &.disabled {
+    cursor: default;
+    opacity: 0.4;
+  }
+  &.renderAsContextButton {
+    padding: 4px 20px;
+  }
+}
+
+.toolbarButton_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: $icon-width;
+  height: $icon-width;
+  vertical-align: middle;
+  margin: auto;
+
+  svg {
+    width: unset;
+    height: unset;
+  }
+
+  // @include svg-fill;
+}
+
+.toolbarButton_active {
+  color: $settings-action-color;
+  svg {
+    @include fillWithSettingsActionColor;
+  }
+}
+
+.toolbarButton_menuButton {
+  width: max-content !important;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: $ricos-settings-font-family;
+  // margin: 0 0 0 5px !important;
+}
+
+.toolbarDropdownButton_arrowIcon {
+  width: 12px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+  svg {
+    width: unset;
+    height: unset;
+  }
+}
+
+.toolbarLabelUpdate {
+  position: absolute;
+  right: 15px;
+}

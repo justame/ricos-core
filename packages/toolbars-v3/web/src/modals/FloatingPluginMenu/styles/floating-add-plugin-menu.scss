@@ -1,0 +1,32 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.floatingAddPluginMenu_wrapper {
+  position: relative;
+  width: 100%;
+}
+.addPluginMenu_horizontal_wrapper {
+  padding: 4px;
+}
+
+.floatingAddPluginMenu_plus_button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  padding: 0;
+  left: -40px;
+  z-index: 3;
+  height: 25px;
+  &.floatingAddPluginMenu_plus_button_rotate {
+    transform: rotate(45deg);
+  }
+  svg {
+    color: $settings-action-color;
+    fill: $settings-action-color;
+  }
+}
+
+.floating_add_plugin_menu_hor {
+  width: 100%;
+  min-width: 500px;
+}

@@ -1,0 +1,339 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/consts';
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+@import '~wix-rich-content-common/dist/statics/styles/no-outline';
+
+.pluginContainerMobile {
+  max-width: 100%;
+}
+
+.wrapper {
+  @media print {
+    background-color: white;
+    li,
+    img,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    blockquote {
+      break-inside: avoid;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      color: black !important;
+
+      * {
+        color: black !important;
+      }
+    }
+    p,
+    ol li {
+      font-size: 11pt !important;
+      * {
+        font-size: 11pt !important;
+      }
+    }
+
+    h1 {
+      font-size: 24pt !important;
+      * {
+        font-size: 24pt !important;
+      }
+    }
+    h2 {
+      font-size: 20pt !important;
+      * {
+        font-size: 20pt !important;
+      }
+    }
+    h3 {
+      font-size: 16pt !important;
+      * {
+        font-size: 16pt !important;
+      }
+    }
+    h4 {
+      font-size: 14pt !important;
+      * {
+        font-size: 14pt !important;
+      }
+    }
+    h5 {
+      font-size: 12pt !important;
+      * {
+        font-size: 12pt !important;
+      }
+    }
+    h6 {
+      font-size: 11pt !important;
+      * {
+        font-size: 11pt !important;
+      }
+    }
+    blockquote {
+      font-size: 16pt !important;
+      * {
+        font-size: 16pt !important;
+      }
+    }
+  }
+
+  box-sizing: border-box;
+
+  @extend .fontElementMap;
+  position: relative;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  * {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  &.desktop {
+    .editor {
+      :global(.DraftEditor-root) {
+        &::after {
+          content: '';
+          display: table;
+          clear: both;
+          line-height: 0;
+        }
+      }
+
+      :global(.public-DraftEditorPlaceholder-root) {
+        margin: 0;
+      }
+    }
+  }
+
+  .editor {
+    box-sizing: border-box;
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+    input {
+      box-sizing: border-box;
+    }
+
+    &.fixedTabSize {
+      tab-size: 40px;
+    }
+  }
+
+  &.android {
+    padding-top: 50px;
+  }
+}
+
+.editor {
+  width: 100%;
+  height: 100%;
+  line-height: 1.5;
+  font-size: $paragraphFontSize;
+  color: $primary-text-color;
+  white-space: pre-wrap !important;
+  overflow-wrap: break-word;
+  background-color: $background-color-container;
+
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+    line-height: 0;
+  }
+
+  @include phone {
+    font-size: $paragraphFontSizeMobile;
+  }
+}
+
+.atomic {
+  margin: 2px 0;
+}
+
+.toolbar {
+  margin-top: 20px;
+}
+
+.underline {
+  text-decoration: underline;
+
+  & * {
+    text-decoration: underline;
+  }
+}
+
+.block {
+  & + & {
+    margin-top: 20px;
+  }
+}
+
+.elementSpacing {
+  margin: 0;
+
+  @include phone {
+    margin: 0;
+    clear: both;
+  }
+}
+
+.blockStyleSpacing {
+  margin: 15px 18px;
+
+  @include phone {
+    margin: 15px calc((18px + (100% - #{$textMobileWidth}) / 2));
+  }
+}
+
+.text {
+  composes: elementSpacing;
+  @include ricosTypography('p', true);
+
+  &:empty {
+    height: 24px;
+  }
+}
+
+.child {
+  display: block;
+}
+
+/*! rtl:ignore */
+.orderedList,
+.unorderedList {
+  /*! rtl:ignore */
+  &::before,
+  &::marker {
+    /*! rtl:ignore */
+    @include ricosTypography('p', true);
+  }
+  &.lineHeightFix::before,
+  &.lineHeightFix::marker {
+    line-height: unset;
+  }
+  > * {
+    /*! rtl:ignore */
+    @include ricosTypography('p', true);
+  }
+}
+
+.unorderedList.center {
+  list-style-position: inside;
+}
+
+.contentCenterAlignment {
+  display: inline;
+}
+
+.justify {
+  white-space: pre-wrap !important;
+  text-align: justify !important;
+}
+
+.quote {
+  composes: blockStyleSpacing;
+  border-inline-start-width: $ricos-quote-border-width;
+  border-inline-start-style: solid;
+  font-size: $quoteFontSize;
+  line-height: $quoteLineHeight;
+  padding-top: $ricos-quote-padding-top;
+  padding-bottom: $ricos-quote-padding-bottom;
+  padding-inline-start: $ricos-quote-padding-inline-start;
+  font-style: normal;
+  border-left-color: $ricos-quote-border-color;
+  border-right-color: $ricos-quote-border-color;
+  color: $ricos-quote-color;
+  @include ricosTypography('quote', false);
+}
+
+.headerOne,
+.headerTwo,
+.headerThree,
+.headerFour,
+.headerFive,
+.headerSix {
+  composes: elementSpacing;
+  font: inherit;
+}
+
+@each $headerName in $headerNames {
+  $i: index($headerNames, $headerName);
+  .header#{$headerName} {
+    @include ricosTypography('h#{$i}', true);
+    color: var(--ricos-custom-h#{$i}-color, $primary-text-color);
+    @at-root #{'& > * > span'} {
+      background-color: var(--ricos-custom-h#{$i}-background-color, unset);
+    }
+  }
+}
+
+.code,
+.codeBlock {
+  composes: blockStyleSpacing;
+  background-color: rgba($fallbackColorTuple, 0.06);
+  font-family: 'Inconsolata', 'Menlo', 'Consolas', monospace;
+  font-size: $ricos-code-block-font-size;
+  line-height: $ricos-code-block-line-height;
+  padding: $ricos-code-block-padding;
+  margin: $ricos-code-block-margin;
+  white-space: pre-wrap;
+
+  .renderedInTable & {
+    margin: 1em 0;
+  }
+}
+
+.normalText {
+  line-height: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  display: contents;
+}
+
+.anchor {
+  text-decoration: none;
+}
+
+.embed {
+  width: max-content;
+  border: none;
+}
+
+.horizontalScrollbar {
+  overflow-x: auto;
+}
+
+.horizontalScrollbar::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.horizontalScrollbar::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.horizontalScrollbar::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.overrideLinkColor > a {
+  color: inherit;
+}

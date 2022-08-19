@@ -1,0 +1,64 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.customSpacingPanel {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0;
+  width: 230px;
+  border-radius: inherit;
+  color: $settings-text-color;
+  > * {
+    margin: 16px 20px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin: 16px 12px 0 12px;
+    }
+  }
+}
+
+.customSpacingPanel_mobile {
+  border-radius: unset;
+  width: unset;
+}
+
+.customSpacingPanel_labeledInput {
+  height: 36px;
+  line-height: 36px;
+  display: flex;
+  justify-content: space-between;
+
+  * {
+    font-size: 14px;
+  }
+
+  input {
+    border-radius: $settings-inputs-border-radius;
+    border: solid 1px var(--ricos-settings-inputs-border-color, #33333333);
+    padding-left: 12px;
+    color: $settings-text-color;
+
+    &::placeholder {
+      color: var(--ricos-settings-inputs-placeholder-color, rgba(0, 0, 0, 0.4));
+    }
+
+    &:focus {
+      border: solid 1px var(--ricos-settings-inputs-border-color, #33333333);
+    }
+
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+}
+
+.separator {
+  height: 1px;
+  background-color: var(--ricos-settings-dividers-color, rgba(51, 51, 51, 0.2));
+  width: calc(100% - 24px);
+  margin: 0 auto;
+}

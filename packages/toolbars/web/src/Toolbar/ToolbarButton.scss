@@ -1,0 +1,93 @@
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/consts';
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+
+.toolbarButton_wrapper {
+  display: flex;
+  &.renderAsGroupButton {
+    height: 34px;
+  }
+
+  &:hover {
+    button {
+      background-color: rgba(var(--ricos-settings-action-color-tuple, $fallbackColorTuple), 0.06);
+    }
+    // .inlineToolbarButton_icon,
+    // .inlineToolbarButton_icon svg,
+    // .inlineToolbarDropdownButton_icon svg {
+    //   @include fillWithSettingsActionColor();
+    // }
+  }
+  &.toolbarButton_active button {
+    background-color: rgba($settings-action-color-fallback-tuple, 0.1);
+  }
+}
+
+.toolbarButton {
+  border-radius: var(--ricos-settings-small-buttons-border-radius, unset);
+  display: flex;
+  background: transparent;
+  color: $settings-icons-color;
+  padding: 4px;
+  border: 0 none;
+  line-height: normal;
+  width: 100%;
+  text-align: left;
+  line-height: 1.5;
+  cursor: pointer;
+  // &:hover,
+  // &:focus {
+  //   outline: 0;
+  // }
+  &:disabled,
+  &.disabled {
+    cursor: default;
+    opacity: 0.4;
+  }
+  &.renderAsContextButton {
+    padding: 4px 20px;
+  }
+  @include svg-fill;
+}
+
+.toolbarButton_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: $icon-width;
+  height: $icon-width;
+  vertical-align: middle;
+  margin: auto;
+
+  svg {
+    width: unset;
+    height: unset;
+  }
+
+}
+
+.toolbarButton_active {
+  @include fillWithSettingsActionColor;
+}
+
+.toolbarButton_menuButton {
+  width: max-content !important;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: $ricos-settings-font-family;
+  font-weight: 500;
+  // margin: 0 0 0 5px !important;
+}
+
+.toolbarDropdownButton_arrowIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // margin-left: 8px;
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+}

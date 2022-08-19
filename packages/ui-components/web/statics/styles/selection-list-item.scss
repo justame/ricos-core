@@ -1,0 +1,35 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.selectionListItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--ricos-settings-text-color, #000);
+}
+
+.selectionListItem_icon {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background-color: rgba(var(--ricos-settings-action-color-tuple, $fallbackColorTuple), 0.06);
+  }
+  &.selectionListItem_icon_selected {
+    background-color: rgba($settings-action-color-fallback-tuple, 0.1);
+  }
+  svg {
+    max-width: 46px;
+    max-height: 46px;
+  }
+}
+
+.selectionListItem_icon_selected {
+  color: $settings-action-color-fallback;
+}

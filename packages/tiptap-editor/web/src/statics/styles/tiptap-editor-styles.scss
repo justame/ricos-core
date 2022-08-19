@@ -1,0 +1,24 @@
+@import '~wix-rich-content-editor-common/dist/statics/styles/editor-styles';
+
+:global {
+  .ProseMirror {
+    // TODO: reset all editor-related styles
+    text-align: initial;
+    &:focus-visible {
+      outline: none;
+    }
+    .is-node-empty:first-child:before,
+    .is-editor-empty:first-child:before {
+      color: #9197a3;
+      content: attr(data-placeholder);
+      float: left;
+      height: 0;
+      pointer-events: none;
+    }
+    z-index: 0;
+  }
+}
+
+.ricos-node {
+  margin: 2px 0;
+}

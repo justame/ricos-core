@@ -1,0 +1,17 @@
+@import '~wix-rich-content-common/dist/statics/styles/consts';
+
+.footerToolbar {
+  bottom: 0;
+  position: absolute;
+  z-index: 2;
+  margin-top: var(--ricos-custom-footer-toolbar-margin-top, 60px);
+  svg {
+    fill: var(--ricos-settings-icons-color, var(--ricos-text-color));
+    color: var(--ricos-settings-icons-color, var(--ricos-text-color));
+  }
+}
+
+.footerToolbarPlaceholder {
+  width: 100%;
+  height: 90px;
+}

@@ -1,0 +1,43 @@
+{
+  "name": "ricos-types",
+  "version": "8.72.29",
+  "author": {
+    "name": "Oded Soffrin",
+    "email": "odeds@wix.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wix/ricos.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wix/ricos/issues"
+  },
+  "homepage": "https://github.com/wix/ricos/tree/master/packages/ricos-types",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/cjs/index.js",
+  "types": "dist/src/index.d.ts",
+  "module": "dist/es/index.js",
+  "scripts": {
+    "clean": "rm -rf dist/",
+    "prebuild": "npm run clean",
+    "build:rollup": "rollup --environment DYNAMIC_IMPORT,MODULE_NAME:ricos-types,EXTRACT_CSS:false -c ../../../rollup.config.js",
+    "build": "npm run build:rollup",
+    "build:dev": "cross-env NODE_ENV=development npm run build",
+    "build:analyze:editor": "npm run build -- --environment MODULE_ANALYZE_EDITOR  && open stats.html",
+    "build:analyze:viewer": "npm run build -- --environment MODULE_ANALYZE_VIEWER && open stats.html",
+    "watch": "cross-env NODE_ENV=development npm run build:rollup -- --watch",
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx,d.ts}'",
+    "test": "echo 'no tests for types only package'"
+  },
+  "dependencies": {
+    "ricos-content": "8.72.29",
+    "ricos-schema": "8.72.29"
+  },
+  "unpkg": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

@@ -1,0 +1,17 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--ricos-settings-text-color, #000);
+}
+
+.label_icon {
+  width: 24px;
+  height: 24px;
+  fill: $settings-icons-color;
+  cursor: pointer;
+}

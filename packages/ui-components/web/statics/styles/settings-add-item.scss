@@ -1,0 +1,113 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+
+.settingsAddItem {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: var(--ricos-settings-whitebox-border-radius, 0px);
+  &:not(.withOverlay) {
+    margin: 6px;
+  }
+  &.itemContainerSelected {
+    box-shadow: 0 0 0 3px $settings-action-color-fallback;
+  }
+}
+
+.filesItem {
+  position: relative;
+  cursor: pointer;
+  border: 1px dashed $settings-action-color-fallback;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:after {
+    display: none !important;
+  }
+
+  svg {
+    width: 28px;
+    height: 28px;
+    fill: $settings-action-color-fallback;
+  }
+
+  &:hover {
+    background-color: rgba($settings-action-color-fallback-tuple, 0.1);
+  }
+}
+
+.settingsAddItem_container {
+  position: relative;
+}
+
+.settingsAddItem_overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+
+  .settingsAddItem_overlay_icons {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    gap: 6px;
+    @include svg-fill;
+    svg {
+      cursor: pointer;
+      background-color: white;
+      border-radius: 24px;
+      width: 24px;
+      height: 24px;
+      padding: 2px;
+    }
+  }
+  .settingsAddItem_overlay_image {
+    width: 120px;
+    height: 120px;
+    border-radius: var(--ricos-settings-whitebox-border-radius, 0px);
+  }
+  &:not(.withImage) {
+    z-index: -1;
+  }
+  &.withImage {
+    &:hover {
+      background-color: #000;
+      .settingsAddItem_overlay_icons {
+        display: flex;
+      }
+      .settingsAddItem_overlay_image {
+        opacity: 0.6;
+      }
+    }
+  }
+  &.overlay_loading {
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  .loader_icon {
+    animation-name: spin;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

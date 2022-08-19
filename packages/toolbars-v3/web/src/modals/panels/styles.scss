@@ -1,0 +1,24 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+
+.panel_Container {
+  border: solid 1px #ededed;
+  box-shadow: $settings-whitebox-box-shadow;
+  border-radius: $settings-whitebox-border-radius;
+  svg {
+    height: unset;
+    width: unset;
+  }
+}
+
+.mobile_Container {
+  border: solid 1px #ededed;
+  border-radius: $settings-whitebox-border-radius;
+  box-shadow: $settings-whitebox-box-shadow;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}

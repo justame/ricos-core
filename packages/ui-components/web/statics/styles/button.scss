@@ -1,0 +1,84 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+
+%button {
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid $settings-action-color-fallback;
+  border-radius: $settings-buttons-border-radius;
+  width: 100%;
+  color: $settings-buttons-text-color;
+  font-family: $ricos-settings-font-family;
+  &.borderLess {
+    border: none;
+  }
+  &.mobile {
+    color: $fallbackColor;
+    background: transparent;
+    border: none;
+    width: 50px;
+    padding: 0;
+  }
+}
+
+%disabled {
+  background-color: var(--ricos-settings-disabled-background-color, rgba(0, 0, 0, 0.4));
+}
+
+.button_primary {
+  @extend %button;
+  color: #fff;
+  background-color: $settings-action-color-fallback;
+
+  &:hover:not([disabled]) {
+    background-color: rgba($settings-action-color-fallback-tuple, 0.8);
+    @include phone {
+      background-color: transparent;
+    }
+  }
+
+  &:disabled {
+    @extend %disabled;
+    cursor: auto;
+    color: rgba(255, 255, 255, 0.6);
+    border: none;
+  }
+
+  &.mobile {
+    color: $settings-action-color-fallback;
+  }
+}
+
+.button_secondary {
+  @extend %button;
+  background: #fff;
+  color: $settings-action-color-fallback;
+  &:hover,
+  &:active {
+    border-color: rgba($settings-action-color-fallback-tuple, 0.6);
+    color: rgba($settings-action-color-fallback-tuple, 0.6);
+  }
+
+  &:disabled {
+    @extend %disabled;
+    color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+.tiny {
+  font-size: 14px;
+  height: 32px;
+}
+
+.small {
+  height: 36px;
+}
+
+.medium {
+  height: 40px;
+}
+
+.large {
+  height: 48px;
+}

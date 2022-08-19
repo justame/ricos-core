@@ -1,0 +1,12 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.floatingToolbar {
+  border: solid 1px #ededed;
+  border-radius: $settings-whitebox-border-radius;
+  box-shadow: $settings-whitebox-box-shadow;
+  background-color: #fff;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  width: max-content;
+}

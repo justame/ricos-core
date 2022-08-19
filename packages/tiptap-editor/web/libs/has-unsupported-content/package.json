@@ -1,0 +1,5 @@
+{
+    "main": "../../dist/lib/has-unsupported-content.cjs.js",
+    "module": "../../dist/lib/has-unsupported-content.js",
+    "types": "../../dist/lib/has-unsupported-content.d.ts"
+}

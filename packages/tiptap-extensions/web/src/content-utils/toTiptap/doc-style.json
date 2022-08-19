@@ -1,0 +1,22 @@
+{
+  "blocks": [
+    {
+      "key": "foo",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    }
+  ],
+  "entityMap": {},
+  "documentStyle": {
+    "headerOne": {
+      "color": "#bf695c",
+      "font-weight": "bold"
+    }
+  },
+  "VERSION": "8.71.11",
+  "ID": "1beb0c48-ed00-4034-aacb-b3716dd5391b"
+}

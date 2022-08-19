@@ -1,0 +1,11 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.settingsSeparator {
+  border-bottom: 1px solid $settings-dividers-color;
+  &.settingsSeparator_top {
+    margin-top: 24px;
+  }
+  &.settingsSeparator_bottom {
+    margin-bottom: 24px;
+  }
+}

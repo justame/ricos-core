@@ -1,0 +1,1 @@
+export { Decorations } from './decorations';

@@ -1,0 +1,36 @@
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.toolbarUrlContainer {
+  display: flex;
+  margin-right: 5px;
+}
+
+.toolbarUrl {
+  color: $settings-action-color-fallback;
+  max-width: 270px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+  &:focus {
+    outline: 5px auto Highlight !important;
+    outline: 5px auto -webkit-focus-ring-color !important;
+  }
+}
+.toolbarUrlAnchor {
+  border: 0 none;
+  background: transparent;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .toolbarUrl {
+    max-width: 160px;
+  }
+}

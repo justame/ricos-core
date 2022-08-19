@@ -1,0 +1,46 @@
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.settingsPanel_footer {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 24px 24px;
+  border-top: solid 1px var(--ricos-settings-dividers-color, #ededed);
+  width: 100%;
+  max-width: 420px;
+  height: 88px;
+  box-sizing: border-box;
+  background: #fff;
+  font-size: 14px;
+  &.modal {
+    border-top: none;
+    height: max-content;
+    padding: 0;
+    justify-content: center;
+    max-width: 100%;
+    &.flexEndModalButtons {
+      justify-content: flex-end;
+    }
+    @include phone {
+      display: grid;
+      grid-template-areas: 'save' 'cancel';
+      grid-row-gap: 9px;
+      grid-auto-columns: 100%;
+    }
+  }
+}
+
+.settingsPanel_footer_fixed {
+  position: fixed;
+  bottom: 0;
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.settingsPanel_footer_buttons_wrapper {
+  width: 276px;
+}

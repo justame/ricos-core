@@ -1,0 +1,167 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+
+$spacing: 12px;
+
+%flex_with_gap {
+  display: flex;
+  gap: $spacing;
+}
+
+.linkPanel_Input {
+  // margin: 16px 0 14px 0; // this is the right margin - once radio buttons would be added back
+  margin: 0px 0 20px;
+  position: relative;
+}
+
+.linkPanel_textInput,
+.linkPanel_dropdownList {
+  color: $settings-text-color;
+  width: 100%;
+  font-size: 14px;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+
+  &:focus,
+  &:focus + .linkPanel_dropdownList {
+    border: 1px solid var(--ricos-settings-inputs-placeholder-color, rgba(51, 51, 51, 0.5));
+  }
+}
+
+.linkPanel_overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+}
+
+.linkPanel_wrapper {
+  padding: 0;
+  width: 100%;
+  @include phone {
+    margin: 0 auto;
+    width: calc(100% - 40px);
+  }
+}
+
+.linkPanel_Content {
+  margin: 0px 1px;
+  padding-bottom: 6px;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+
+  .checkboxesContainer {
+    margin-left: 0;
+  }
+
+  .linkPanel_textInput {
+    height: 40px;
+    padding: 0 18px;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid $settings-inputs-border-color;
+    border-radius: $settings-inputs-border-radius;
+  
+    &::placeholder {
+      color: var(--ricos-settings-inputs-placeholder-color, rgba(0, 0, 0, 0.4));
+    }
+  }
+
+  .linkPanel_dropdownList {
+    position: absolute !important;
+    border-top: 0 !important;
+  }
+
+  .linkPanel_textInput_invalid {
+    border: 1px solid red !important;
+  }
+
+  .linkPanel_imageSettings {
+    width: 100%;
+    height: 42px;
+    padding: 0 17px;
+    color: $settings-text-color;
+    border: 1px solid #ededed;
+  }
+
+  .linkPanel_errorIcon {
+    position: absolute;
+    right: $spacing;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 13px;
+  }
+
+  .linkPanel_actionsDivider {
+    position: relative;
+    width: calc(100% + #{$spacing} * 2);
+    left: -$spacing;
+    border-bottom: 1px solid var(--ricos-settings-dividers-color, rgba(51, 51, 51, 0.1));
+  }
+
+  &.basicPanel {
+    margin: 0;
+    padding: 0;
+
+    .linkPanel_Input {
+      width: 300px;
+      margin: 0;
+      @include phone {
+        width: 100%;
+      }
+    }
+
+    .linkPanel_wrapper {
+      height: 40px;
+    }
+  }
+}
+
+.basic_linkPanel_container {
+  font-family: $ricos-settings-font-family;
+  color: var(--ricos-settings-text-color, #000);
+  position: relative;
+  min-width: 360px;
+  padding: $spacing;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  padding: 20px;
+
+  @include phone {
+    display: flex;
+    gap: $spacing;
+    padding: 0;
+    min-width: 0;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    height: 100vh;
+    background-color: white;
+  }
+
+  &.basicPanel {
+    @extend %flex_with_gap;
+    align-items: center;
+    // padding: 20px;
+    margin: 0;
+    width: 420px;
+
+    @include phone {
+      padding: 0;
+      width: 100%;
+    }
+  }
+}

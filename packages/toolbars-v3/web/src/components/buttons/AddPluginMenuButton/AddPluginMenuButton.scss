@@ -1,0 +1,19 @@
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.toggleButtonWrapper {
+    background: transparent;
+    padding: 4px;
+    cursor: pointer;
+    color: var(--ricos-settings-text-color, $action-color-fallback);
+    fill: var(--ricos-settings-text-color, $action-color-fallback);
+    @include svg-fill;
+}
+
+.toggleButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}

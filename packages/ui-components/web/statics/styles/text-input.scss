@@ -1,0 +1,68 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+
+.textInput {
+  position: relative;
+
+  &:hover svg {
+    fill: $settings-icons-color;
+  }
+}
+
+.textInput_input {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $settings-text-color;
+  width: 100%;
+  height: 42px;
+  padding-left: 18px;
+  box-sizing: border-box;
+  font-family: $ricos-settings-font-family;
+  border: 1px solid $settings-inputs-border-color !important;
+  border-radius: $settings-inputs-border-radius !important;
+
+  &::placeholder {
+    color: var(--ricos-settings-inputs-placeholder-color, rgba(0, 0, 0, 0.6));
+  }
+  &:hover {
+    border: 1px solid rgba(var(--ricos-settings-action-color-tuple, (0, 0, 0)), 0.5) !important;
+  }
+
+  &.searchIcon {
+    padding-left: 34px;
+  }
+}
+
+.textInput_input_invalid {
+  padding-right: 39px;
+  border-color: red;
+}
+
+.textInput_errorIcon {
+  position: absolute;
+  right: 13px;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  width: 13px;
+  color: #ee5951;
+}
+
+.prefixIcon {
+  left: 7px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  width: 24px;
+  fill: rgba(0, 0, 0, 0.6);
+}
+
+.focusFill {
+  fill: $settings-icons-color;
+}
+
+.unfocusFill {
+  fill: rgba(0, 0, 0, 0.6);
+}

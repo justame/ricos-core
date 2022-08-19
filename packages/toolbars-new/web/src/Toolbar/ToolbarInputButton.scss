@@ -1,0 +1,68 @@
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/consts';
+
+.toolbarButton_wrapper {
+  display: flex;
+  border: 1px solid rgba($fallbackColorTuple, 0);
+
+  &:hover {
+    .toolbarButton {
+      background-color: rgba(var(--ricos-settings-action-color-tuple, $fallbackColorTuple), 0.06);
+    }
+  }
+  &.toolbarButton_active .toolbarButton {
+    background-color: transparent;
+  }
+}
+
+.toolbarButton_active {
+  border: 1px solid rgba($fallbackColorTuple, 1);
+}
+
+.toolbarButton {
+  border-radius: var(--ricos-settings-small-buttons-border-radius, unset);
+  display: flex;
+  background: transparent;
+  padding: 4px;
+  border: 0 none;
+  line-height: normal;
+  text-align: left;
+  line-height: 1.5;
+  cursor: pointer;
+  width: max-content !important;
+  align-items: center;
+
+  input {
+    width: 19px;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-size: 14px;
+    font-family: inherit;
+    color: $settings-text-color;
+  }
+
+  &:focus {
+    border: 1px solid black;
+    outline: 5px auto -webkit-focus-ring-color !important;
+  }
+}
+
+.toolbarDropdownButton_arrowIcon {
+  width: 12px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+  svg {
+    width: unset;
+    height: unset;
+  }
+}
+
+.disabled {
+  cursor: default;
+  opacity: 0.4;
+}

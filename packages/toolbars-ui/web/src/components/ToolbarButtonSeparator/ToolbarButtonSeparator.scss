@@ -1,0 +1,11 @@
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+
+.separator {
+  height: var(--ricos-settings-dividers-height, 30px);
+  padding: 5px 0;
+  width: 1px;
+  background-color: var(--ricos-settings-dividers-color, #ededed);
+  &.mobileSeparator {
+    height: 40px;
+  }
+}

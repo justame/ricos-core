@@ -1,0 +1,94 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+
+.panel {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 8px 0;
+  width: fit-content;
+  margin-right: 8px;
+  height: fit-content;
+  position: fixed;
+  left: 235px;
+  top: 0px;
+  background-color: white;
+  border: solid 1px #ededed;
+  box-shadow: $settings-whitebox-box-shadow;
+  border-radius: $settings-whitebox-border-radius;
+  position: absolute;
+}
+
+.panel_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-right: 12px;
+  height: 36px;
+  @include phone {
+    height: 39px;
+  }
+
+  &:hover {
+    @extend %hover;
+    .buttonComponent {
+      background-color: transparent;
+    }
+  }
+}
+
+.buttonComponent {
+  background-color: white;
+  width: 210px;
+  color: $settings-text-color;
+  text-align: left;
+  padding-left: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+%hover {
+  background-color: rgba(var(--ricos-settings-action-color-tuple, $fallbackColorTuple), 0.05);
+}
+
+.panel_Container {
+  border: solid 1px #ededed;
+  box-shadow: $settings-whitebox-box-shadow;
+  border-radius: $settings-whitebox-border-radius;
+  svg {
+    height: unset;
+    width: unset;
+  }
+  @include svg-fill;
+}
+
+.mobile_Container {
+  border: solid 1px #ededed;
+  border-radius: $settings-whitebox-border-radius;
+  box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.1), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+.separator {
+  height: 1px;
+  background-color: var(--ricos-settings-dividers-color, rgba(51, 51, 51, 0.2));
+  width: calc(100% - 24px);
+  margin: 8px 0 8px;
+  align-self: center;
+}
+
+.disabled_icon {
+  color: grey;
+  cursor: default;
+}
+
+.disabled {
+  color: graytext;
+  cursor: default;
+}

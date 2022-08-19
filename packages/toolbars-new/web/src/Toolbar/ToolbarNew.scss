@@ -1,0 +1,108 @@
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+
+.toolbar {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 4px;
+  padding: 4px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  font-size: 14px;
+  align-items: center;
+  width: fit-content;
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.vertical {
+    grid-auto-flow: row;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+  }
+
+  &.disabled {
+    pointer-events: none;
+  }
+
+  .separator {
+    height: var(--ricos-settings-dividers-height, 30px);
+    padding: 4px 0;
+    margin: -4px 0;
+    width: 1px;
+    background-color: var(--ricos-settings-dividers-color, #ededed);
+    &.mobileSeparator {
+      height: 40px;
+    }
+  }
+
+  .buttonWrapper {
+    display: inline-block;
+    position: relative;
+  }
+  .modal {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.06);
+    border: solid 1px rgba(51, 51, 51, 0.1);
+    border-radius: $settings-whitebox-border-radius;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 36px;
+    z-index: 10;
+    padding: 8px 0;
+    width: max-content;
+    min-width: 42px;
+    @include border-box;
+    @include phone {
+      &:not(.colorPickerMobile) {
+        height: 100vh;
+        max-height: 100vh;
+      }
+    }
+    &.nestedMenu {
+      right: 0;
+      left: unset;
+      padding: 0;
+      &.nestedMenuInStaticToolbar {
+        padding: 4px 15px;
+      }
+    }
+    // &.alignModalCenter {
+    //     left: 50%;
+    //     transform: translateX(-50%);
+    // }
+    // &.alignModalLeft {
+    //     left: 0;
+    // }
+    &.modalOverflow {
+      top: unset;
+      bottom: 36px;
+    }
+    &.withoutTop {
+      top: 0;
+    }
+    &.linkPanelPadding {
+      padding: 0 19px;
+    }
+    &.withoutPadding {
+      padding: unset;
+    }
+    .contextMenuDivider {
+      height: 1px;
+      background-color: var(--ricos-settings-dividers-color, #e0e0e3);
+    }
+    &.groupButtonModal {
+      width: 100%;
+      min-width: unset;
+    }
+    &.colorPickerMobile {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      top: auto;
+      width: 100%;
+    }
+  }
+}

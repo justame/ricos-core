@@ -1,0 +1,15 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+
+.section {
+  // Non-empty style is required for theming to work
+  border: none;
+}
+
+.sectionHeader {
+  font-size: 14px;
+  margin-bottom: 14px;
+  line-height: 1.5;
+  color: $settings-text-color;
+  font-family: $ricos-settings-font-family;
+}
