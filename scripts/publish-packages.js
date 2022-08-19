@@ -57,7 +57,9 @@ function release(pkg) {
 function createNpmRc() {
   execSync(`rm -f package-lock.json`);
   const NPM_EMAIL = 'justame@gmail.com'
-  const NPM_TOKEN = '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';
+  const data = fs.readFileSync('../.npm-token', 'utf8');
+  const NPM_TOKEN = data.toString();; //take from npm-token file
+  console.log('NPM_TOKEN',NPM_TOKEN);
   const content = `email=${NPM_EMAIL}${EOL}//registry.npmjs.org/:_authToken=${NPM_TOKEN}${EOL}`;
 
   fs.writeFileSync(`.npmrc`, content);

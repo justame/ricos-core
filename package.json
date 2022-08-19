@@ -1,13 +1,14 @@
 {
   "name": "@justame-ricos/ricos-core",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "author": "yaron nachshon <yaronn@wix.com>",
   "license": "MIT",
   "scripts": {
     "build": "tsc --build --verbose",
     "build:css": "postcss packages/packageA/statics --dir packages/packageA/dist/ -u postcss-modules",
-    "clean": "rm -rf packages/ricos-content/web/dist && rm tsconfig.tsbuildinfo"
+    "clean": "rm -rf packages/ricos-content/web/dist && rm tsconfig.tsbuildinfo",
+    "publish": "lerna version patch && node ./scripts/publish-packages"
   },
   "workspaces": {
     "packages": [
@@ -15,7 +16,6 @@
     ]
   },
   "type": "module",
-  "private": true,
   "dependencies": {
     "@types/classnames": "^2.2.10",
     "@types/draft-convert": "^2.1.4",
@@ -43,8 +43,8 @@
     "@wix/draft-js": "^0.11.3",
     "deep-freeze": "^0.0.1",
     "ncp": "^2.0.0",
-    "typescript": "^4.7.4",
-    "ts-proto": "1.72.0"
+    "ts-proto": "1.72.0",
+    "typescript": "^4.7.4"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.1",
