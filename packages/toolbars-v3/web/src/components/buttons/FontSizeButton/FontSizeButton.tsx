@@ -16,7 +16,7 @@ const onInputChange = (e, setInputValue, toolbarItem) => {
 
 const FontSizeButton = ({ toolbarItem, context, dataHook }) => {
   const { t } = context || {};
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const inputRef = useRef<HTMLInputElement>(null);
   const [referenceElement, setReferenceElement] = useState<HTMLDivElement | null>(null);
   const [inputValue, setInputValue] = useState<number | string>('');

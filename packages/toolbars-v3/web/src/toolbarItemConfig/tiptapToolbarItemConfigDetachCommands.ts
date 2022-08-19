@@ -1,5 +1,5 @@
 // import { ContentResolver } from './ContentResolver';
-import { BoldIcon, ItalicIcon, UnderlineIcon, SpoilerButtonIcon } from '../icons';
+import {  ItalicIcon, SpoilerButtonIcon } from '../icons';
 import {
   alwaysVisibleResolver,
   isTextContainsBoldResolver,
@@ -13,8 +13,7 @@ export const tiptapStaticToolbarConfigDetachCommands: IToolbarItemConfigTiptap[]
     id: 'bold',
     type: 'toggle',
     presentation: {
-      tooltip: 'Bold',
-      icon: BoldIcon,
+      tooltip: 'Bold'
     },
     attributes: {
       visible: alwaysVisibleResolver,
@@ -55,8 +54,7 @@ export const tiptapStaticToolbarConfigDetachCommands: IToolbarItemConfigTiptap[]
     id: 'underline',
     type: 'toggle',
     presentation: {
-      tooltip: 'Underline',
-      icon: UnderlineIcon,
+      tooltip: 'Underline'
     },
     attributes: {
       visible: alwaysVisibleResolver,

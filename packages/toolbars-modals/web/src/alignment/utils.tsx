@@ -1,7 +1,7 @@
 import { AlignLeftIcon, AlignTextCenterIcon, AlignRightIcon, AlignJustifyIcon } from './icons';
 import type { EditorCommands, TextAlignment } from 'ricos-types';
 
-export const getCurrentTextAlignment = (editorCommands: EditorCommands | void): TextAlignment => {
+export const getCurrentTextAlignment = (editorCommands: EditorCommands): TextAlignment => {
   return editorCommands?.getTextAlignment() || 'left';
 };
 
@@ -13,7 +13,7 @@ export const alignmentIconsMap = {
 };
 
 export const getCurrentTextAlignmentIcon = (
-  editorCommands: EditorCommands | void
+  editorCommands: EditorCommands
 ): ((props) => JSX.Element) => {
   const selectedAlignment = getCurrentTextAlignment(editorCommands);
   return alignmentIconsMap[`${selectedAlignment}`];

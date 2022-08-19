@@ -17,7 +17,7 @@ interface Props {
 
 export const Popper = ({ children, modalConfig, closeModal, className }: Props) => {
   const [modalElement, setModalElement] = useState<HTMLDivElement | null>(null);
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
 
   const { autoFocus = true } = modalConfig || {};
   const { referenceElement, placement } = modalConfig.positioning || {};

@@ -7,7 +7,7 @@ import type { ModalService } from 'ricos-types';
 
 const AddPluginMenuButton = ({ toolbarItem }) => {
   const Icon = toolbarItem.presentation?.icon;
-  const modalService: ModalService = useContext(ModalContext) || {};
+  const modalService: ModalService = useContext(ModalContext);
   return (
     <div className={styles.toggleButtonWrapper}>
       <div

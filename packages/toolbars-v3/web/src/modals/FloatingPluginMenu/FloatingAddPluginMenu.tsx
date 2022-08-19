@@ -19,7 +19,7 @@ interface Props {
 const FloatingAddPluginMenu: React.FC<Props> = ({ addPluginMenuConfig, plugins }) => {
   const floatingMenuWrapperRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
-  const modalService: ModalService = useContext(ModalContext) || {};
+  const modalService: ModalService = useContext(ModalContext);
   const { languageDir, isMobile } = useContext(RicosContext) || {};
   const { adapter } = useContext(EditorContext);
   const tiptapEditor = adapter.tiptapEditor;
@@ -59,12 +59,12 @@ const FloatingAddPluginMenu: React.FC<Props> = ({ addPluginMenuConfig, plugins }
     isModalOpen()
       ? modalService.closeModal(MODAL_ID)
       : modalService.openModal(MODAL_ID, {
-          positioning: { referenceElement: buttonRef?.current, placement },
-          layout,
-          componentProps: {
-            referenceElement: buttonRef,
-          },
-        });
+        positioning: { referenceElement: buttonRef?.current, placement },
+        layout,
+        componentProps: {
+          referenceElement: buttonRef,
+        },
+      });
     setIsModalOpen(isModalOpen);
   };
 

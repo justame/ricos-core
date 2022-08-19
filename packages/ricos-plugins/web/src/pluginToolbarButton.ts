@@ -60,7 +60,7 @@ export class RicosPluginToolbarButton implements PluginToolbarButton {
   toToolbarItemConfig(): IToolbarItemConfigTiptap {
     const { id, type, icon, tooltip, dataHook, command, attributes = {} } = this.button;
 
-    const toolbarItemConfig = getToolbarButtonsConfig(this.services.pluginsEvents)[id] || {};
+    const toolbarItemConfig = getToolbarButtonsConfig(this.services.pluginsEvents)[id];
     const { presentation = {}, commands } = toolbarItemConfig;
 
     return {

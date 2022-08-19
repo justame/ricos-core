@@ -111,7 +111,7 @@ export const getAnchorableBlocksFromAnchorableNodes = (
     if (isThumbnailNode(node)) {
       data = getData(node);
     }
-
+    //@ts-ignore
     const newNode: AnchorableBlock = {
       key,
       type,

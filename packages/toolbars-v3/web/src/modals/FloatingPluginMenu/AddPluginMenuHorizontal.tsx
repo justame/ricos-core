@@ -11,19 +11,19 @@ interface Props {
 
 const AddPluginMenuHorizontal: React.FC<Props> = ({ referenceElement, plugins }) => {
   const { getEditorCommands } = useContext(EditorContext);
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const { languageDir } = useContext(RicosContext) || {};
 
   const onButtonClick = ({ modal, command }: AddButton) => {
     modalService.closeModal(PLUGIN_MENU_HORIZONTAL_MODAL_ID);
     return modal
       ? modalService?.openModal(modal.id, {
-          positioning: {
-            referenceElement: referenceElement?.current,
-            placement: languageDir === 'ltr' ? 'right-start' : 'left-start',
-          },
-          layout: 'popover',
-        })
+        positioning: {
+          referenceElement: referenceElement?.current,
+          placement: languageDir === 'ltr' ? 'right-start' : 'left-start',
+        },
+        layout: 'popover',
+      })
       : command(getEditorCommands?.());
   };
 

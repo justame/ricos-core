@@ -23,7 +23,7 @@ const layoutMapper = {
 };
 
 export const ModalPopper = ({ modalConfig }: Props) => {
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const { languageDir, portal } = useContext(RicosContext);
 
   const closeModal = () => {

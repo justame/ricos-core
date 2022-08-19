@@ -5,7 +5,7 @@ import { ToolbarButton } from '../ToolbarButton';
 
 const AlignmentButton = ({ toolbarItem, context, dataHook }) => {
   const { isMobile, t, getEditorCommands } = context || {};
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const [referenceElement, setReferenceElement] = useState<HTMLButtonElement | null>(null);
   const editorCommands = getEditorCommands?.();
   const Icon = toolbarItem.presentation.getIcon(editorCommands);

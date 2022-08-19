@@ -13,7 +13,7 @@ type Props = {
 
 const NodeAlignmentButton: FC<Props> = ({ toolbarItem, dataHook, id }) => {
   const { t, languageDir, isMobile } = useContext(RicosContext) || {};
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const [referenceElement, setReferenceElement] = useState<HTMLDivElement | null>(null);
   const getSelectedAlignment = () =>
     toolbarItem?.attributes.nodeAlignment || getDefaultAlignment(languageDir);
@@ -30,13 +30,13 @@ const NodeAlignmentButton: FC<Props> = ({ toolbarItem, dataHook, id }) => {
     modalService.isModalOpen(id)
       ? closeModal()
       : modalService?.openModal(id, {
-          componentProps: {
-            getSelectedAlignment,
-            onClick: onAlignmentClick,
-          },
-          layout: isMobile ? 'drawer' : 'toolbar',
-          positioning: { referenceElement, placement: 'bottom' },
-        });
+        componentProps: {
+          getSelectedAlignment,
+          onClick: onAlignmentClick,
+        },
+        layout: isMobile ? 'drawer' : 'toolbar',
+        positioning: { referenceElement, placement: 'bottom' },
+      });
   };
 
   return (

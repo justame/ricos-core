@@ -13,7 +13,7 @@ type Props = {
 
 const NodeSizeButton: FC<Props> = ({ toolbarItem, dataHook, id }) => {
   const { t, isMobile } = useContext(RicosContext) || {};
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const [referenceElement, setReferenceElement] = useState<HTMLDivElement | null>(null);
   const getSelectedSize: () => string = () => toolbarItem?.attributes.nodeSize || 'CONTENT';
   const selectedSize: string = getSelectedSize();
@@ -29,13 +29,13 @@ const NodeSizeButton: FC<Props> = ({ toolbarItem, dataHook, id }) => {
     modalService.isModalOpen(id)
       ? closeModal()
       : modalService?.openModal(id, {
-          componentProps: {
-            getSelectedSize,
-            onClick: onSizeClick,
-          },
-          layout: isMobile ? 'drawer' : 'toolbar',
-          positioning: { referenceElement, placement: 'bottom' },
-        });
+        componentProps: {
+          getSelectedSize,
+          onClick: onSizeClick,
+        },
+        layout: isMobile ? 'drawer' : 'toolbar',
+        positioning: { referenceElement, placement: 'bottom' },
+      });
   };
 
   return (
