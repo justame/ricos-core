@@ -1,0 +1,57 @@
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+
+$TITLE_HEIGHT: 70px;
+$TITLE_HEIGHT_MOBILE: 50px;
+$FOOTER_HEIGHT: 100px;
+
+.settingsContainer {
+  padding: 24px;
+  &.settingsContainer_newUi {
+    @include border-box;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    overflow: scroll;
+    height: calc(100% - #{$TITLE_HEIGHT} - #{$FOOTER_HEIGHT});
+    top: $TITLE_HEIGHT;
+    @include phone {
+      top: $TITLE_HEIGHT_MOBILE;
+      height: calc(100% - #{$TITLE_HEIGHT_MOBILE});
+    }
+  }
+}
+
+.separator {
+  margin: 20px 0 !important;
+}
+
+.direction_selector {
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  grid-column-gap: 10px;
+  margin: 25px 0;
+
+  &.direction_selector_newUi {
+    margin-top: 20px;
+  }
+  @include phone {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.direction_selector_option {
+  p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+
+  svg {
+    padding-top: 10px;
+  }
+
+  svg,
+  p {
+    color: $settings-action-color;
+    fill: $settings-icons-color;
+  }
+}

@@ -1,0 +1,50 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+
+.mention_list {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  max-height: 360px;
+  overflow: hidden;
+  min-height: 40px;
+  padding: 8px 0;
+  gap: 8px;
+  box-shadow: $settings-whitebox-box-shadow;
+  border-radius: $settings-whitebox-border-radius;
+  overflow: auto;
+  @include border-box;
+}
+
+.mention_item {
+  min-height: 36px;
+  cursor: pointer;
+  font-family: $ricos-settings-font-family;
+  color: $primary-text-color;
+  font-size: 14px;
+  width: 220px;
+  display: flex;
+  justify-content: start;
+  align-self: center;
+  align-items: center;
+  gap: 12px;
+  padding-left: 12px;
+  padding-right: 8px;
+  span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &.mention_item_selected {
+    background-color: rgba(var(--ricos-settings-action-color-tuple, $fallbackColorTuple), 0.06);
+  }
+
+  .avatar {
+    min-width: 28px;
+    min-height: 28px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+  }
+}

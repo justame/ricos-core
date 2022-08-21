@@ -1,0 +1,45 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+
+.link {
+  color: $ricos-link-color;
+  @include ricosTypography('link', false);
+}
+.linkInEditor {
+  &:hover {
+    cursor: text;
+  }
+}
+.linkInViewer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.toolbarUrlContainer {
+  display: flex;
+  margin-right: 5px;
+}
+
+.toolbarUrl {
+  color: $settings-action-color-fallback;
+  max-width: 270px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.toolbarUrlAnchor {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .toolbarUrl {
+    max-width: 160px;
+  }
+}

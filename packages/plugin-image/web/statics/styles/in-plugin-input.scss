@@ -1,0 +1,19 @@
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.inPluginInput {
+  resize: none;
+  border: none;
+  line-height: 21px;
+  width: 100%;
+  position: inherit;
+  z-index: 1;
+  font: inherit;
+  @include ricosTypography('p', true);
+  font-size: 14px;
+  color: $ricos-p-color-fallbackToPrimary;
+
+  &[readonly] {
+    cursor: pointer;
+  }
+}

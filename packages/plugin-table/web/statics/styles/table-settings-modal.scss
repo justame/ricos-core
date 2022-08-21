@@ -1,0 +1,72 @@
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+$TITLE_HEIGHT_MOBILE: 50px;
+
+.settings_mobile_container {
+  @include border-box;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: $TITLE_HEIGHT_MOBILE;
+  padding: 20px;
+}
+.title {
+  text-align: left;
+  font-size: 16px;
+  @include phone {
+    font-size: 20px;
+  }
+}
+.subtitle {
+  text-align: left;
+  padding-top: 7px;
+  font-size: 14px;
+  color: $secondary-text-color;
+  .settings_mobile_container & {
+    padding-top: 0;
+  }
+}
+.tableConfig {
+  padding-top: 11px;
+  display: grid;
+  grid-template-columns: 153px 153px;
+  grid-column-gap: 11px;
+  grid-row-gap: 12px;
+  .settings_mobile_container & {
+    padding-top: 20px;
+    grid-template-columns: auto;
+    grid-row-gap: 16px;
+  }
+}
+.submit {
+  height: 36px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  grid-column: 1/-1;
+  button {
+    color: var(--ricos-background-color, #fff);
+    background-color: $settings-action-color;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+  }
+}
+
+.errorMsg {
+  grid-column: 1/-1;
+  background-color: rgba(223, 49, 49, 0.1);
+  padding: 16px;
+  font-size: 14px;
+}
+
+.closeButton {
+  position: absolute;
+  cursor: pointer;
+  color: black;
+  right: 30px;
+  top: 50px;
+}

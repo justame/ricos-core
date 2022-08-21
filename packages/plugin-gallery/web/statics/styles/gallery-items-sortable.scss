@@ -1,0 +1,165 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+:global {
+  .sortableHelper {
+    z-index: 10000 !important;
+  }
+}
+
+%sortableButton {
+  color: var(--ricos-settings-action-color, var(--ricos-action-color-fallback, #0261ff));
+  &:hover {
+    cursor: pointer;
+    color: rgba($settings-action-color-tuple, 0.7);
+  }
+}
+
+.filesButton {
+  position: relative;
+  height: 30px;
+  float: right;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: right;
+  font-size: 14px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6px;
+  @extend %sortableButton;
+}
+
+.filesItem {
+  position: relative;
+  cursor: pointer;
+  border: 1px dashed rgba(51, 51, 51, 0.2);
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: var(--ricos-settings-whitebox-border-radius, 0px);
+
+  &:after {
+    display: none !important;
+  }
+
+  svg {
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10px;
+  }
+
+  &:hover {
+    border-color: $settings-action-color-fallback;
+  }
+}
+
+.sortableContainer {
+  margin: 0 -12px;
+  box-sizing: border-box;
+
+  &.mobile {
+    margin: 2.5px;
+    height: calc(100vh - 95px);
+    overflow: scroll;
+  }
+}
+
+.itemContainer {
+  margin: 12px;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: var(--ricos-settings-whitebox-border-radius, 0px);
+
+  &.itemContainer_newUi {
+    margin: 6px;
+    svg {
+      position: absolute;
+      top: 2px;
+    }
+  }
+
+  &.itemContainerSelected {
+    box-shadow: 0 0 0 3px $settings-action-color-fallback;
+  }
+
+  &.mobile {
+    margin: 2.5px;
+
+    .itemContainerNotSelected_icon {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      width: 16px;
+      height: 16px;
+    }
+
+    .itemContainerSelected_icon {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      width: 16px;
+      height: 16px;
+    }
+
+    &.sorting {
+      outline: none;
+    }
+  }
+}
+
+.fab {
+  position: absolute;
+  bottom: -8px;
+  right: 4px;
+  width: 66px;
+  height: 66px;
+}
+
+.itemImage {
+  cursor: grab;
+  border-radius: var(--ricos-settings-whitebox-border-radius, 0px);
+  &:active {
+    cursor: grabbing;
+  }
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.topBar {
+  min-height: 40px;
+  max-height: fit-content;
+
+  &.mobile {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    margin: 0;
+    padding: 0 10px;
+    top: auto;
+    left: 0;
+    height: 42px;
+    background: white;
+    z-index: 5;
+    border-top: 1px solid #ededed;
+  }
+}
+.topBarLink {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 40px;
+  font-family: inherit;
+  @extend %sortableButton;
+}
+
+.separator {
+  margin: 0 8px;
+}

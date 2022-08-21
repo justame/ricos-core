@@ -1,0 +1,183 @@
+@import '~wix-rich-content-common/dist/statics/styles/consts';
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.colorPicker {
+  position: relative;
+  margin: 0;
+}
+
+.colorPicker_button.colorPicker_button_selected {
+  transform: scale(0.7);
+  &::after {
+    transform: scale(1.45);
+    border-color: var(--ricos-settings-text-color, #000);
+  }
+}
+.colorPicker_header {
+  color: $fallbackColor;
+  font-size: 16px;
+  padding: 10px 0px 7px 20px;
+}
+
+.colorPicker_separator {
+  border: none;
+  height: 1px;
+  background: var(--ricos-settings-dividers-color, rgba(51, 51, 51, 0.1));
+  width: auto;
+  margin: 11px 0 8px 0;
+  .mobile & {
+    margin: 0;
+  }
+}
+
+%button {
+  position: relative;
+  margin-top: 12px;
+  justify-self: center;
+  -webkit-flex: none;
+  flex: none;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  outline: 0;
+  padding: 0;
+  .mobile & {
+    margin: 0;
+    width: 34px;
+    height: 34px;
+    justify-self: center;
+    align-self: center;
+  }
+}
+
+.colorPicker_button {
+  @extend %button;
+  border-radius: $settings-smallButtons-border-radius;
+  border: solid 1px #ccc;
+  &::after {
+    content: ' ';
+    border-radius: $settings-colorPaletteSelectedButton-border-radius;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: transparent;
+    border: 1px solid;
+    border-color: transparent;
+    box-sizing: border-box;
+    position: relative;
+    right: 1px;
+    bottom: 1px;
+    outline: 0;
+    .mobile & {
+      bottom: 1px;
+      width: 34px;
+      height: 34px;
+    }
+  }
+  &.colorPicker_button_transparent {
+    background: linear-gradient(
+      to top left,
+      white calc(50% - 0.8px),
+      red 50%,
+      white calc(50% + 0.8px),
+      white 100%
+    );
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    outline: 0;
+  }
+  &:not(.colorPicker_button_selected):focus::after {
+    border-color: #ccc;
+  }
+}
+
+.colorPicker_palette {
+  width: auto;
+  .mobile & {
+    margin: 0 auto;
+    height: 100%;
+  }
+}
+
+.colorPicker_add_color_button {
+  margin-top: -2px;
+  svg {
+    fill: $settings-action-color;
+  }
+  .mobile & {
+    justify-self: center;
+    align-self: center;
+    svg {
+      height: 34px;
+      width: 34px;
+      transform: none;
+      vertical-align: bottom;
+    }
+  }
+}
+
+.colorPicker_add_color_label {
+  width: 18px;
+  height: 18px;
+  fill: $settings-action-color-fallback;
+  cursor: pointer;
+  position: relative;
+}
+
+.colorPicker_buttons_container {
+  width: 180px;
+  display: grid;
+  margin: 0 12px 9px;
+  gap: 8px;
+  grid-template-columns: repeat(6, auto);
+  .mobile & {
+    margin: 0;
+    padding: 24px 20px 22px 20px;
+    grid-row-gap: 24px;
+    width: auto;
+  }
+}
+
+.colorPicker_color_button_hidden {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  left: 0;
+  height: 23px;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.colorPicker_reset_color_button {
+  line-height: initial;
+}
+
+.colorPicker_reset_color_label {
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: $settings-action-color-fallback;
+  cursor: pointer;
+  position: relative;
+  .mobile & {
+    font-size: 16px;
+  }
+}
+
+.colorPicker_bottom_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 0px 10px;
+  .mobile & {
+    justify-content: center;
+    margin: 8px 0;
+  }
+}

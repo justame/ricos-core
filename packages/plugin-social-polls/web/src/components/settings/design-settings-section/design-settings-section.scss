@@ -1,0 +1,27 @@
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '../poll-settings-modal.scss';
+
+.colorPicker_palette {
+  display: flex;
+  gap: 12px;
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+}
+.colorPicker_button {
+  width: 36px !important;
+  height: 36px !important;
+  cursor: pointer;
+}
+
+.colorPicker_button::after {
+  width: 36px !important;
+  height: 36px !important;
+}
+
+.pollsSettings_spacer{
+  height: 28px;
+  display: block;
+}

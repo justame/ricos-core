@@ -1,0 +1,166 @@
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+$TITLE_HEIGHT: 77px;
+$TITLE_HEIGHT_MOBILE: 50px;
+$TABS_HEIGHT: 50px;
+$FOOTER_HEIGHT: 100px;
+$HEADER_HEIGHT: $TITLE_HEIGHT + $TABS_HEIGHT;
+$HEADER_HEIGHT_MOBILE: $TITLE_HEIGHT_MOBILE + $TABS_HEIGHT;
+
+.button_inputModal_container {
+  text-align: left;
+  @include phone {
+    padding: 33px 20px;
+    padding-bottom: 10px;
+  }
+  &.button_inputModal_container_newUi {
+    @include phone {
+      padding: 0;
+      height: calc(100% - #{$HEADER_HEIGHT_MOBILE});
+    }
+  }
+}
+
+.button_inputModal_container_mobile {
+  margin-top: $HEADER_HEIGHT_MOBILE;
+}
+
+.button_inputModal_design_component_container {
+  @include phone {
+    padding-top: 24px;
+    padding-bottom: 0;
+  }
+}
+
+.button_inputModal_focus_manager {
+  border-top: none;
+}
+
+.button_inputModal_separator {
+  border-top: solid 1px #ccc;
+}
+
+.button_inputModal_scroll {
+  height: calc(100vh - 152px);
+  overflow-y: scroll;
+  @include phone {
+    height: calc(100vh - 155px);
+    overflow-x: hidden;
+  }
+}
+
+.button_inputModal_header {
+  display: flex;
+  align-items: center;
+  margin-top: 1px;
+  padding: 18px 30px 21px;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.button_inputModal_header_text {
+  font-size: 20px;
+  width: 100%;
+  margin-top: 13px;
+  margin-bottom: 10px;
+  color: $settings-text-color;
+  @include phone {
+    font-size: 20px;
+    line-height: 1.4;
+    color: var(--ricos-settings-text-color, #000000);
+    margin-top: 0px;
+  }
+}
+
+.button_inputModal_design_header_text {
+  font-size: 16px;
+  margin: 10px 0px;
+  width: 100%;
+  @include phone {
+    padding-left: 20px;
+    margin: 9px 0px 0px;
+    padding-bottom: 8px;
+    font-size: 16px;
+  }
+}
+
+.header_icon {
+  margin-right: 12px;
+}
+.errorMessage {
+  color: red;
+}
+
+.button_inputModal_errorIcon {
+  position: absolute;
+  top: 2px;
+  left: 150px;
+  color: #f97972;
+}
+.tabs_headers_option + .tabs_headers_option {
+  border-left: 0;
+}
+
+.scroll_container {
+  overflow-y: scroll;
+  height: 634px;
+}
+
+.button_inputModal_tabLabel {
+  margin-top: 15px;
+  display: block;
+}
+
+.button_inputModal_scrollbar_thumb {
+  background: #000000;
+  border-radius: 4px;
+  width: 4px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.scrollbar_thumb:hover {
+  opacity: 0.8;
+}
+
+.button_inputModal_customize_scrollbar_container {
+  height: 100%;
+}
+
+.button_tab_section {
+  height: calc(100vh - 242px);
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 22px 30px 0 30px;
+  @include phone {
+    padding: 20px;
+  }
+  .button_inputModal_container_newUi &{
+    @include border-box;
+    padding: 24px;
+    height: calc(100% - #{$HEADER_HEIGHT} - #{$FOOTER_HEIGHT});
+    overflow: scroll;
+    position: absolute;
+    width: 100%;
+    top: $HEADER_HEIGHT;
+    @include phone {
+      height: calc(100% - #{$HEADER_HEIGHT_MOBILE});
+      top: $HEADER_HEIGHT_MOBILE;
+      padding: 20px;
+    }
+  }
+}
+
+.button_tabs_headers {
+  position: absolute;
+  top: $TITLE_HEIGHT;
+  width: 100%;
+  max-width: 420px;
+  background-color: white;
+  z-index: 2;
+  @include phone {
+    top: $TITLE_HEIGHT_MOBILE;
+    max-width: 100%;
+  }
+}

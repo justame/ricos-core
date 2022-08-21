@@ -1,0 +1,56 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+@mixin thumbnail_icon($rotation) {
+  transform: rotateZ($rotation + deg);
+}
+
+.thumbnailPlacementSelector_label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+@supports (display: grid) {
+  .thumbnailPlacementSelector_grid {
+    grid-template-columns: auto auto auto auto;
+    row-gap: 12px;
+    column-gap: 4px;
+  }
+}
+
+@supports not (display: grid) {
+  .thumbnailPlacementSelector_option {
+    display: inline-block;
+    width: 25%;
+  }
+}
+
+.thumbnailPlacementSelector_tile {
+  width: 46px;
+  height: 46px;
+  display: inline-block;
+}
+
+.thumbnailPlacementSelector_icon {
+  width: 46px;
+  height: 46px;
+}
+
+.thumbnailPlacementSelector_icon_selected {
+  color: $action-color;
+}
+
+.thumbnailPlacementSelector_bottom {
+  transform: rotateZ(0);
+}
+
+.thumbnailPlacementSelector_left {
+  transform: rotateZ(90deg);
+}
+
+.thumbnailPlacementSelector_top {
+  transform: rotateZ(180deg);
+}
+
+.thumbnailPlacementSelector_right {
+  transform: rotateZ(270deg);
+}

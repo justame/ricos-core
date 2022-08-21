@@ -1,0 +1,110 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.imageRatioSelector_label {
+  display: block;
+  margin-bottom: 13px;
+}
+
+.imageRatioSelector_readOnly {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+@supports (display: grid) {
+  .imageRatioSelector_grid {
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 72px;
+    row-gap: 12px;
+    column-gap: 4px;
+  }
+}
+
+@supports not (display: grid) {
+  .imageRatioSelector_option {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+  }
+}
+
+.imageRatioSelector_tile {
+  margin: 0px;
+}
+
+.imageRatioSelector_ratioButton {
+  width: 32px;
+  height: 32px;
+  &:not(.newSettingsUi) {
+    background-color: rgba(var(--ricos-settings-action-color-tuple, (51, 51, 51)), 0.1);
+  }
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  &.imageRatioSelector_ratioButton_selected {
+    background-color: $settings-action-color-fallback;
+  }
+  &.newSettingsUi {
+    width: 64px;
+    height: 64px;
+    padding: 16px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(var(--ricos-settings-action-color-tuple, $fallbackColorTuple), 0.06);
+    }
+    &.imageRatioSelector_ratioButton_selected {
+      background-color: rgba($settings-action-color-fallback-tuple, 0.1);
+    }
+  }
+}
+
+.imageRatioSelector_ratioLabel {
+  margin-top: 7px;
+  display: block;
+}
+
+.imageRatioSelector_ratioIcon {
+  border: 1px solid $settings-icons-color;
+  margin: auto;
+  &:focus {
+    border: 1px solid #fff;
+  }
+}
+
+.imageRatioSelector_ratioIcon_selected {
+  border: 1px solid #fff;
+  &.newSettingsUi {
+    border: 1px solid $settings-action-color;
+  }
+}
+
+.imageRatioSelector_16_9 {
+  width: 22px;
+  height: 12px;
+}
+
+.imageRatioSelector_4_3 {
+  width: 20px;
+  height: 14px;
+}
+
+.imageRatioSelector_1_1 {
+  width: 20px;
+  height: 20px;
+}
+
+.imageRatioSelector_3_4 {
+  width: 14px;
+  height: 20px;
+}
+
+.imageRatioSelector_9_16 {
+  width: 12px;
+  height: 22px;
+}
+
+.imageRatio_selectionList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

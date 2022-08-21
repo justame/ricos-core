@@ -1,0 +1,45 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+// .layoutsSelector_label {
+//   display: block;
+//   margin-bottom: 16px;
+// }
+
+@supports (display: grid) {
+  .layoutsSelector_grid {
+    grid-template-rows: 85px 85px;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 12px;
+    column-gap: 4px;
+    margin-top: 12px;
+  }
+}
+
+.layoutsSelector_tile {
+  margin: 0 auto 0 auto;
+}
+
+.layoutsSelector_tile_label {
+  line-height: 20px;
+  display: block;
+}
+
+.layoutsSelector_icon {
+  width: 46px;
+  height: 46px;
+}
+
+.layoutsSelector_icon_selected {
+  color: $settings-action-color-fallback;
+}
+
+@supports not (display: grid) {
+  .layoutsSelector_option {
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 21px;
+  }
+}
+
+.layoutsSelector_option {
+}

@@ -1,0 +1,15 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.container {
+  width: 292px;
+  height: 100px;
+  background-color: white;
+  box-shadow: $settings-whitebox-box-shadow;
+  display: grid;
+  grid-row-gap: 16px;
+  padding: 19px 24px;
+  position: absolute;
+  overflow: auto;
+  grid-auto-rows: max-content;
+  border-radius: $settings-whitebox-border-radius;
+}

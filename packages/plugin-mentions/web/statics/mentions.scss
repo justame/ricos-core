@@ -1,0 +1,84 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+$mention-color: var(--ricos-custom-mention-color, $action-color);
+$mention-background-color: var(--ricos-custom-mention-background-color, transparent);
+
+.mentionPalette {
+  display: inline-block;
+}
+.mention,
+.mention:visited {
+  color: $mention-color;
+  cursor: pointer;
+  display: inline-block;
+  background: $mention-background-color;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.mention:hover,
+.mention:focus {
+  color: $mention-color;
+  outline: 0; /* reset for :focus */
+  text-decoration: underline;
+}
+
+.mention:active {
+  color: $mention-color;
+}
+
+.mentionSuggestionsEntry {
+  padding: 5px 10px;
+  min-height: 24px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.4s cubic-bezier(0.27, 1.27, 0.48, 0.56);
+}
+
+.mentionSuggestionsEntry:active {
+  background-color: #cce7ff;
+}
+
+.mentionSuggestionsEntryFocused {
+  padding: 5px 10px;
+  min-height: 24px;
+  transition: background-color 0.4s cubic-bezier(0.27, 1.27, 0.48, 0.56);
+  display: flex;
+  align-items: center;
+  background-color: #e6f3ff;
+}
+
+.mentionSuggestionsEntryText {
+  display: inline-block;
+  margin-left: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 368px;
+  font-size: 14px;
+}
+
+.mentionSuggestionsEntryAvatar {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.mentionSuggestions {
+  border: 1px solid #eee;
+  margin-top: 7px;
+  position: absolute;
+  min-width: 220px;
+  max-width: 440px;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 4px 30px 0px rgba(220, 220, 220, 1);
+  cursor: pointer;
+  padding: 8px 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  transform: scale(0);
+}

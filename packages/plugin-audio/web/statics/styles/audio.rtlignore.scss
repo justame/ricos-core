@@ -1,0 +1,296 @@
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+
+$COVER_IMAGE_SIZE_DEFAULT: 94px;
+$COVER_IMAGE_SIZE_SMALL: 54px;
+$COVER_IMAGE_SIZE_DEFAULT_MOBILE: var(--ricos-oneapp-cover-image-width, 84px);
+$COVER_IMAGE_SIZE_SMALL_MOBILE: 40px;
+
+.customPlayer {
+  direction: ltr !important;
+  border: 1px solid rgba($primary-text-color-tuple, 0.2);
+  width: 100%;
+  min-width: 320px;
+  height: calc(#{$COVER_IMAGE_SIZE_DEFAULT} + 2px);
+  display: flex;
+  position: relative;
+  &.customPlayer_basic {
+    height: $COVER_IMAGE_SIZE_SMALL;
+    &.customPlayer_mobile {
+      height: $COVER_IMAGE_SIZE_SMALL_MOBILE;
+    }
+  }
+  .audio_coverImg {
+    max-width: $COVER_IMAGE_SIZE_DEFAULT;
+    min-width: $COVER_IMAGE_SIZE_DEFAULT;
+    &.audio_small_cover_image {
+      max-width: $COVER_IMAGE_SIZE_SMALL;
+      min-width: $COVER_IMAGE_SIZE_SMALL;
+    }
+  }
+  &.customPlayer_mobile {
+    border-radius: $oneApp-whitebox-border-radius;
+    background-color: var(--ricos-oneapp-bg-color-background-color, unset);
+    height: 86px;
+    .audio_coverImg {
+      align-self: center;
+      margin: $oneApp-coverImage-margin;
+      height: var(--ricos-oneapp-cover-image-height, 100%);
+      border-radius: $oneApp-whitebox-border-radius;
+      border: $oneApp-coverImage-border;
+      max-width: $COVER_IMAGE_SIZE_DEFAULT_MOBILE;
+      min-width: $COVER_IMAGE_SIZE_DEFAULT_MOBILE;
+      &.audio_small_cover_image {
+        margin: 0;
+        max-width: $COVER_IMAGE_SIZE_SMALL_MOBILE;
+        min-width: $COVER_IMAGE_SIZE_SMALL_MOBILE;
+      }
+    }
+  }
+  svg {
+    @extend %iconButton;
+    fill: var(--ricos-oneapp-text-color, $primary-text-color);
+    color: var(--ricos-oneapp-text-color, $primary-text-color);
+    &:hover {
+      color: rgba($primary-text-color-tuple, 0.5);
+      fill: rgba($primary-text-color-tuple, 0.5);
+    }
+  }
+
+  &.customPlayer_mobile {
+    min-width: 192px;
+  }
+  &.audio_coverImg {
+    height: 56px;
+  }
+  .audio_icon_button {
+    @extend %iconButton;
+    border: none;
+    background: none;
+  }
+}
+
+%iconButton {
+  cursor: pointer;
+  width: 20px;
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.customPlayer_with_image {
+  .track_wrapper {
+    width: calc(100% - #{$COVER_IMAGE_SIZE_DEFAULT});
+    position: relative;
+  }
+  &.customPlayer_mobile {
+    .track_wrapper {
+      width: calc(100% - #{$COVER_IMAGE_SIZE_DEFAULT_MOBILE});
+    }
+  }
+  &.customPlayer_basic {
+    .track_wrapper {
+      width: calc(100% - #{$COVER_IMAGE_SIZE_SMALL});
+    }
+    &.customPlayer_mobile {
+      .track_wrapper {
+        width: calc(100% - #{$COVER_IMAGE_SIZE_SMALL_MOBILE});
+      }
+    }
+  }
+}
+
+.track_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 0 20px;
+  width: 100%;
+  .customPlayer_mobile & {
+    padding: 0 8px;
+  }
+}
+
+.trackContainer {
+  @extend %flexCenter;
+  width: 100%;
+  gap: 8px;
+  position: relative;
+}
+
+.audio_download_icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.audio_duration {
+  max-width: 63px;
+  width: 100%;
+  font-size: 12px;
+  .customPlayer_mobile &,
+  .customPlayer_small_fit & {
+    max-width: 27px;
+    text-align: end;
+  }
+}
+
+.track_sliders_wrapper {
+  @extend %flexCenter;
+  gap: 10px;
+  width: 100%;
+  min-width: 52px;
+}
+
+.audio_volume_wrapper {
+  @extend %flexCenter;
+  position: relative;
+  padding: 3px 6px;
+  .volume_slider_wrapper {
+    background-color: var(--ricos-background-color, #fff);
+    position: absolute;
+    border-color: rgba($primary-text-color-tuple, 0.2);
+    border-radius: 0;
+    box-shadow: 0 0 1px;
+    position: absolute;
+    max-height: 32px;
+    min-height: 32px;
+    transform: rotate(270deg);
+    width: 116px;
+    bottom: 62px;
+    display: none;
+    input[type='range'] {
+      width: 100px;
+    }
+  }
+  &:hover,
+  &:focus {
+    .volume_slider_wrapper {
+      @extend %flexCenter;
+    }
+  }
+  .customPlayer_mobile & {
+    display: none !important;
+  }
+}
+
+%audioDetails_text {
+  font-family: var(--ricos-oneapp-text-font-family, var(--ricos-custom-p-font-family, unset));
+  font-size: 16px;
+  max-width: 85%;
+  height: 24px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.audioDetails {
+  display: flex;
+  gap: 6px;
+  width: 100%;
+  .author_name {
+    @extend %audioDetails_text;
+    color: var(--ricos-oneapp-text-color, var(--ricos-text-color-low, #646464));
+  }
+  .title {
+    @extend %audioDetails_text;
+    color: $oneApp-text-color;
+    font-weight: $oneApp-primary-text-weight;
+  }
+  .customPlayer_mobile & {
+    flex-direction: column;
+    width: calc(100% - 20px);
+  }
+}
+
+%flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.audio_contextMenu_wrapper {
+  @extend .audio_icon_button;
+  @extend %flexCenter;
+  position: relative;
+}
+
+.dropdown_menu_wrapper {
+  position: absolute;
+  padding: 8px 0;
+  bottom: 30px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 160px;
+  max-height: 160px;
+  overflow: scroll;
+  background-color: white;
+  border: solid 1px #ededed;
+  box-shadow: $default-box-shadow;
+  border-radius: $oneApp-whitebox-border-radius;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  button {
+    width: 100%;
+    height: 36px;
+    min-height: 36px;
+    text-align: left;
+    padding-left: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(var(--ricos-text-color-tuple, (0, 0, 0)), 0.06);
+    }
+    svg {
+      color: #000;
+      fill: #000;
+    }
+  }
+  .dropdown_selected_button {
+    background-color: rgba($action-color-fallback-tuple, 0.1);
+    color: var(--ricos-action-color-fallback, #0261ff);
+  }
+}
+
+.dropdown_content,
+.dropdown_content_withIcon {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.dropdown_content_withIcon {
+  gap: 8px;
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.audio_loader_icon {
+  animation-name: spin;
+  animation-duration: 1500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

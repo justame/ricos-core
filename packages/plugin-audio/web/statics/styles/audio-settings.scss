@@ -1,0 +1,47 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+
+$TITLE_HEIGHT: 77px;
+$TITLE_HEIGHT_MOBILE: 50px;
+$FOOTER_HEIGHT: 100px;
+
+.audio_settings {
+  text-align: left;
+}
+.audio_settings_inputs_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.audio_settings_wrapper {
+  padding: 20px;
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  height: calc(100% - #{$TITLE_HEIGHT} - #{$FOOTER_HEIGHT});
+  margin: $TITLE_HEIGHT auto $FOOTER_HEIGHT auto;
+  overflow: scroll;
+  @include border-box;
+  .audio_settings_mobile & {
+    height: calc(100% - #{$TITLE_HEIGHT_MOBILE});
+    margin: $TITLE_HEIGHT_MOBILE auto auto auto;
+  }
+}
+
+.audio_settings_coverImage_wrapper {
+  position: relative;
+  margin-top: 16px;
+}
+
+.audio_settings_download_label {
+  font-family: $ricos-settings-font-family;
+  color: var(--ricos-settings-text-color, var(--ricos-text-color-low, #646464));
+  font-size: 14px;
+  margin-top: 4px;
+  width: 163px;
+  height: 40px;
+  line-height: 20px;
+}

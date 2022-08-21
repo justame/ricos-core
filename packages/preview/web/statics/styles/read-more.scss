@@ -1,0 +1,38 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+:global {
+  .LinesEllipsis-ellipsis {
+  }
+  .LinesEllipsis--clamped wbr {
+    display: none;
+  }
+  .LinesEllipsis--clamped .LinesEllipsis-unit {
+    display: none;
+  }
+}
+
+.readMore {
+  color: #000;
+}
+
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+.readMore_label {
+  font-weight: normal;
+  text-decoration: none;
+  color: $action-color;
+  font-size: 14px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.readMore_wrapper {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.readMore_calculationWrapper {
+  position: absolute;
+  visibility: hidden;
+}

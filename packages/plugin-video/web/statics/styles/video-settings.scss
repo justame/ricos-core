@@ -1,0 +1,46 @@
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+@import '~wix-rich-content-common/dist/statics/styles/mixins';
+
+$TITLE_HEIGHT: 77px;
+$TITLE_HEIGHT_MOBILE: 50px;
+$FOOTER_HEIGHT: 100px;
+
+.videoSettings {
+  text-align: left;
+  width: 100%;
+  .videoSettings_scroll_container {
+    @include border-box;
+    overflow: scroll;
+    position: absolute;
+    height: calc(100% - #{$TITLE_HEIGHT} - #{$FOOTER_HEIGHT});
+    top: $TITLE_HEIGHT;
+    width: 100%;
+    @include phone {
+      height: calc(100% - #{$TITLE_HEIGHT_MOBILE});
+      top: $TITLE_HEIGHT_MOBILE;
+    }
+  }
+}
+
+.separator {
+  display: block;
+  margin-top: 16px;
+  width: 100%;
+  height: 1px;
+  background-color: var(--ricos-settings-dividers-color, #efeff4);
+}
+
+.videoSettingsTitle {
+  font-size: 20px;
+  padding: 24px 0 0 24px;
+}
+
+.videoSettings_toggleContainer {
+  padding: 0 24px;
+}
+
+.videoSettings_mobile {
+  .videoSettings_toggleContainer {
+    padding-right: 18px;
+  }
+}

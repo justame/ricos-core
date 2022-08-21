@@ -1,0 +1,62 @@
+@import "~wix-rich-content-common/dist/statics/styles/palette";
+@import "~wix-rich-content-common/dist/statics/styles/fonts";
+
+@mixin ellipsisOnLastLine($numberOfLines) {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: $numberOfLines;
+	-webkit-box-orient: vertical;
+}
+
+.container {
+	position: fixed;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.06);
+	border: solid 1px rgba($primary-text-color-tuple, 0.4);
+	z-index: 11;
+}
+
+.viewerContainer {
+	display: flex;
+	flex-direction: column;
+	max-width: 360px;
+	max-height: 339px;
+	background-color: white;
+}
+
+.texts {
+	display: flex;
+    flex-direction: column;
+	gap: 4px;
+	padding: 16px;
+}
+
+.url {
+	font-size: 14px;
+	line-height: 20px;
+	color: $ricos-text-color-low;
+}
+
+.title {
+	font-size: 16px;
+	line-height: 24px;
+	color: $primary-text-color;
+	@include ellipsisOnLastLine(2);
+}
+
+.description {
+	font-size: 14px;
+	line-height: 20px;
+	color: $primary-text-color;
+	@include ellipsisOnLastLine(2);
+}
+
+.Image {
+	width: 100%;
+	height: 100%;
+}
+
+.ImageWrapper {
+	width: 100%;
+	height: 190px;
+}

@@ -1,0 +1,61 @@
+@import '~wix-rich-content-common/dist/statics/styles/fonts';
+@import '~wix-rich-content-common/dist/statics/styles/palette';
+
+.headingsPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 0;
+  width: 140px;
+
+  * {
+    height: 35px;
+    border: none;
+    font-size: 14px;
+    font-family: $ricos-settings-font-family;
+    color: $settings-text-color;
+    width: 100%;
+    text-align: left;
+    padding-left: 18px;
+    background-color: transparent;
+
+    &:hover {
+      cursor: pointer;
+      background-color:rgba(var(--ricos-settings-action-color-tuple, (0, 0, 0)), 0.05);
+    }
+  }
+}
+
+.headingsPanel_selectedHeading {
+  background-color: rgba(var(--ricos-settings-action-color-tuple, (0, 0, 0)), 0.1) !important;
+  color: var(--ricos-settings-action-color)
+}
+
+.headingsMobilePanel {
+  display: grid;
+  padding: 5px 15px;
+
+  * {
+    height: 50px;
+    flex: 1;
+    text-align: left;
+    font-size: 16px;
+    font-family: $ricos-settings-font-family;
+    background-color: transparent;
+
+    border: none;
+  }
+}
+
+.headingsPanelContainer {
+  border: solid 1px #ededed;
+  border-radius: var(--ricos-settings-whitebox-border-radius, 6px);
+  box-shadow: $settings-whitebox-box-shadow;
+  background: #fff;
+}
+
+.headingsPanelContainer_mobile {
+  border: solid 1px #ededed;
+  border-radius: unset;
+  box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.05);
+}
