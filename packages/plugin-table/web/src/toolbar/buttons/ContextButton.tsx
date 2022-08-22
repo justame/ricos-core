@@ -13,7 +13,7 @@ interface Props {
 
 const ContextButton: FC<Props> = ({ dataHook, toolbarItem }) => {
   const { isMobile } = useContext(RicosContext) || {};
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
 
   const [referenceElement, setReferenceElement] = useState<HTMLDivElement | null>(null);
 
@@ -28,13 +28,13 @@ const ContextButton: FC<Props> = ({ dataHook, toolbarItem }) => {
     const isModalOpen = modalService.isModalOpen(TABLE_BUTTONS_MODALS_ID.CONTEXT);
     !isModalOpen
       ? modalService.openModal(TABLE_BUTTONS_MODALS_ID.CONTEXT, {
-          componentProps: {
-            onClick: onColorSelect,
-            closeModal,
-          },
-          layout: isMobile ? 'drawer' : 'toolbar',
-          positioning: { referenceElement, placement: 'bottom' },
-        })
+        componentProps: {
+          onClick: onColorSelect,
+          closeModal,
+        },
+        layout: isMobile ? 'drawer' : 'toolbar',
+        positioning: { referenceElement, placement: 'bottom' },
+      })
       : closeModal();
   };
 

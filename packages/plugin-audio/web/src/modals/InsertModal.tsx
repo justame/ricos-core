@@ -34,7 +34,7 @@ const InsertModal: FC<Props> = ({
 }) => {
   const { theme, t, isMobile, languageDir } = useContext(RicosContext);
   const { getEditorCommands } = useContext(EditorContext);
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const pluginsEvents = useContext(PluginsEventsContext);
   const { uploadService, updateService } = useContext(UploadContext);
   const closeModal = () => {

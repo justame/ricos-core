@@ -23,7 +23,7 @@ const iconsMap = {
 
 const VerticalAlignmentButton: FC<Props> = ({ dataHook, toolbarItem }) => {
   const { t, isMobile } = useContext(RicosContext) || {};
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
 
   const [referenceElement, setReferenceElement] = useState<HTMLDivElement | null>(null);
 
@@ -41,14 +41,14 @@ const VerticalAlignmentButton: FC<Props> = ({ dataHook, toolbarItem }) => {
     const isModalOpen = modalService.isModalOpen(TABLE_BUTTONS_MODALS_ID.VERTICAL_ALIGNMENT);
     !isModalOpen
       ? modalService.openModal(TABLE_BUTTONS_MODALS_ID.VERTICAL_ALIGNMENT, {
-          componentProps: {
-            onClick,
-            closeModal,
-            selectedAlign: verticalAlignment,
-          },
-          layout: isMobile ? 'drawer' : 'toolbar',
-          positioning: { referenceElement, placement: 'bottom' },
-        })
+        componentProps: {
+          onClick,
+          closeModal,
+          selectedAlign: verticalAlignment,
+        },
+        layout: isMobile ? 'drawer' : 'toolbar',
+        positioning: { referenceElement, placement: 'bottom' },
+      })
       : closeModal();
   };
 

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import classNames from 'classnames';
 import { IMAGE_TYPE } from './types';
@@ -116,7 +117,9 @@ class WixImage extends React.Component<
       return false;
     }
     const data = componentData || DEFAULTS;
+    //@ts-ignore
     if (data.config.size === 'original' && data.src && data.src.width) {
+      //@ts-ignore
       return data.src.width >= 350;
     }
     return true;

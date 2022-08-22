@@ -14,7 +14,7 @@ interface Props {
 
 const PollSettingsModal: FC<Props> = ({ nodeId, activeTab }) => {
   const { theme, t, isMobile, experiments } = useContext(RicosContext);
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const { getEditorCommands } = useContext(EditorContext);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

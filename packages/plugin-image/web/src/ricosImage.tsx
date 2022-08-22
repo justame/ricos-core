@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import type { RefObject } from 'react';
 import React from 'react';
 import classNames from 'classnames';
@@ -73,9 +75,9 @@ class RicosImage extends React.Component<
   getImageDataUrl(): ImageSrc | null {
     return this.props.dataUrl
       ? {
-          preload: this.props.dataUrl,
-          highres: this.props.dataUrl,
-        }
+        preload: this.props.dataUrl,
+        highres: this.props.dataUrl,
+      }
       : null;
   }
 

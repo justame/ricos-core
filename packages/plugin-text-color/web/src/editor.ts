@@ -10,6 +10,7 @@ import { tiptapExtensions } from './tiptap';
 import { getTextColorTextButtons, getTextHighlightTextButtons } from './getTextButtons';
 
 export const pluginTextColor: EditorPluginCreator<TextColorPluginEditorConfig> = config => {
+  //@ts-ignore
   return {
     config: { ...DEFAULTS.configTextColor.editor, ...config },
     type: TEXT_COLOR_TYPE,

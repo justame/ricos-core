@@ -15,7 +15,7 @@ interface Props {
 
 const ButtonSettingsModal: FC<Props> = ({ nodeId, settings, type, modalId }) => {
   const { theme, t, isMobile, languageDir, experiments } = useContext(RicosContext);
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const { getEditorCommands } = useContext(EditorContext);
   const pluginsEvents = useContext(PluginsEventsContext);
 

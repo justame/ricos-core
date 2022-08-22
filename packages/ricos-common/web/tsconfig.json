@@ -7,10 +7,18 @@
         "../../../external-types.d.ts"
     ],
     "include": [
-        "**/*.ts",
-        "**/*.tsx",
+        "src/**/*.ts",
+        "libs/**/*.ts",
+        "lib/**/*.ts",
+        "lib/**/*.tsx",
+        "lib/**/*.jsx",
+        "lib/**/*.js",
+        "libs/**/*.tsx",
+        "src/**/*.tsx",
         "**/*.json",
         "**/*.scss",
+        "src/**/*.jsx",
+        "src/**/*.js",
     ],
     "exclude": [
         "**/node_modules/*",
@@ -21,11 +29,28 @@
         "**/*.spec.js",
         "**/*.spec.jsx",
         "__tests__",
-        "package.json"
+        "package.json",
+        "./dist"
     ],
     "references": [{
+              "path": "../../preview/web"
+          },{
+              "path": "../../editor/web"
+          },{
               "path": "../../viewer/web"
           },{
               "path": "../../ricos-types/web"
+          },{
+              "path": "../../ricos-content/web"
+          },{
+              "path": "../../plugin-image/web"
+          },{
+              "path": "../../plugin-gallery/web"
+          },{
+              "path": "../../plugin-video/web"
+          },{
+              "path": "../../plugin-audio/web"
+          },{
+              "path": "../../common/web"
           }]
 }

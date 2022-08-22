@@ -17,7 +17,7 @@ type Props = {
 
 export const DividerAlignmentButton: FC<Props> = ({ toolbarItem, dataHook, id }) => {
   const { t, languageDir, isMobile } = useContext(RicosContext) || {};
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const node = toolbarItem.attributes.selectedNode;
   const [referenceElement, setReferenceElement] = useState<HTMLDivElement | null>(null);
   const getSelectedAlignment: () => string = () =>
@@ -36,14 +36,14 @@ export const DividerAlignmentButton: FC<Props> = ({ toolbarItem, dataHook, id })
     modalService.isModalOpen(id)
       ? closeModal()
       : modalService?.openModal(id, {
-          componentProps: {
-            getSelectedAlignment,
-            onClick: onAlignmentClick,
-            closeModal,
-          },
-          layout: isMobile ? 'drawer' : 'toolbar',
-          positioning: { referenceElement, placement: 'bottom' },
-        });
+        componentProps: {
+          getSelectedAlignment,
+          onClick: onAlignmentClick,
+          closeModal,
+        },
+        layout: isMobile ? 'drawer' : 'toolbar',
+        positioning: { referenceElement, placement: 'bottom' },
+      });
   };
 
   return (

@@ -12,7 +12,7 @@ interface Props {
 
 const TableInsertModal: FC<Props> = ({ componentData }) => {
   const { theme, t, isMobile } = useContext(RicosContext);
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const { getEditorCommands } = useContext(EditorContext);
 
   const closeModal = () => {

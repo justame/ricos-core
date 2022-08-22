@@ -17,7 +17,7 @@ type Props = {
 
 export const PollLayoutButton: FC<Props> = ({ toolbarItem, id, dataHook }) => {
   const { t, isMobile } = useContext(RicosContext) || {};
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const node = toolbarItem.attributes.selectedNode;
   const getSelectedLayout: () => string = () => node?.attrs?.layout?.poll?.type || 'GRID';
   const [referenceElement, setReferenceElement] = useState<HTMLDivElement | null>(null);
@@ -47,15 +47,15 @@ export const PollLayoutButton: FC<Props> = ({ toolbarItem, id, dataHook }) => {
     modalService.isModalOpen(id)
       ? closeModal()
       : modalService?.openModal(id, {
-          componentProps: {
-            getSelectedLayout,
-            onClick: onLayoutClick,
-            onCustomizeButtonClick,
-            closeModal,
-          },
-          layout: isMobile ? 'drawer' : 'toolbar',
-          positioning: { referenceElement, placement: 'bottom' },
-        });
+        componentProps: {
+          getSelectedLayout,
+          onClick: onLayoutClick,
+          onCustomizeButtonClick,
+          closeModal,
+        },
+        layout: isMobile ? 'drawer' : 'toolbar',
+        positioning: { referenceElement, placement: 'bottom' },
+      });
   };
 
   useEffect(() => {

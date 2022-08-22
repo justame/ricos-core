@@ -14,7 +14,7 @@ type Props = {
 
 export const DividerStyleButton: FC<Props> = ({ toolbarItem, dataHook, id }) => {
   const { t, isMobile } = useContext(RicosContext) || {};
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const [referenceElement, setReferenceElement] = useState<HTMLDivElement | null>(null);
   const getSelectedStyle: () => string = () => toolbarItem?.attributes.nodeStyle || 'SINGLE';
   const SelectedStyleIcon =
@@ -32,14 +32,14 @@ export const DividerStyleButton: FC<Props> = ({ toolbarItem, dataHook, id }) => 
     modalService.isModalOpen(id)
       ? closeModal()
       : modalService?.openModal(id, {
-          componentProps: {
-            getSelectedStyle,
-            onClick: onStyleClick,
-            closeModal,
-          },
-          layout: isMobile ? 'drawer' : 'toolbar',
-          positioning: { referenceElement, placement: 'bottom' },
-        });
+        componentProps: {
+          getSelectedStyle,
+          onClick: onStyleClick,
+          closeModal,
+        },
+        layout: isMobile ? 'drawer' : 'toolbar',
+        positioning: { referenceElement, placement: 'bottom' },
+      });
   };
 
   return (

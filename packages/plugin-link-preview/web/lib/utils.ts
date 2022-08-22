@@ -33,6 +33,7 @@ const addLinkPreview = async (
     fetchData,
   } = config[LINK_PREVIEW_TYPE] || {};
   const linkPreview = (await fetchLinkPreview(fetchData, linkData.url)) || {};
+  //@ts-ignore
   const { title, html, fixedUrl } = linkPreview;
   if (
     shouldAddEmbed(html, enableEmbed, fixedUrl) ||
@@ -40,6 +41,7 @@ const addLinkPreview = async (
   ) {
     const linkPreviewData = await createLinkPreviewData(
       linkData,
+    //@ts-ignore
       linkPreview,
       config[LINK_PREVIEW_TYPE]
     );

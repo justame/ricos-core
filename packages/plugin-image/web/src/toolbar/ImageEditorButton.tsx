@@ -11,7 +11,7 @@ interface Props {
 }
 
 const ImageEditorButton: FC<Props> = ({ toolbarItem, dataHook }) => {
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const { isMobile, t } = useContext(RicosContext) || {};
 
   const onClick = toolbarItem.commands.click;

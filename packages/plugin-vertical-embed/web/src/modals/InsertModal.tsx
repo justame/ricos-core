@@ -17,7 +17,7 @@ interface Props {
 const InsertModal: FC<Props> = ({ componentData, verticalsApi, nodeId, modalId }) => {
   const { locale, t, isMobile, experiments } = useContext(RicosContext);
   const { getEditorCommands } = useContext(EditorContext);
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const pluginsEvents = useContext(PluginsEventsContext);
 
   const closeModal = () => {

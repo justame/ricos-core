@@ -1,4 +1,6 @@
 /* eslint-disable @typescript-eslint/ban-types */
+
+
 import React, { useContext } from 'react';
 import type { FC } from 'react';
 import { ModalContext, UploadContext } from 'ricos-context';
@@ -27,7 +29,7 @@ const ImageEditorModal: FC<Props> = ({
   src,
 }) => {
   const uploader = new Uploader(handleFileUpload);
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const uploadContext = useContext(UploadContext) || {};
 
   const onClose = () => {

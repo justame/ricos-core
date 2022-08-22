@@ -13,7 +13,7 @@ interface Props {
 const PollsInsertModal: FC<Props> = ({ componentData }) => {
   const { theme, t, isMobile } = useContext(RicosContext);
   const { getEditorCommands } = useContext(EditorContext);
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const addBlockWithFocus = insertBlock => setTimeout(() => insertBlock(), 50);
 
   const closeModal = () => {

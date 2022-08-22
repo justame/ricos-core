@@ -16,7 +16,7 @@ interface Props {
 const GiphyInsertModal: FC<Props> = ({ componentData, giphySdkApiKey, nodeId, modalId }) => {
   const { theme, t, isMobile, languageDir } = useContext(RicosContext);
   const { getEditorCommands } = useContext(EditorContext);
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const pluginsEvents = useContext(PluginsEventsContext);
   const closeModal = () => {
     modalService.closeModal(modalId);

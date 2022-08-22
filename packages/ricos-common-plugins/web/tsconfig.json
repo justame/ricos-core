@@ -7,10 +7,18 @@
         "../../../external-types.d.ts"
     ],
     "include": [
-        "**/*.ts",
-        "**/*.tsx",
+        "src/**/*.ts",
+        "libs/**/*.ts",
+        "lib/**/*.ts",
+        "lib/**/*.tsx",
+        "lib/**/*.jsx",
+        "lib/**/*.js",
+        "libs/**/*.tsx",
+        "src/**/*.tsx",
         "**/*.json",
         "**/*.scss",
+        "src/**/*.jsx",
+        "src/**/*.js",
     ],
     "exclude": [
         "**/node_modules/*",
@@ -21,9 +29,14 @@
         "**/*.spec.js",
         "**/*.spec.jsx",
         "__tests__",
-        "package.json"
+        "package.json",
+        "./dist"
     ],
     "references": [{
+              "path": "../../editor-common/web"
+          },{
+              "path": "../../ricos-content/web"
+          },{
               "path": "../../ricos-types/web"
           }]
 }

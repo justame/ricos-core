@@ -14,7 +14,7 @@ type Props = {
 
 export const DividerSizeButton: FC<Props> = ({ toolbarItem, dataHook, id }) => {
   const { isMobile, t } = useContext(RicosContext) || {};
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const [referenceElement, setReferenceElement] = useState<HTMLDivElement | null>(null);
   const getSelectedSize: () => string = () => toolbarItem?.attributes.nodeSize || 'MEDIUM';
   const selectedSize = dividerSizeData.find(({ commandKey }) => commandKey === getSelectedSize());
@@ -30,14 +30,14 @@ export const DividerSizeButton: FC<Props> = ({ toolbarItem, dataHook, id }) => {
     modalService.isModalOpen(id)
       ? closeModal()
       : modalService?.openModal(id, {
-          componentProps: {
-            getSelectedSize,
-            onClick: onSizeClick,
-            closeModal,
-          },
-          layout: isMobile ? 'drawer' : 'toolbar',
-          positioning: { referenceElement, placement: 'bottom' },
-        });
+        componentProps: {
+          getSelectedSize,
+          onClick: onSizeClick,
+          closeModal,
+        },
+        layout: isMobile ? 'drawer' : 'toolbar',
+        positioning: { referenceElement, placement: 'bottom' },
+      });
   };
 
   return (

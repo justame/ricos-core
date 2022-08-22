@@ -1,0 +1,46 @@
+{
+    "extends": "../../../tsconfig.base.json",
+    "compilerOptions": {
+        "outDir": "./dist"
+    },
+    "files": [
+        "../../../external-types.d.ts"
+    ],
+    "include": [
+        "src/**/*.ts",
+        "libs/**/*.ts",
+        "lib/**/*.ts",
+        "lib/**/*.tsx",
+        "lib/**/*.jsx",
+        "lib/**/*.js",
+        "libs/**/*.tsx",
+        "src/**/*.tsx",
+        "**/*.json",
+        "**/*.scss",
+        "src/**/*.jsx",
+        "src/**/*.js",
+    ],
+    "exclude": [
+        "**/node_modules/*",
+        "**/dist/*",
+        "**/*.e2e.ts",
+        "**/*.spec.ts",
+        "**/*.spec.tsx",
+        "**/*.spec.js",
+        "**/*.spec.jsx",
+        "__tests__",
+        "package.json",
+        "./dist"
+    ],
+    "references": [{
+              "path": "../../plugin-commons/web"
+          },{
+              "path": "../../editor-common/web"
+          },{
+              "path": "../../common/web"
+          },{
+              "path": "../../ricos-types/web"
+          },{
+              "path": "../../ricos-content/web"
+          }]
+}

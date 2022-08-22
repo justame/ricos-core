@@ -1,4 +1,6 @@
 /* eslint-disable @typescript-eslint/ban-types */
+// @ts-nocheck
+
 import React, { useContext, useEffect, useState } from 'react';
 import type { FC } from 'react';
 import AudioSettings from './AudioSettings';
@@ -16,7 +18,7 @@ interface Props {
 
 const AudioSettingsModal: FC<Props> = ({ nodeId, handleFileSelection, handleFileUpload }) => {
   const { theme, t, isMobile, experiments } = useContext(RicosContext);
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const pluginsEvents = useContext(PluginsEventsContext);
   const { getEditorCommands } = useContext(EditorContext);
 

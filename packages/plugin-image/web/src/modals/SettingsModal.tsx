@@ -21,7 +21,7 @@ const ImageSettingsModal: FC<Props> = ({ nodeId }) => {
     (!spoilerPlugin.getConfig().supportedPlugins ||
       spoilerPlugin.getConfig().supportedPlugins.includes(IMAGE_TYPE));
 
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const { getEditorCommands } = useContext(EditorContext);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

@@ -15,7 +15,7 @@ interface Props {
 
 const LinkPreviewSettingsModal: FC<Props> = ({ nodeId, uiSettings }) => {
   const { theme, t, isMobile } = useContext(RicosContext);
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const { getEditorCommands } = useContext(EditorContext);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

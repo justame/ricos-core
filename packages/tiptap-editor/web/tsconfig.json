@@ -7,10 +7,18 @@
         "../../../external-types.d.ts"
     ],
     "include": [
-        "**/*.ts",
-        "**/*.tsx",
+        "src/**/*.ts",
+        "libs/**/*.ts",
+        "lib/**/*.ts",
+        "lib/**/*.tsx",
+        "lib/**/*.jsx",
+        "lib/**/*.js",
+        "libs/**/*.tsx",
+        "src/**/*.tsx",
         "**/*.json",
         "**/*.scss",
+        "src/**/*.jsx",
+        "src/**/*.js",
     ],
     "exclude": [
         "**/node_modules/*",
@@ -21,17 +29,24 @@
         "**/*.spec.js",
         "**/*.spec.jsx",
         "__tests__",
-        "package.json"
+        "package.json",
+        "./dist"
     ],
-    "references": [
-        {
-            "path": "../../ricos-types/web"
-        },
-        {
-            "path": "../../ricos-converters/web"
-        },
-        {
-            "path": "../../tiptap-extensions/web"
-        }
-    ]
+    "references": [{
+              "path": "../../common/web"
+          },{
+              "path": "../../ricos-content/web"
+          },{
+              "path": "../../ricos-types/web"
+          },{
+              "path": "../../ricos-converters/web"
+          },{
+              "path": "../../ricos-common/web"
+          },{
+              "path": "../../editor-common/web"
+          },{
+              "path": "../../plugin-unsupported-blocks/web"
+          },{
+              "path": "../../tiptap-extensions/web"
+          }]
 }

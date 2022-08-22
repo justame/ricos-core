@@ -4,12 +4,12 @@ import { ModalContext, RicosContext, EditorContext } from 'ricos-context';
 import EmojiPreviewModal from '../toolbar/emojiPreviewModal';
 import { emojiModals } from '../types';
 
-interface Props {}
+interface Props { }
 
 const EmojiInsertModal: FC<Props> = () => {
   const { theme, t } = useContext(RicosContext);
   const { getEditorCommands } = useContext(EditorContext);
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
 
   const closeModal = () => {
     modalService?.closeModal(emojiModals.insert);

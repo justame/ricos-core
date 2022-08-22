@@ -13,7 +13,7 @@ interface Props {
 
 const CollapsibleListSettingsModal: FC<Props> = ({ nodeId }) => {
   const { theme, t, isMobile, experiments, languageDir } = useContext(RicosContext);
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
   const {
     adapter: { tiptapEditor },
     getEditorCommands,

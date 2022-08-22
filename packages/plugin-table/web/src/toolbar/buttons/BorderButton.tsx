@@ -13,7 +13,7 @@ interface Props {
 
 const BorderButton: FC<Props> = ({ dataHook, toolbarItem }) => {
   const { t, isMobile } = useContext(RicosContext) || {};
-  const modalService = useContext(ModalContext) || {};
+  const modalService = useContext(ModalContext);
 
   const [referenceElement, setReferenceElement] = useState<HTMLDivElement | null>(null);
 
@@ -30,13 +30,13 @@ const BorderButton: FC<Props> = ({ dataHook, toolbarItem }) => {
     const isModalOpen = modalService.isModalOpen(TABLE_BUTTONS_MODALS_ID.BORDER);
     !isModalOpen
       ? modalService.openModal(TABLE_BUTTONS_MODALS_ID.BORDER, {
-          componentProps: {
-            onClick: onColorSelect,
-            closeModal,
-          },
-          layout: isMobile ? 'drawer' : 'toolbar',
-          positioning: { referenceElement, placement: 'bottom' },
-        })
+        componentProps: {
+          onClick: onColorSelect,
+          closeModal,
+        },
+        layout: isMobile ? 'drawer' : 'toolbar',
+        positioning: { referenceElement, placement: 'bottom' },
+      })
       : closeModal();
   };
 

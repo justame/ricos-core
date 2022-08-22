@@ -3,7 +3,7 @@
   "compilerOptions": {
     "composite": true,
     "resolveJsonModule": true,
-    "declarationMap": true,
+    "declarationMap": false,
     "typeRoots": [
       "./external-types.d.ts"
     ],
@@ -20,6 +20,102 @@
     },
     {
       "path": "./packages/editor/web"
+    },
+    {
+      "path": "./packages/fullscreen/web"
+    },
+    {
+      "path": "./packages/link-preview-popover/web"
+    },
+    {
+      "path": "./packages/plugin-audio/web"
+    },
+    {
+      "path": "./packages/plugin-button/web"
+    },
+    {
+      "path": "./packages/plugin-code-block/web"
+    },
+    {
+      "path": "./packages/plugin-collapsible-list/web"
+    },
+    {
+      "path": "./packages/plugin-commons/web"
+    },
+    {
+      "path": "./packages/plugin-divider/web"
+    },
+    {
+      "path": "./packages/plugin-emoji/web"
+    },
+    {
+      "path": "./packages/plugin-file-upload/web"
+    },
+    {
+      "path": "./packages/plugin-gallery/web"
+    },
+    {
+      "path": "./packages/plugin-giphy/web"
+    },
+    {
+      "path": "./packages/plugin-hashtag/web"
+    },
+    {
+      "path": "./packages/plugin-headers-markdown/web"
+    },
+    {
+      "path": "./packages/plugin-headings/web"
+    },
+    {
+      "path": "./packages/plugin-html/web"
+    },
+    {
+      "path": "./packages/plugin-image/web"
+    },
+    {
+      "path": "./packages/plugin-indent/web"
+    },
+    {
+      "path": "./packages/plugin-line-spacing/web"
+    },
+    {
+      "path": "./packages/plugin-link-preview/web"
+    },
+    {
+      "path": "./packages/plugin-link/web"
+    },
+    {
+      "path": "./packages/plugin-map/web"
+    },
+    {
+      "path": "./packages/plugin-mentions/web"
+    },
+    {
+      "path": "./packages/plugin-social-polls/web"
+    },
+    {
+      "path": "./packages/plugin-spoiler/web"
+    },
+    {
+      "path": "./packages/plugin-table/web"
+    },
+    {
+      "path": "./packages/plugin-text-color/web"
+    },
+    {
+      "path": "./packages/plugin-undo-redo/web"
+    },
+    {
+      "path": "./packages/plugin-unsupported-blocks/web"
+    },
+    {
+      "path": "./packages/plugin-vertical-embed/web"
+    },
+    {
+      "path": "./packages/plugin-video/web"
+    },
+    {
+      "path": "./packages/preview/web"
     },
     {
       "path": "./packages/ricos-common-plugins/web"

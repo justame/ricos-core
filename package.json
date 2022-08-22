@@ -8,6 +8,7 @@
     "build": "tsc --build --verbose",
     "build:css": "postcss packages/packageA/statics --dir packages/packageA/dist/ -u postcss-modules",
     "clean": "rm -rf packages/ricos-content/web/dist && rm tsconfig.tsbuildinfo",
+    "p:clean": "lerna run clean",
     "publish": "lerna version patch && node ./scripts/publish-packages"
   },
   "workspaces": {
@@ -58,6 +59,7 @@
     "postcss": "^8.4.12",
     "postcss-cli": "^9.1.0",
     "postcss-modules": "^4.3.1",
+    "prepend-file": "^2.0.1",
     "sass": "^1.50.1",
     "ts-jest": "^27.1.4",
     "ts-node": "^10.9.1",
