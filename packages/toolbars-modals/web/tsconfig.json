@@ -32,5 +32,12 @@
         "package.json",
         "./dist"
     ],
-    "references": []
+    "references": [
+        {
+            "path": "../../ricos-context/web"
+        },
+        {
+            "path": "../../ricos-content-query/web"
+        },
+    ]
 }

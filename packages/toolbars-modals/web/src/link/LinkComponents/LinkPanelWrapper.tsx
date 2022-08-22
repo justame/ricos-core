@@ -42,7 +42,7 @@ class LinkPanelWrapper extends Component<LinkPanelWrapperProps> {
     const { nofollow, sponsored } = convertRelStringToObject(rel) || {};
     const targetBlank = convertTargetStringToBoolean(target);
     const linkPanelValues = { ...rest, targetBlank, nofollow, sponsored, url };
-
+    //@ts-ignore
     return <LinkPanel {...this.props} linkValues={linkPanelValues} onChange={this.onChange} />;
   }
 }

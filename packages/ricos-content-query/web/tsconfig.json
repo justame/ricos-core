@@ -32,9 +32,12 @@
         "package.json",
         "./dist"
     ],
-    "references": [{
-              "path": "../../ricos-converters/web"
-          },{
-              "path": "../../ricos-content/web"
-          }]
+    "references": [
+        {
+            "path": "../../ricos-converters/web"
+        },
+        {
+            "path": "../../ricos-content/web"
+        }
+    ]
 }

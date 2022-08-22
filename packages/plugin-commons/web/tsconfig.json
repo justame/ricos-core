@@ -32,11 +32,15 @@
         "package.json",
         "./dist"
     ],
-    "references": [{
-              "path": "../../editor-common/web"
-          },{
-              "path": "../../common/web"
-          },{
-              "path": "../../ricos-types/web"
-          }]
+    "references": [
+        {
+            "path": "../../editor-common/web"
+        },
+        {
+            "path": "../../common/web"
+        },
+        {
+            "path": "../../ricos-types/web"
+        }
+    ]
 }

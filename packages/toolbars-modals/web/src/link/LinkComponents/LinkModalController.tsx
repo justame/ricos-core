@@ -69,6 +69,7 @@ const LinkModalController = ({
       {...rest}
       {...linkSettingsData}
       {...linkData}
+      //@ts-ignore
       anchorableBlocksData={anchorableBlocks}
       isActive={!!linkData.url || !!linkData.anchor}
       onDone={({ data }) => onDone(data, editorCommands, closeModal)}

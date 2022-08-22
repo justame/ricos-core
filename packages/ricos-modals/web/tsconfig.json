@@ -32,7 +32,12 @@
         "package.json",
         "./dist"
     ],
-    "references": [{
-              "path": "../../ricos-types/web"
-          }]
+    "references": [
+        {
+            "path": "../../ricos-types/web"
+        },
+        {
+            "path": "../../ui-components/web"
+        }
+    ]
 }

@@ -68,6 +68,7 @@ const ImageSettingsModal: FC<Props> = ({ nodeId }) => {
 
   return componentData ? (
     <ImageSettings
+      //@ts-ignore
       componentData={componentData}
       helpers={{}}
       experiments={experiments}

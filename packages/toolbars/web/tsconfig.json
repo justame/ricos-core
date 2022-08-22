@@ -32,5 +32,9 @@
         "package.json",
         "./dist"
     ],
-    "references": []
+    "references": [
+        {
+            "path": "../../plugin-commons/web"
+        }
+    ]
 }

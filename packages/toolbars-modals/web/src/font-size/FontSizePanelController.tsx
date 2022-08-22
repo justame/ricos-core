@@ -33,6 +33,7 @@ const FontSizePanelController = ({
 
   return (
     <FontSizePanel
+      //@ts-ignore
       t={t}
       theme={theme}
       currentSelect={selectedFontSize}

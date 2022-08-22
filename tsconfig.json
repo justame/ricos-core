@@ -3,7 +3,8 @@
   "compilerOptions": {
     "composite": true,
     "resolveJsonModule": true,
-    "declarationMap": false,
+    "declarationMap": true,
+    "declaration": true,
     "typeRoots": [
       "./external-types.d.ts"
     ],
